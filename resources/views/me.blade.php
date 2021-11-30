@@ -40,12 +40,12 @@
 
 							<div class="authors-details">
 								<div class="written-by">
-									<b>Geschrieben von:</b>
-									<span>Sonay</span>
+									<b>Escrita por:</b>
+									<span>vvalle</span>
 								</div>
 							</div>
 
-							<a href="news.php" class="btn green news-slider-btn">Weiter lesen</a>
+							<a href="news.php" class="btn green news-slider-btn">Ler mais...</a>
 
 							<div class="next-news"><i class="fal fa-angle-right"></i></div>
 						</div>

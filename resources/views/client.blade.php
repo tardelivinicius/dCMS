@@ -14,7 +14,6 @@
             configurationUrl: "{{ asset('nitro/configuration.json') }}",
             sso: "{{ $authTicket }}"
         };
-        console.log(NitroConfig)
     </script>
 <script src="{{ asset('nitro/runtime.js') }}" defer></script>
 <script src="{{ asset('nitro/polyfills.js') }}" defer></script>

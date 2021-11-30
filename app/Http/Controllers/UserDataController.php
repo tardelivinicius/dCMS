@@ -20,9 +20,9 @@ class UserDataController extends Controller
     protected int $points;
     protected string $online;
 
-    public function __construct(string $username)
+    public function __construct(int $id)
     {
-        $this->user = DB::table('users')->where('username', $username)->first();
+        $this->user = DB::table('users')->where('id', $id)->first();
         $this->setUserId();
         $this->setUserName();
         $this->setEmail();
@@ -162,6 +162,9 @@ class UserDataController extends Controller
 
     # Create session
     public function setUserDataSession(){
+        # Destroy session
+        session()->flush();
+        # Generate new session
         session([
             'id' => $this->getUserId(),
             'username' => $this->getUserName(), 

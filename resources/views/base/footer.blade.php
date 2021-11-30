@@ -18,19 +18,12 @@
 <link rel="stylesheet" href="{{ asset('css/settings.css') }}">
 <script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
     function changeMotto() {
-            $.ajax({
-                url: 'change_motto',
-                method: "POST",
-                data: {"motto": $('#motto').val()},
-                async: false,
-                success: function(result) {
-                },
-                error: function() {
-                }
-            });
-            event.preventDefault();
-        }
+        const fd = new FormData()
+        fd.append('motto', $('#motto').val())
+        axios.post('/change-motto', fd).then(response => {}).catch(e => {console.log(e)})
+    }
 </script>
 </html>

@@ -30,4 +30,5 @@ Route::post('/login', [LoginController::class, 'login']);
 Route::get('/me', [HomeController::class, 'me']);
 Route::get('/client', [ClientController::class, 'loading']);
 Route::get('/logout', [LogoutController::class, 'logout']);
+Route::post('/change-motto', [HomeController::class, 'changeMotto']);
 
