@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ValidationController;
 /*
@@ -28,4 +29,5 @@ Route::post('/check-username-exists', [ValidationController::class, 'check_usern
 Route::post('/login', [LoginController::class, 'login']);
 Route::get('/me', [HomeController::class, 'me']);
 Route::get('/client', [ClientController::class, 'loading']);
+Route::get('/logout', [LogoutController::class, 'logout']);
 

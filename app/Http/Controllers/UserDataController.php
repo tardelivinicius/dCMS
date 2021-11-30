@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 class UserDataController extends Controller
 {   
     protected object $user;
+    protected int $id;
     protected string $username;
     protected string $mail;
     protected string $accountCreated;
@@ -22,6 +23,7 @@ class UserDataController extends Controller
     public function __construct(string $username)
     {
         $this->user = DB::table('users')->where('username', $username)->first();
+        $this->setUserId();
         $this->setUserName();
         $this->setEmail();
         $this->setAccountCreated();
@@ -33,6 +35,17 @@ class UserDataController extends Controller
         $this->setPixels();
         $this->setPoints();
         $this->setOnline();
+    }
+
+    # ID
+    protected function setUserId()
+    {
+        $this->id = $this->user->id;
+    }
+
+    protected function getUserId(): int
+    {
+        return $this->id;
     }
 
     # Username
@@ -150,6 +163,7 @@ class UserDataController extends Controller
     # Create session
     public function setUserDataSession(){
         session([
+            'id' => $this->getUserId(),
             'username' => $this->getUserName(), 
             'email' => $this->getEmail(),
             'motto' => $this->getMotto(),
