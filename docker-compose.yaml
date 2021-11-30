@@ -1,0 +1,27 @@
+version: '3.1'
+
+services:
+  laravel-app:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+        - ./:/usr/share/nginx
+    networks: 
+      - app-network
+
+  mysql-app:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    volumes:
+      - .docker/dbdata:/var/lib/mysql
+    environment: 
+      MYSQL_DATABASE: dreamercms
+      MYSQL_ROOT_PASSWORD: laravel
+    networks: 
+      - app-network
+
+networks: 
+  app-network:
+    driver: bridge
