@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ValidationController;
 /*
@@ -31,4 +32,5 @@ Route::get('/me', [HomeController::class, 'me']);
 Route::get('/client', [ClientController::class, 'loading']);
 Route::get('/logout', [LogoutController::class, 'logout']);
 Route::post('/change-motto', [HomeController::class, 'changeMotto']);
+Route::get('/profile/{username?}', [ProfileController::class, 'show']);
 

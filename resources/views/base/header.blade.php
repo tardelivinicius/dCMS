@@ -4,6 +4,7 @@
 
     <title>{{ $hotel_name }}: {{ session()->get('username') }}</title>
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/profile.css') }}">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 
@@ -31,7 +32,7 @@
 							</a>
 
 							<ul class="user-subnavi">
-								<li><a href="/account/profile">Meu Perfil</a></li>
+								<li><a href="/profile">Meu Perfil</a></li>
 								<li><a href="/account/settings">Configurações</a></li>
 								<li><a href="/logout" class="logout">Sair</a></li>
 							</ul>
