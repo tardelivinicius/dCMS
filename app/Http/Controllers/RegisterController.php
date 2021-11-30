@@ -39,7 +39,7 @@ class RegisterController extends SystemConfigController
         if($request->password == null){
             return response('É necessário preencher uma senha', 404);
         } else {
-            $new_password = addslashes(Hash::make($request->password));
+            $new_password = Hash::make($request->password);
         }
         # E-mail validation
         if($request->email == null){

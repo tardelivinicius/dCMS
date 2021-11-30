@@ -1,10 +1,11 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ValidationController;
-use App\Http\Controllers\SystemConfigController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,4 +24,6 @@ Route::post('/finish-register', [RegisterController::class, 'finish_register']);
 route::get('/register-success', [RegisterController::class, 'register_success']);
 Route::post('/check-email-exists', [ValidationController::class, 'check_email_exists']);
 Route::post('/check-username-exists', [ValidationController::class, 'check_username_exists']);
+Route::post('/login', [LoginController::class, 'login']);
+Route::get('/me', [HomeController::class, 'me']);
 

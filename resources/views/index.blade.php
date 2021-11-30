@@ -31,6 +31,7 @@
                     <div class="login-position">
                         <h2>Bem vindo</h2>
                         <form method="post" action="/login">
+                            @csrf
                             <label for="login">Digite seu login {{ $hotel_name }} ou e-mail</label>
                             <input type="text" name="username" id="username" required>
 
