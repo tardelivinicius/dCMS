@@ -13,20 +13,18 @@ class CreateAchievementsTable extends Migration
      */
     public function up()
     {
-        Schema::create('achievements', function (Blueprint $table) {
-            $table->integer('id', true)->unique('id');
-            $table->string('name', 64)->default('ACH_');
-            $table->enum('category', ['identity', 'explore', 'music', 'social', 'games', 'room_builder', 'pets', 'tools', 'events'])->default('identity');
-            $table->integer('level')->default(1);
-            $table->integer('reward_amount')->default(100);
-            $table->integer('reward_type')->default(0);
-            $table->integer('points')->nullable()->default(10);
-            $table->integer('progress_needed')->default(1);
-
-            $table->primary(['name', 'level']);
+        Schema::create("achievements", function (Blueprint $table) {
+            $table->bigIncrements("id", true);
+            $table->string("name", 64)->default("ACH_");
+            $table->enum("category", ["identity", "explore", "music", "social", "games", "room_builder", "pets", "tools", "events"])->default("identity");
+            $table->integer("level")->default(1);
+            $table->integer("reward_amount")->default(100);
+            $table->integer("reward_type")->default(0);
+            $table->integer("points")->nullable()->default(10);
+            $table->integer("progress_needed")->default(1);
         });
-    }
 
+    }
     /**
      * Reverse the migrations.
      *
@@ -34,6 +32,6 @@ class CreateAchievementsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('achievements');
+        Schema::dropIfExists("achievements");
     }
 }

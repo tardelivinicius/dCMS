@@ -21,10 +21,10 @@ class CreateItemsTable extends Migration
             $table->string('wall_pos', 20)->default('');
             $table->integer('x')->default(0);
             $table->integer('y')->default(0);
-            $table->double('z', 10, 6)->default(0);
+            $table->double('z', 10, 6)->default(0.000000);
             $table->integer('rot')->default(0);
-            $table->string('extra_data', 1024)->default('')->index('extra_data');
-            $table->string('wired_data', 10000)->default('')->index('wired_data');
+            $table->string('extra_data', 500)->default('')->index('extra_data');
+            $table->string('wired_data', 500)->default('')->index('wired_data');
             $table->string('limited_data', 10)->default('0:0');
             $table->integer('guild_id')->default(0);
 

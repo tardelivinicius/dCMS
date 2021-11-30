@@ -14,7 +14,7 @@ class CreateCatalogItemsTable extends Migration
     public function up()
     {
         Schema::create('catalog_items', function (Blueprint $table) {
-            $table->integer('id', true)->index('id');
+            $table->bigIncrements('id', true);
             $table->string('item_ids', 666);
             $table->integer('page_id')->index('page_id');
             $table->integer('offer_id')->default(-1);
@@ -33,7 +33,6 @@ class CreateCatalogItemsTable extends Migration
             $table->enum('rate', ['up', 'down', 'none'])->nullable()->default('none');
 
             $table->index(['cost_credits', 'cost_points', 'points_type'], 'costs');
-            $table->primary(['id', 'extradata']);
         });
     }
 
