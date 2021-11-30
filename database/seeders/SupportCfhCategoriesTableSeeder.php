@@ -22,38 +22,38 @@ class SupportCfhCategoriesTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name_external' => 'Cyber sex',
                 'name_internal' => 'cyber',
+                'name_external' => 'Cyber sex',
             ),
             1 => 
             array (
                 'id' => 2,
-                'name_external' => 'Scamming',
                 'name_internal' => 'scamming',
+                'name_external' => 'Scamming',
             ),
             2 => 
             array (
                 'id' => 3,
-                'name_external' => 'Inappropriate words',
                 'name_internal' => 'badwords',
+                'name_external' => 'Inappropriate words',
             ),
             3 => 
             array (
                 'id' => 4,
-                'name_external' => 'Bad behavior',
                 'name_internal' => 'badbehavior',
+                'name_external' => 'Bad behavior',
             ),
             4 => 
             array (
                 'id' => 5,
-                'name_external' => 'Account Issues',
                 'name_internal' => 'account',
+                'name_external' => 'Account Issues',
             ),
             5 => 
             array (
                 'id' => 6,
-                'name_external' => 'Hacking',
                 'name_internal' => 'hacking',
+                'name_external' => 'Hacking',
             ),
         ));
         

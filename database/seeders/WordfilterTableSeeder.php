@@ -21,11 +21,11 @@ class WordfilterTableSeeder extends Seeder
         \DB::table('wordfilter')->insert(array (
             0 => 
             array (
-                'hide' => '0',
                 'key' => 'com',
-                'mute' => 0,
                 'replacement' => 'bobba',
+                'hide' => '0',
                 'report' => '0',
+                'mute' => 0,
             ),
         ));
         

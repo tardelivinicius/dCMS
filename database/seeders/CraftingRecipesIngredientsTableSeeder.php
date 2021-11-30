@@ -21,4019 +21,4019 @@ class CraftingRecipesIngredientsTableSeeder extends Seeder
         \DB::table('crafting_recipes_ingredients')->insert(array (
             0 => 
             array (
-                'amount' => 4,
-                'item_id' => 8373,
                 'recipe_id' => 1,
+                'item_id' => 8373,
+                'amount' => 4,
             ),
             1 => 
             array (
-                'amount' => 4,
-                'item_id' => 8363,
                 'recipe_id' => 2,
+                'item_id' => 8363,
+                'amount' => 4,
             ),
             2 => 
             array (
-                'amount' => 4,
-                'item_id' => 8373,
                 'recipe_id' => 2,
+                'item_id' => 8373,
+                'amount' => 4,
             ),
             3 => 
             array (
-                'amount' => 8,
-                'item_id' => 8363,
                 'recipe_id' => 3,
+                'item_id' => 8363,
+                'amount' => 8,
             ),
             4 => 
             array (
-                'amount' => 4,
-                'item_id' => 8404,
                 'recipe_id' => 4,
+                'item_id' => 8404,
+                'amount' => 4,
             ),
             5 => 
             array (
-                'amount' => 4,
-                'item_id' => 8363,
                 'recipe_id' => 4,
+                'item_id' => 8363,
+                'amount' => 4,
             ),
             6 => 
             array (
-                'amount' => 3,
-                'item_id' => 8404,
                 'recipe_id' => 5,
+                'item_id' => 8404,
+                'amount' => 3,
             ),
             7 => 
             array (
-                'amount' => 3,
-                'item_id' => 8363,
                 'recipe_id' => 6,
+                'item_id' => 8363,
+                'amount' => 3,
             ),
             8 => 
             array (
-                'amount' => 3,
-                'item_id' => 8370,
                 'recipe_id' => 7,
+                'item_id' => 8370,
+                'amount' => 3,
             ),
             9 => 
             array (
-                'amount' => 3,
-                'item_id' => 8362,
                 'recipe_id' => 8,
+                'item_id' => 8362,
+                'amount' => 3,
             ),
             10 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 15,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             11 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 15,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             12 => 
             array (
-                'amount' => 2,
-                'item_id' => 9621,
                 'recipe_id' => 14,
+                'item_id' => 9621,
+                'amount' => 2,
             ),
             13 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 14,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             14 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 14,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             15 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 14,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             16 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 13,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             17 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 13,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             18 => 
             array (
-                'amount' => 4,
-                'item_id' => 8362,
                 'recipe_id' => 12,
+                'item_id' => 8362,
+                'amount' => 4,
             ),
             19 => 
             array (
-                'amount' => 4,
-                'item_id' => 8370,
                 'recipe_id' => 12,
+                'item_id' => 8370,
+                'amount' => 4,
             ),
             20 => 
             array (
-                'amount' => 8,
-                'item_id' => 8365,
                 'recipe_id' => 11,
+                'item_id' => 8365,
+                'amount' => 8,
             ),
             21 => 
             array (
-                'amount' => 8,
-                'item_id' => 8362,
                 'recipe_id' => 10,
+                'item_id' => 8362,
+                'amount' => 8,
             ),
             22 => 
             array (
-                'amount' => 4,
-                'item_id' => 8365,
                 'recipe_id' => 9,
+                'item_id' => 8365,
+                'amount' => 4,
             ),
             23 => 
             array (
-                'amount' => 4,
-                'item_id' => 8362,
                 'recipe_id' => 9,
+                'item_id' => 8362,
+                'amount' => 4,
             ),
             24 => 
             array (
-                'amount' => 2,
-                'item_id' => 11153,
                 'recipe_id' => 159,
+                'item_id' => 11153,
+                'amount' => 2,
             ),
             25 => 
             array (
-                'amount' => 2,
-                'item_id' => 11147,
                 'recipe_id' => 160,
+                'item_id' => 11147,
+                'amount' => 2,
             ),
             26 => 
             array (
-                'amount' => 2,
-                'item_id' => 11162,
                 'recipe_id' => 161,
+                'item_id' => 11162,
+                'amount' => 2,
             ),
             27 => 
             array (
-                'amount' => 2,
-                'item_id' => 11154,
                 'recipe_id' => 162,
+                'item_id' => 11154,
+                'amount' => 2,
             ),
             28 => 
             array (
-                'amount' => 3,
-                'item_id' => 9431,
                 'recipe_id' => 25,
+                'item_id' => 9431,
+                'amount' => 3,
             ),
             29 => 
             array (
-                'amount' => 3,
-                'item_id' => 9444,
                 'recipe_id' => 26,
+                'item_id' => 9444,
+                'amount' => 3,
             ),
             30 => 
             array (
-                'amount' => 3,
-                'item_id' => 9434,
                 'recipe_id' => 27,
+                'item_id' => 9434,
+                'amount' => 3,
             ),
             31 => 
             array (
-                'amount' => 1,
-                'item_id' => 9411,
                 'recipe_id' => 28,
+                'item_id' => 9411,
+                'amount' => 1,
             ),
             32 => 
             array (
-                'amount' => 1,
-                'item_id' => 9435,
                 'recipe_id' => 28,
+                'item_id' => 9435,
+                'amount' => 1,
             ),
             33 => 
             array (
-                'amount' => 3,
-                'item_id' => 9436,
                 'recipe_id' => 29,
+                'item_id' => 9436,
+                'amount' => 3,
             ),
             34 => 
             array (
-                'amount' => 1,
-                'item_id' => 9411,
                 'recipe_id' => 29,
+                'item_id' => 9411,
+                'amount' => 1,
             ),
             35 => 
             array (
-                'amount' => 1,
-                'item_id' => 9455,
                 'recipe_id' => 30,
+                'item_id' => 9455,
+                'amount' => 1,
             ),
             36 => 
             array (
-                'amount' => 1,
-                'item_id' => 9411,
                 'recipe_id' => 30,
+                'item_id' => 9411,
+                'amount' => 1,
             ),
             37 => 
             array (
-                'amount' => 1,
-                'item_id' => 9444,
                 'recipe_id' => 31,
+                'item_id' => 9444,
+                'amount' => 1,
             ),
             38 => 
             array (
-                'amount' => 1,
-                'item_id' => 9431,
                 'recipe_id' => 31,
+                'item_id' => 9431,
+                'amount' => 1,
             ),
             39 => 
             array (
-                'amount' => 1,
-                'item_id' => 9434,
                 'recipe_id' => 31,
+                'item_id' => 9434,
+                'amount' => 1,
             ),
             40 => 
             array (
-                'amount' => 10,
-                'item_id' => 9457,
                 'recipe_id' => 32,
+                'item_id' => 9457,
+                'amount' => 10,
             ),
             41 => 
             array (
-                'amount' => 3,
-                'item_id' => 9411,
                 'recipe_id' => 33,
+                'item_id' => 9411,
+                'amount' => 3,
             ),
             42 => 
             array (
-                'amount' => 1,
-                'item_id' => 9411,
                 'recipe_id' => 34,
+                'item_id' => 9411,
+                'amount' => 1,
             ),
             43 => 
             array (
-                'amount' => 3,
-                'item_id' => 9457,
                 'recipe_id' => 34,
+                'item_id' => 9457,
+                'amount' => 3,
             ),
             44 => 
             array (
-                'amount' => 3,
-                'item_id' => 9411,
                 'recipe_id' => 35,
+                'item_id' => 9411,
+                'amount' => 3,
             ),
             45 => 
             array (
-                'amount' => 1,
-                'item_id' => 9457,
                 'recipe_id' => 35,
+                'item_id' => 9457,
+                'amount' => 1,
             ),
             46 => 
             array (
-                'amount' => 1,
-                'item_id' => 9411,
                 'recipe_id' => 36,
+                'item_id' => 9411,
+                'amount' => 1,
             ),
             47 => 
             array (
-                'amount' => 1,
-                'item_id' => 9421,
                 'recipe_id' => 36,
+                'item_id' => 9421,
+                'amount' => 1,
             ),
             48 => 
             array (
-                'amount' => 1,
-                'item_id' => 9457,
                 'recipe_id' => 37,
+                'item_id' => 9457,
+                'amount' => 1,
             ),
             49 => 
             array (
-                'amount' => 1,
-                'item_id' => 9435,
                 'recipe_id' => 37,
+                'item_id' => 9435,
+                'amount' => 1,
             ),
             50 => 
             array (
-                'amount' => 3,
-                'item_id' => 9411,
                 'recipe_id' => 37,
+                'item_id' => 9411,
+                'amount' => 3,
             ),
             51 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 39,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             52 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 39,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             53 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 40,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             54 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 40,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             55 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 41,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             56 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 41,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             57 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 42,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             58 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 42,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             59 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 43,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             60 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 43,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             61 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 44,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             62 => 
             array (
-                'amount' => 1,
-                'item_id' => 9574,
                 'recipe_id' => 44,
+                'item_id' => 9574,
+                'amount' => 1,
             ),
             63 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 45,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             64 => 
             array (
-                'amount' => 2,
-                'item_id' => 9581,
                 'recipe_id' => 45,
+                'item_id' => 9581,
+                'amount' => 2,
             ),
             65 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 45,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             66 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 46,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             67 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 46,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             68 => 
             array (
-                'amount' => 2,
-                'item_id' => 9611,
                 'recipe_id' => 46,
+                'item_id' => 9611,
+                'amount' => 2,
             ),
             69 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 47,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             70 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 47,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             71 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 47,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             72 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 48,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             73 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 48,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             74 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 48,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             75 => 
             array (
-                'amount' => 1,
-                'item_id' => 9585,
                 'recipe_id' => 49,
+                'item_id' => 9585,
+                'amount' => 1,
             ),
             76 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 49,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             77 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 49,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             78 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 50,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             79 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 50,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             80 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 51,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             81 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 51,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             82 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 52,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             83 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 52,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             84 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 53,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             85 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 53,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             86 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 54,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             87 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 54,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             88 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 55,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             89 => 
             array (
-                'amount' => 1,
-                'item_id' => 9574,
                 'recipe_id' => 55,
+                'item_id' => 9574,
+                'amount' => 1,
             ),
             90 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 56,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             91 => 
             array (
-                'amount' => 2,
-                'item_id' => 9581,
                 'recipe_id' => 56,
+                'item_id' => 9581,
+                'amount' => 2,
             ),
             92 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 56,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             93 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 57,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             94 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 57,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             95 => 
             array (
-                'amount' => 2,
-                'item_id' => 9611,
                 'recipe_id' => 57,
+                'item_id' => 9611,
+                'amount' => 2,
             ),
             96 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 58,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             97 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 58,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             98 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 58,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             99 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 59,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             100 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 59,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             101 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 59,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             102 => 
             array (
-                'amount' => 1,
-                'item_id' => 9627,
                 'recipe_id' => 60,
+                'item_id' => 9627,
+                'amount' => 1,
             ),
             103 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 60,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             104 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 60,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             105 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 61,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             106 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 61,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             107 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 62,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             108 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 62,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             109 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 63,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             110 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 63,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             111 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 64,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             112 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 64,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             113 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 65,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             114 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 65,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             115 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 66,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             116 => 
             array (
-                'amount' => 1,
-                'item_id' => 9574,
                 'recipe_id' => 66,
+                'item_id' => 9574,
+                'amount' => 1,
             ),
             117 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 67,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             118 => 
             array (
-                'amount' => 2,
-                'item_id' => 9581,
                 'recipe_id' => 67,
+                'item_id' => 9581,
+                'amount' => 2,
             ),
             119 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 67,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             120 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 68,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             121 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 68,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             122 => 
             array (
-                'amount' => 2,
-                'item_id' => 9611,
                 'recipe_id' => 68,
+                'item_id' => 9611,
+                'amount' => 2,
             ),
             123 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 69,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             124 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 69,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             125 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 69,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             126 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 70,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             127 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 70,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             128 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 70,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             129 => 
             array (
-                'amount' => 1,
-                'item_id' => 9632,
                 'recipe_id' => 71,
+                'item_id' => 9632,
+                'amount' => 1,
             ),
             130 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 71,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             131 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 71,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             132 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 72,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             133 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 72,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             134 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 73,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             135 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 73,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             136 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 74,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             137 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 74,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             138 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 75,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             139 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 75,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             140 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 76,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             141 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 76,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             142 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 77,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             143 => 
             array (
-                'amount' => 1,
-                'item_id' => 9574,
                 'recipe_id' => 77,
+                'item_id' => 9574,
+                'amount' => 1,
             ),
             144 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 78,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             145 => 
             array (
-                'amount' => 2,
-                'item_id' => 9581,
                 'recipe_id' => 78,
+                'item_id' => 9581,
+                'amount' => 2,
             ),
             146 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 78,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             147 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 79,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             148 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 79,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             149 => 
             array (
-                'amount' => 2,
-                'item_id' => 9611,
                 'recipe_id' => 79,
+                'item_id' => 9611,
+                'amount' => 2,
             ),
             150 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 80,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             151 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 80,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             152 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 80,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             153 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 81,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             154 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 81,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             155 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 81,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             156 => 
             array (
-                'amount' => 1,
-                'item_id' => 9622,
                 'recipe_id' => 82,
+                'item_id' => 9622,
+                'amount' => 1,
             ),
             157 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 82,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             158 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 82,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             159 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 83,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             160 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 83,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             161 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 84,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             162 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 84,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             163 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 85,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             164 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 85,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             165 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 86,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             166 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 86,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             167 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 87,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             168 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 87,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             169 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 88,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             170 => 
             array (
-                'amount' => 1,
-                'item_id' => 9574,
                 'recipe_id' => 88,
+                'item_id' => 9574,
+                'amount' => 1,
             ),
             171 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 89,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             172 => 
             array (
-                'amount' => 2,
-                'item_id' => 9581,
                 'recipe_id' => 89,
+                'item_id' => 9581,
+                'amount' => 2,
             ),
             173 => 
             array (
-                'amount' => 1,
-                'item_id' => 9611,
                 'recipe_id' => 89,
+                'item_id' => 9611,
+                'amount' => 1,
             ),
             174 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 90,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             175 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 90,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             176 => 
             array (
-                'amount' => 2,
-                'item_id' => 9611,
                 'recipe_id' => 90,
+                'item_id' => 9611,
+                'amount' => 2,
             ),
             177 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 91,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             178 => 
             array (
-                'amount' => 1,
-                'item_id' => 9581,
                 'recipe_id' => 91,
+                'item_id' => 9581,
+                'amount' => 1,
             ),
             179 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 91,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             180 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 92,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             181 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 92,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             182 => 
             array (
-                'amount' => 1,
-                'item_id' => 9598,
                 'recipe_id' => 92,
+                'item_id' => 9598,
+                'amount' => 1,
             ),
             183 => 
             array (
-                'amount' => 1,
-                'item_id' => 9645,
                 'recipe_id' => 93,
+                'item_id' => 9645,
+                'amount' => 1,
             ),
             184 => 
             array (
-                'amount' => 1,
-                'item_id' => 9582,
                 'recipe_id' => 93,
+                'item_id' => 9582,
+                'amount' => 1,
             ),
             185 => 
             array (
-                'amount' => 1,
-                'item_id' => 9621,
                 'recipe_id' => 93,
+                'item_id' => 9621,
+                'amount' => 1,
             ),
             186 => 
             array (
-                'amount' => 1,
-                'item_id' => 9793,
                 'recipe_id' => 94,
+                'item_id' => 9793,
+                'amount' => 1,
             ),
             187 => 
             array (
-                'amount' => 1,
-                'item_id' => 9826,
                 'recipe_id' => 94,
+                'item_id' => 9826,
+                'amount' => 1,
             ),
             188 => 
             array (
-                'amount' => 2,
-                'item_id' => 9838,
                 'recipe_id' => 94,
+                'item_id' => 9838,
+                'amount' => 2,
             ),
             189 => 
             array (
-                'amount' => 1,
-                'item_id' => 9842,
                 'recipe_id' => 95,
+                'item_id' => 9842,
+                'amount' => 1,
             ),
             190 => 
             array (
-                'amount' => 1,
-                'item_id' => 9826,
                 'recipe_id' => 95,
+                'item_id' => 9826,
+                'amount' => 1,
             ),
             191 => 
             array (
-                'amount' => 2,
-                'item_id' => 9838,
                 'recipe_id' => 95,
+                'item_id' => 9838,
+                'amount' => 2,
             ),
             192 => 
             array (
-                'amount' => 1,
-                'item_id' => 9892,
                 'recipe_id' => 96,
+                'item_id' => 9892,
+                'amount' => 1,
             ),
             193 => 
             array (
-                'amount' => 2,
-                'item_id' => 9826,
                 'recipe_id' => 96,
+                'item_id' => 9826,
+                'amount' => 2,
             ),
             194 => 
             array (
-                'amount' => 4,
-                'item_id' => 9838,
                 'recipe_id' => 96,
+                'item_id' => 9838,
+                'amount' => 4,
             ),
             195 => 
             array (
-                'amount' => 1,
-                'item_id' => 9833,
                 'recipe_id' => 97,
+                'item_id' => 9833,
+                'amount' => 1,
             ),
             196 => 
             array (
-                'amount' => 2,
-                'item_id' => 9826,
                 'recipe_id' => 97,
+                'item_id' => 9826,
+                'amount' => 2,
             ),
             197 => 
             array (
-                'amount' => 4,
-                'item_id' => 9838,
                 'recipe_id' => 97,
+                'item_id' => 9838,
+                'amount' => 4,
             ),
             198 => 
             array (
-                'amount' => 1,
-                'item_id' => 9790,
                 'recipe_id' => 98,
+                'item_id' => 9790,
+                'amount' => 1,
             ),
             199 => 
             array (
-                'amount' => 3,
-                'item_id' => 9826,
                 'recipe_id' => 98,
+                'item_id' => 9826,
+                'amount' => 3,
             ),
             200 => 
             array (
-                'amount' => 6,
-                'item_id' => 9838,
                 'recipe_id' => 98,
+                'item_id' => 9838,
+                'amount' => 6,
             ),
             201 => 
             array (
-                'amount' => 1,
-                'item_id' => 9801,
                 'recipe_id' => 99,
+                'item_id' => 9801,
+                'amount' => 1,
             ),
             202 => 
             array (
-                'amount' => 3,
-                'item_id' => 9826,
                 'recipe_id' => 99,
+                'item_id' => 9826,
+                'amount' => 3,
             ),
             203 => 
             array (
-                'amount' => 6,
-                'item_id' => 9838,
                 'recipe_id' => 99,
+                'item_id' => 9838,
+                'amount' => 6,
             ),
             204 => 
             array (
-                'amount' => 2,
-                'item_id' => 10133,
                 'recipe_id' => 100,
+                'item_id' => 10133,
+                'amount' => 2,
             ),
             205 => 
             array (
-                'amount' => 2,
-                'item_id' => 10132,
                 'recipe_id' => 100,
+                'item_id' => 10132,
+                'amount' => 2,
             ),
             206 => 
             array (
-                'amount' => 2,
-                'item_id' => 10152,
                 'recipe_id' => 101,
+                'item_id' => 10152,
+                'amount' => 2,
             ),
             207 => 
             array (
-                'amount' => 2,
-                'item_id' => 10155,
                 'recipe_id' => 101,
+                'item_id' => 10155,
+                'amount' => 2,
             ),
             208 => 
             array (
-                'amount' => 2,
-                'item_id' => 10139,
                 'recipe_id' => 102,
+                'item_id' => 10139,
+                'amount' => 2,
             ),
             209 => 
             array (
-                'amount' => 2,
-                'item_id' => 10167,
                 'recipe_id' => 102,
+                'item_id' => 10167,
+                'amount' => 2,
             ),
             210 => 
             array (
-                'amount' => 2,
-                'item_id' => 10171,
                 'recipe_id' => 103,
+                'item_id' => 10171,
+                'amount' => 2,
             ),
             211 => 
             array (
-                'amount' => 2,
-                'item_id' => 10185,
                 'recipe_id' => 103,
+                'item_id' => 10185,
+                'amount' => 2,
             ),
             212 => 
             array (
-                'amount' => 2,
-                'item_id' => 10144,
                 'recipe_id' => 104,
+                'item_id' => 10144,
+                'amount' => 2,
             ),
             213 => 
             array (
-                'amount' => 2,
-                'item_id' => 10168,
                 'recipe_id' => 104,
+                'item_id' => 10168,
+                'amount' => 2,
             ),
             214 => 
             array (
-                'amount' => 1,
-                'item_id' => 10155,
                 'recipe_id' => 105,
+                'item_id' => 10155,
+                'amount' => 1,
             ),
             215 => 
             array (
-                'amount' => 1,
-                'item_id' => 10144,
                 'recipe_id' => 105,
+                'item_id' => 10144,
+                'amount' => 1,
             ),
             216 => 
             array (
-                'amount' => 1,
-                'item_id' => 10185,
                 'recipe_id' => 105,
+                'item_id' => 10185,
+                'amount' => 1,
             ),
             217 => 
             array (
-                'amount' => 1,
-                'item_id' => 10168,
                 'recipe_id' => 105,
+                'item_id' => 10168,
+                'amount' => 1,
             ),
             218 => 
             array (
-                'amount' => 1,
-                'item_id' => 10139,
                 'recipe_id' => 105,
+                'item_id' => 10139,
+                'amount' => 1,
             ),
             219 => 
             array (
-                'amount' => 1,
-                'item_id' => 10133,
                 'recipe_id' => 105,
+                'item_id' => 10133,
+                'amount' => 1,
             ),
             220 => 
             array (
-                'amount' => 1,
-                'item_id' => 10171,
                 'recipe_id' => 105,
+                'item_id' => 10171,
+                'amount' => 1,
             ),
             221 => 
             array (
-                'amount' => 1,
-                'item_id' => 10152,
                 'recipe_id' => 105,
+                'item_id' => 10152,
+                'amount' => 1,
             ),
             222 => 
             array (
-                'amount' => 1,
-                'item_id' => 10132,
                 'recipe_id' => 105,
+                'item_id' => 10132,
+                'amount' => 1,
             ),
             223 => 
             array (
-                'amount' => 1,
-                'item_id' => 10167,
                 'recipe_id' => 105,
+                'item_id' => 10167,
+                'amount' => 1,
             ),
             224 => 
             array (
-                'amount' => 1,
-                'item_id' => 10298,
                 'recipe_id' => 106,
+                'item_id' => 10298,
+                'amount' => 1,
             ),
             225 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 106,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             226 => 
             array (
-                'amount' => 1,
-                'item_id' => 10291,
                 'recipe_id' => 107,
+                'item_id' => 10291,
+                'amount' => 1,
             ),
             227 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 107,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             228 => 
             array (
-                'amount' => 1,
-                'item_id' => 10305,
                 'recipe_id' => 108,
+                'item_id' => 10305,
+                'amount' => 1,
             ),
             229 => 
             array (
-                'amount' => 2,
-                'item_id' => 10284,
                 'recipe_id' => 108,
+                'item_id' => 10284,
+                'amount' => 2,
             ),
             230 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 108,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             231 => 
             array (
-                'amount' => 1,
-                'item_id' => 10245,
                 'recipe_id' => 109,
+                'item_id' => 10245,
+                'amount' => 1,
             ),
             232 => 
             array (
-                'amount' => 2,
-                'item_id' => 10284,
                 'recipe_id' => 109,
+                'item_id' => 10284,
+                'amount' => 2,
             ),
             233 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 109,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             234 => 
             array (
-                'amount' => 1,
-                'item_id' => 10239,
                 'recipe_id' => 110,
+                'item_id' => 10239,
+                'amount' => 1,
             ),
             235 => 
             array (
-                'amount' => 2,
-                'item_id' => 10284,
                 'recipe_id' => 110,
+                'item_id' => 10284,
+                'amount' => 2,
             ),
             236 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 110,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             237 => 
             array (
-                'amount' => 1,
-                'item_id' => 10276,
                 'recipe_id' => 111,
+                'item_id' => 10276,
+                'amount' => 1,
             ),
             238 => 
             array (
-                'amount' => 5,
-                'item_id' => 10284,
                 'recipe_id' => 111,
+                'item_id' => 10284,
+                'amount' => 5,
             ),
             239 => 
             array (
-                'amount' => 1,
-                'item_id' => 10301,
                 'recipe_id' => 112,
+                'item_id' => 10301,
+                'amount' => 1,
             ),
             240 => 
             array (
-                'amount' => 5,
-                'item_id' => 10284,
                 'recipe_id' => 112,
+                'item_id' => 10284,
+                'amount' => 5,
             ),
             241 => 
             array (
-                'amount' => 1,
-                'item_id' => 10303,
                 'recipe_id' => 113,
+                'item_id' => 10303,
+                'amount' => 1,
             ),
             242 => 
             array (
-                'amount' => 5,
-                'item_id' => 10284,
                 'recipe_id' => 113,
+                'item_id' => 10284,
+                'amount' => 5,
             ),
             243 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 113,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             244 => 
             array (
-                'amount' => 1,
-                'item_id' => 10296,
                 'recipe_id' => 114,
+                'item_id' => 10296,
+                'amount' => 1,
             ),
             245 => 
             array (
-                'amount' => 5,
-                'item_id' => 10284,
                 'recipe_id' => 114,
+                'item_id' => 10284,
+                'amount' => 5,
             ),
             246 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 114,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             247 => 
             array (
-                'amount' => 1,
-                'item_id' => 10287,
                 'recipe_id' => 115,
+                'item_id' => 10287,
+                'amount' => 1,
             ),
             248 => 
             array (
-                'amount' => 5,
-                'item_id' => 10284,
                 'recipe_id' => 115,
+                'item_id' => 10284,
+                'amount' => 5,
             ),
             249 => 
             array (
-                'amount' => 2,
-                'item_id' => 10265,
                 'recipe_id' => 115,
+                'item_id' => 10265,
+                'amount' => 2,
             ),
             250 => 
             array (
-                'amount' => 1,
-                'item_id' => 10272,
                 'recipe_id' => 116,
+                'item_id' => 10272,
+                'amount' => 1,
             ),
             251 => 
             array (
-                'amount' => 5,
-                'item_id' => 10265,
                 'recipe_id' => 116,
+                'item_id' => 10265,
+                'amount' => 5,
             ),
             252 => 
             array (
-                'amount' => 4,
-                'item_id' => 10284,
                 'recipe_id' => 116,
+                'item_id' => 10284,
+                'amount' => 4,
             ),
             253 => 
             array (
-                'amount' => 2,
-                'item_id' => 10371,
                 'recipe_id' => 117,
+                'item_id' => 10371,
+                'amount' => 2,
             ),
             254 => 
             array (
-                'amount' => 2,
-                'item_id' => 10370,
                 'recipe_id' => 117,
+                'item_id' => 10370,
+                'amount' => 2,
             ),
             255 => 
             array (
-                'amount' => 2,
-                'item_id' => 10370,
                 'recipe_id' => 118,
+                'item_id' => 10370,
+                'amount' => 2,
             ),
             256 => 
             array (
-                'amount' => 2,
-                'item_id' => 10398,
                 'recipe_id' => 118,
+                'item_id' => 10398,
+                'amount' => 2,
             ),
             257 => 
             array (
-                'amount' => 3,
-                'item_id' => 10352,
                 'recipe_id' => 119,
+                'item_id' => 10352,
+                'amount' => 3,
             ),
             258 => 
             array (
-                'amount' => 3,
-                'item_id' => 10378,
                 'recipe_id' => 119,
+                'item_id' => 10378,
+                'amount' => 3,
             ),
             259 => 
             array (
-                'amount' => 2,
-                'item_id' => 10378,
                 'recipe_id' => 120,
+                'item_id' => 10378,
+                'amount' => 2,
             ),
             260 => 
             array (
-                'amount' => 1,
-                'item_id' => 10384,
                 'recipe_id' => 120,
+                'item_id' => 10384,
+                'amount' => 1,
             ),
             261 => 
             array (
-                'amount' => 1,
-                'item_id' => 10341,
                 'recipe_id' => 120,
+                'item_id' => 10341,
+                'amount' => 1,
             ),
             262 => 
             array (
-                'amount' => 2,
-                'item_id' => 10352,
                 'recipe_id' => 121,
+                'item_id' => 10352,
+                'amount' => 2,
             ),
             263 => 
             array (
-                'amount' => 1,
-                'item_id' => 10349,
                 'recipe_id' => 121,
+                'item_id' => 10349,
+                'amount' => 1,
             ),
             264 => 
             array (
-                'amount' => 1,
-                'item_id' => 10387,
                 'recipe_id' => 121,
+                'item_id' => 10387,
+                'amount' => 1,
             ),
             265 => 
             array (
-                'amount' => 2,
-                'item_id' => 10371,
                 'recipe_id' => 122,
+                'item_id' => 10371,
+                'amount' => 2,
             ),
             266 => 
             array (
-                'amount' => 2,
-                'item_id' => 10343,
                 'recipe_id' => 122,
+                'item_id' => 10343,
+                'amount' => 2,
             ),
             267 => 
             array (
-                'amount' => 2,
-                'item_id' => 10384,
                 'recipe_id' => 122,
+                'item_id' => 10384,
+                'amount' => 2,
             ),
             268 => 
             array (
-                'amount' => 2,
-                'item_id' => 10378,
                 'recipe_id' => 123,
+                'item_id' => 10378,
+                'amount' => 2,
             ),
             269 => 
             array (
-                'amount' => 2,
-                'item_id' => 10371,
                 'recipe_id' => 123,
+                'item_id' => 10371,
+                'amount' => 2,
             ),
             270 => 
             array (
-                'amount' => 2,
-                'item_id' => 10370,
                 'recipe_id' => 123,
+                'item_id' => 10370,
+                'amount' => 2,
             ),
             271 => 
             array (
-                'amount' => 1,
-                'item_id' => 10398,
                 'recipe_id' => 123,
+                'item_id' => 10398,
+                'amount' => 1,
             ),
             272 => 
             array (
-                'amount' => 1,
-                'item_id' => 10352,
                 'recipe_id' => 123,
+                'item_id' => 10352,
+                'amount' => 1,
             ),
             273 => 
             array (
-                'amount' => 1,
-                'item_id' => 10349,
                 'recipe_id' => 123,
+                'item_id' => 10349,
+                'amount' => 1,
             ),
             274 => 
             array (
-                'amount' => 1,
-                'item_id' => 10341,
                 'recipe_id' => 123,
+                'item_id' => 10341,
+                'amount' => 1,
             ),
             275 => 
             array (
-                'amount' => 1,
-                'item_id' => 10595,
                 'recipe_id' => 124,
+                'item_id' => 10595,
+                'amount' => 1,
             ),
             276 => 
             array (
-                'amount' => 3,
-                'item_id' => 10596,
                 'recipe_id' => 124,
+                'item_id' => 10596,
+                'amount' => 3,
             ),
             277 => 
             array (
-                'amount' => 1,
-                'item_id' => 10595,
                 'recipe_id' => 125,
+                'item_id' => 10595,
+                'amount' => 1,
             ),
             278 => 
             array (
-                'amount' => 3,
-                'item_id' => 10597,
                 'recipe_id' => 125,
+                'item_id' => 10597,
+                'amount' => 3,
             ),
             279 => 
             array (
-                'amount' => 1,
-                'item_id' => 10621,
                 'recipe_id' => 126,
+                'item_id' => 10621,
+                'amount' => 1,
             ),
             280 => 
             array (
-                'amount' => 1,
-                'item_id' => 10596,
                 'recipe_id' => 126,
+                'item_id' => 10596,
+                'amount' => 1,
             ),
             281 => 
             array (
-                'amount' => 1,
-                'item_id' => 10621,
                 'recipe_id' => 127,
+                'item_id' => 10621,
+                'amount' => 1,
             ),
             282 => 
             array (
-                'amount' => 1,
-                'item_id' => 10597,
                 'recipe_id' => 127,
+                'item_id' => 10597,
+                'amount' => 1,
             ),
             283 => 
             array (
-                'amount' => 1,
-                'item_id' => 10638,
                 'recipe_id' => 128,
+                'item_id' => 10638,
+                'amount' => 1,
             ),
             284 => 
             array (
-                'amount' => 2,
-                'item_id' => 10596,
                 'recipe_id' => 128,
+                'item_id' => 10596,
+                'amount' => 2,
             ),
             285 => 
             array (
-                'amount' => 1,
-                'item_id' => 10638,
                 'recipe_id' => 129,
+                'item_id' => 10638,
+                'amount' => 1,
             ),
             286 => 
             array (
-                'amount' => 2,
-                'item_id' => 10597,
                 'recipe_id' => 129,
+                'item_id' => 10597,
+                'amount' => 2,
             ),
             287 => 
             array (
-                'amount' => 1,
-                'item_id' => 10574,
                 'recipe_id' => 130,
+                'item_id' => 10574,
+                'amount' => 1,
             ),
             288 => 
             array (
-                'amount' => 4,
-                'item_id' => 10596,
                 'recipe_id' => 130,
+                'item_id' => 10596,
+                'amount' => 4,
             ),
             289 => 
             array (
-                'amount' => 1,
-                'item_id' => 10574,
                 'recipe_id' => 131,
+                'item_id' => 10574,
+                'amount' => 1,
             ),
             290 => 
             array (
-                'amount' => 4,
-                'item_id' => 10597,
                 'recipe_id' => 131,
+                'item_id' => 10597,
+                'amount' => 4,
             ),
             291 => 
             array (
-                'amount' => 1,
-                'item_id' => 10600,
                 'recipe_id' => 132,
+                'item_id' => 10600,
+                'amount' => 1,
             ),
             292 => 
             array (
-                'amount' => 1,
-                'item_id' => 10582,
                 'recipe_id' => 132,
+                'item_id' => 10582,
+                'amount' => 1,
             ),
             293 => 
             array (
-                'amount' => 5,
-                'item_id' => 10629,
                 'recipe_id' => 133,
+                'item_id' => 10629,
+                'amount' => 5,
             ),
             294 => 
             array (
-                'amount' => 1,
-                'item_id' => 10636,
                 'recipe_id' => 134,
+                'item_id' => 10636,
+                'amount' => 1,
             ),
             295 => 
             array (
-                'amount' => 2,
-                'item_id' => 10582,
                 'recipe_id' => 134,
+                'item_id' => 10582,
+                'amount' => 2,
             ),
             296 => 
             array (
-                'amount' => 5,
-                'item_id' => 10583,
                 'recipe_id' => 135,
+                'item_id' => 10583,
+                'amount' => 5,
             ),
             297 => 
             array (
-                'amount' => 1,
-                'item_id' => 10614,
                 'recipe_id' => 136,
+                'item_id' => 10614,
+                'amount' => 1,
             ),
             298 => 
             array (
-                'amount' => 3,
-                'item_id' => 10582,
                 'recipe_id' => 136,
+                'item_id' => 10582,
+                'amount' => 3,
             ),
             299 => 
             array (
-                'amount' => 5,
-                'item_id' => 10618,
                 'recipe_id' => 137,
+                'item_id' => 10618,
+                'amount' => 5,
             ),
             300 => 
             array (
-                'amount' => 1,
-                'item_id' => 10606,
                 'recipe_id' => 138,
+                'item_id' => 10606,
+                'amount' => 1,
             ),
             301 => 
             array (
-                'amount' => 4,
-                'item_id' => 10582,
                 'recipe_id' => 138,
+                'item_id' => 10582,
+                'amount' => 4,
             ),
             302 => 
             array (
-                'amount' => 5,
-                'item_id' => 10628,
                 'recipe_id' => 139,
+                'item_id' => 10628,
+                'amount' => 5,
             ),
             303 => 
             array (
-                'amount' => 5,
-                'item_id' => 10597,
                 'recipe_id' => 140,
+                'item_id' => 10597,
+                'amount' => 5,
             ),
             304 => 
             array (
-                'amount' => 1,
-                'item_id' => 10610,
                 'recipe_id' => 140,
+                'item_id' => 10610,
+                'amount' => 1,
             ),
             305 => 
             array (
-                'amount' => 2,
-                'item_id' => 10720,
                 'recipe_id' => 141,
+                'item_id' => 10720,
+                'amount' => 2,
             ),
             306 => 
             array (
-                'amount' => 2,
-                'item_id' => 10711,
                 'recipe_id' => 141,
+                'item_id' => 10711,
+                'amount' => 2,
             ),
             307 => 
             array (
-                'amount' => 3,
-                'item_id' => 10720,
                 'recipe_id' => 142,
+                'item_id' => 10720,
+                'amount' => 3,
             ),
             308 => 
             array (
-                'amount' => 3,
-                'item_id' => 10711,
                 'recipe_id' => 142,
+                'item_id' => 10711,
+                'amount' => 3,
             ),
             309 => 
             array (
-                'amount' => 2,
-                'item_id' => 10720,
                 'recipe_id' => 143,
+                'item_id' => 10720,
+                'amount' => 2,
             ),
             310 => 
             array (
-                'amount' => 2,
-                'item_id' => 10729,
                 'recipe_id' => 143,
+                'item_id' => 10729,
+                'amount' => 2,
             ),
             311 => 
             array (
-                'amount' => 3,
-                'item_id' => 10720,
                 'recipe_id' => 144,
+                'item_id' => 10720,
+                'amount' => 3,
             ),
             312 => 
             array (
-                'amount' => 3,
-                'item_id' => 10729,
                 'recipe_id' => 144,
+                'item_id' => 10729,
+                'amount' => 3,
             ),
             313 => 
             array (
-                'amount' => 2,
-                'item_id' => 10711,
                 'recipe_id' => 145,
+                'item_id' => 10711,
+                'amount' => 2,
             ),
             314 => 
             array (
-                'amount' => 2,
-                'item_id' => 10729,
                 'recipe_id' => 145,
+                'item_id' => 10729,
+                'amount' => 2,
             ),
             315 => 
             array (
-                'amount' => 3,
-                'item_id' => 10711,
                 'recipe_id' => 146,
+                'item_id' => 10711,
+                'amount' => 3,
             ),
             316 => 
             array (
-                'amount' => 3,
-                'item_id' => 10729,
                 'recipe_id' => 146,
+                'item_id' => 10729,
+                'amount' => 3,
             ),
             317 => 
             array (
-                'amount' => 4,
-                'item_id' => 10711,
                 'recipe_id' => 147,
+                'item_id' => 10711,
+                'amount' => 4,
             ),
             318 => 
             array (
-                'amount' => 4,
-                'item_id' => 10729,
                 'recipe_id' => 147,
+                'item_id' => 10729,
+                'amount' => 4,
             ),
             319 => 
             array (
-                'amount' => 5,
-                'item_id' => 10711,
                 'recipe_id' => 148,
+                'item_id' => 10711,
+                'amount' => 5,
             ),
             320 => 
             array (
-                'amount' => 5,
-                'item_id' => 10729,
                 'recipe_id' => 148,
+                'item_id' => 10729,
+                'amount' => 5,
             ),
             321 => 
             array (
-                'amount' => 1,
-                'item_id' => 8955,
                 'recipe_id' => 177,
+                'item_id' => 8955,
+                'amount' => 1,
             ),
             322 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 176,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             323 => 
             array (
-                'amount' => 1,
-                'item_id' => 8963,
                 'recipe_id' => 176,
+                'item_id' => 8963,
+                'amount' => 1,
             ),
             324 => 
             array (
-                'amount' => 2,
-                'item_id' => 10791,
                 'recipe_id' => 150,
+                'item_id' => 10791,
+                'amount' => 2,
             ),
             325 => 
             array (
-                'amount' => 2,
-                'item_id' => 10824,
                 'recipe_id' => 150,
+                'item_id' => 10824,
+                'amount' => 2,
             ),
             326 => 
             array (
-                'amount' => 2,
-                'item_id' => 10825,
                 'recipe_id' => 150,
+                'item_id' => 10825,
+                'amount' => 2,
             ),
             327 => 
             array (
-                'amount' => 2,
-                'item_id' => 10825,
                 'recipe_id' => 151,
+                'item_id' => 10825,
+                'amount' => 2,
             ),
             328 => 
             array (
-                'amount' => 2,
-                'item_id' => 10829,
                 'recipe_id' => 151,
+                'item_id' => 10829,
+                'amount' => 2,
             ),
             329 => 
             array (
-                'amount' => 2,
-                'item_id' => 10826,
                 'recipe_id' => 151,
+                'item_id' => 10826,
+                'amount' => 2,
             ),
             330 => 
             array (
-                'amount' => 3,
-                'item_id' => 10812,
                 'recipe_id' => 152,
+                'item_id' => 10812,
+                'amount' => 3,
             ),
             331 => 
             array (
-                'amount' => 3,
-                'item_id' => 10824,
                 'recipe_id' => 152,
+                'item_id' => 10824,
+                'amount' => 3,
             ),
             332 => 
             array (
-                'amount' => 3,
-                'item_id' => 10798,
                 'recipe_id' => 152,
+                'item_id' => 10798,
+                'amount' => 3,
             ),
             333 => 
             array (
-                'amount' => 3,
-                'item_id' => 10829,
                 'recipe_id' => 153,
+                'item_id' => 10829,
+                'amount' => 3,
             ),
             334 => 
             array (
-                'amount' => 3,
-                'item_id' => 10798,
                 'recipe_id' => 153,
+                'item_id' => 10798,
+                'amount' => 3,
             ),
             335 => 
             array (
-                'amount' => 3,
-                'item_id' => 10824,
                 'recipe_id' => 153,
+                'item_id' => 10824,
+                'amount' => 3,
             ),
             336 => 
             array (
-                'amount' => 5,
-                'item_id' => 10902,
                 'recipe_id' => 154,
+                'item_id' => 10902,
+                'amount' => 5,
             ),
             337 => 
             array (
-                'amount' => 5,
-                'item_id' => 10907,
                 'recipe_id' => 155,
+                'item_id' => 10907,
+                'amount' => 5,
             ),
             338 => 
             array (
-                'amount' => 2,
-                'item_id' => 10881,
                 'recipe_id' => 156,
+                'item_id' => 10881,
+                'amount' => 2,
             ),
             339 => 
             array (
-                'amount' => 5,
-                'item_id' => 10884,
                 'recipe_id' => 156,
+                'item_id' => 10884,
+                'amount' => 5,
             ),
             340 => 
             array (
-                'amount' => 2,
-                'item_id' => 10881,
                 'recipe_id' => 157,
+                'item_id' => 10881,
+                'amount' => 2,
             ),
             341 => 
             array (
-                'amount' => 3,
-                'item_id' => 10940,
                 'recipe_id' => 157,
+                'item_id' => 10940,
+                'amount' => 3,
             ),
             342 => 
             array (
-                'amount' => 2,
-                'item_id' => 10881,
                 'recipe_id' => 158,
+                'item_id' => 10881,
+                'amount' => 2,
             ),
             343 => 
             array (
-                'amount' => 3,
-                'item_id' => 10930,
                 'recipe_id' => 158,
+                'item_id' => 10930,
+                'amount' => 3,
             ),
             344 => 
             array (
-                'amount' => 1,
-                'item_id' => 10031,
                 'recipe_id' => 163,
+                'item_id' => 10031,
+                'amount' => 1,
             ),
             345 => 
             array (
-                'amount' => 1,
-                'item_id' => 10033,
                 'recipe_id' => 163,
+                'item_id' => 10033,
+                'amount' => 1,
             ),
             346 => 
             array (
-                'amount' => 2,
-                'item_id' => 10031,
                 'recipe_id' => 164,
+                'item_id' => 10031,
+                'amount' => 2,
             ),
             347 => 
             array (
-                'amount' => 2,
-                'item_id' => 10033,
                 'recipe_id' => 164,
+                'item_id' => 10033,
+                'amount' => 2,
             ),
             348 => 
             array (
-                'amount' => 3,
-                'item_id' => 10031,
                 'recipe_id' => 165,
+                'item_id' => 10031,
+                'amount' => 3,
             ),
             349 => 
             array (
-                'amount' => 3,
-                'item_id' => 10033,
                 'recipe_id' => 165,
+                'item_id' => 10033,
+                'amount' => 3,
             ),
             350 => 
             array (
-                'amount' => 4,
-                'item_id' => 10031,
                 'recipe_id' => 166,
+                'item_id' => 10031,
+                'amount' => 4,
             ),
             351 => 
             array (
-                'amount' => 4,
-                'item_id' => 10033,
                 'recipe_id' => 166,
+                'item_id' => 10033,
+                'amount' => 4,
             ),
             352 => 
             array (
-                'amount' => 1,
-                'item_id' => 8920,
                 'recipe_id' => 167,
+                'item_id' => 8920,
+                'amount' => 1,
             ),
             353 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 167,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             354 => 
             array (
-                'amount' => 1,
-                'item_id' => 8947,
                 'recipe_id' => 168,
+                'item_id' => 8947,
+                'amount' => 1,
             ),
             355 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 168,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             356 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 169,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             357 => 
             array (
-                'amount' => 1,
-                'item_id' => 8927,
                 'recipe_id' => 169,
+                'item_id' => 8927,
+                'amount' => 1,
             ),
             358 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 170,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             359 => 
             array (
-                'amount' => 1,
-                'item_id' => 8922,
                 'recipe_id' => 170,
+                'item_id' => 8922,
+                'amount' => 1,
             ),
             360 => 
             array (
-                'amount' => 1,
-                'item_id' => 8929,
                 'recipe_id' => 171,
+                'item_id' => 8929,
+                'amount' => 1,
             ),
             361 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 171,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             362 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 172,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             363 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 173,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             364 => 
             array (
-                'amount' => 1,
-                'item_id' => 8962,
                 'recipe_id' => 172,
+                'item_id' => 8962,
+                'amount' => 1,
             ),
             365 => 
             array (
-                'amount' => 1,
-                'item_id' => 8935,
                 'recipe_id' => 173,
+                'item_id' => 8935,
+                'amount' => 1,
             ),
             366 => 
             array (
-                'amount' => 1,
-                'item_id' => 8979,
                 'recipe_id' => 174,
+                'item_id' => 8979,
+                'amount' => 1,
             ),
             367 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 174,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             368 => 
             array (
-                'amount' => 1,
-                'item_id' => 8986,
                 'recipe_id' => 175,
+                'item_id' => 8986,
+                'amount' => 1,
             ),
             369 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 175,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             370 => 
             array (
-                'amount' => 1,
-                'item_id' => 8920,
                 'recipe_id' => 180,
+                'item_id' => 8920,
+                'amount' => 1,
             ),
             371 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 180,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             372 => 
             array (
-                'amount' => 1,
-                'item_id' => 8991,
                 'recipe_id' => 179,
+                'item_id' => 8991,
+                'amount' => 1,
             ),
             373 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 179,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             374 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 178,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             375 => 
             array (
-                'amount' => 1,
-                'item_id' => 8967,
                 'recipe_id' => 178,
+                'item_id' => 8967,
+                'amount' => 1,
             ),
             376 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 177,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             377 => 
             array (
-                'amount' => 5,
-                'item_id' => 9191,
                 'recipe_id' => 209,
+                'item_id' => 9191,
+                'amount' => 5,
             ),
             378 => 
             array (
-                'amount' => 3,
-                'item_id' => 9188,
                 'recipe_id' => 208,
+                'item_id' => 9188,
+                'amount' => 3,
             ),
             379 => 
             array (
-                'amount' => 3,
-                'item_id' => 9158,
                 'recipe_id' => 207,
+                'item_id' => 9158,
+                'amount' => 3,
             ),
             380 => 
             array (
-                'amount' => 1,
-                'item_id' => 8991,
                 'recipe_id' => 192,
+                'item_id' => 8991,
+                'amount' => 1,
             ),
             381 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 192,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             382 => 
             array (
-                'amount' => 1,
-                'item_id' => 8967,
                 'recipe_id' => 191,
+                'item_id' => 8967,
+                'amount' => 1,
             ),
             383 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 191,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             384 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 190,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             385 => 
             array (
-                'amount' => 1,
-                'item_id' => 8955,
                 'recipe_id' => 190,
+                'item_id' => 8955,
+                'amount' => 1,
             ),
             386 => 
             array (
-                'amount' => 1,
-                'item_id' => 8963,
                 'recipe_id' => 189,
+                'item_id' => 8963,
+                'amount' => 1,
             ),
             387 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 189,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             388 => 
             array (
-                'amount' => 1,
-                'item_id' => 8986,
                 'recipe_id' => 188,
+                'item_id' => 8986,
+                'amount' => 1,
             ),
             389 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 188,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             390 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 187,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             391 => 
             array (
-                'amount' => 1,
-                'item_id' => 8979,
                 'recipe_id' => 187,
+                'item_id' => 8979,
+                'amount' => 1,
             ),
             392 => 
             array (
-                'amount' => 1,
-                'item_id' => 8935,
                 'recipe_id' => 186,
+                'item_id' => 8935,
+                'amount' => 1,
             ),
             393 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 186,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             394 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 185,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             395 => 
             array (
-                'amount' => 1,
-                'item_id' => 8962,
                 'recipe_id' => 185,
+                'item_id' => 8962,
+                'amount' => 1,
             ),
             396 => 
             array (
-                'amount' => 1,
-                'item_id' => 8929,
                 'recipe_id' => 184,
+                'item_id' => 8929,
+                'amount' => 1,
             ),
             397 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 184,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             398 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 183,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             399 => 
             array (
-                'amount' => 1,
-                'item_id' => 8922,
                 'recipe_id' => 183,
+                'item_id' => 8922,
+                'amount' => 1,
             ),
             400 => 
             array (
-                'amount' => 1,
-                'item_id' => 8927,
                 'recipe_id' => 182,
+                'item_id' => 8927,
+                'amount' => 1,
             ),
             401 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 182,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             402 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 181,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             403 => 
             array (
-                'amount' => 1,
-                'item_id' => 8947,
                 'recipe_id' => 181,
+                'item_id' => 8947,
+                'amount' => 1,
             ),
             404 => 
             array (
-                'amount' => 5,
-                'item_id' => 9188,
                 'recipe_id' => 209,
+                'item_id' => 9188,
+                'amount' => 5,
             ),
             405 => 
             array (
-                'amount' => 10,
-                'item_id' => 9191,
                 'recipe_id' => 210,
+                'item_id' => 9191,
+                'amount' => 10,
             ),
             406 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 211,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             407 => 
             array (
-                'amount' => 1,
-                'item_id' => 9194,
                 'recipe_id' => 211,
+                'item_id' => 9194,
+                'amount' => 1,
             ),
             408 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 212,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             409 => 
             array (
-                'amount' => 1,
-                'item_id' => 9150,
                 'recipe_id' => 212,
+                'item_id' => 9150,
+                'amount' => 1,
             ),
             410 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 213,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             411 => 
             array (
-                'amount' => 1,
-                'item_id' => 9149,
                 'recipe_id' => 213,
+                'item_id' => 9149,
+                'amount' => 1,
             ),
             412 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 214,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             413 => 
             array (
-                'amount' => 1,
-                'item_id' => 9161,
                 'recipe_id' => 214,
+                'item_id' => 9161,
+                'amount' => 1,
             ),
             414 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 215,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             415 => 
             array (
-                'amount' => 1,
-                'item_id' => 9190,
                 'recipe_id' => 215,
+                'item_id' => 9190,
+                'amount' => 1,
             ),
             416 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 216,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             417 => 
             array (
-                'amount' => 1,
-                'item_id' => 9174,
                 'recipe_id' => 216,
+                'item_id' => 9174,
+                'amount' => 1,
             ),
             418 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 217,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             419 => 
             array (
-                'amount' => 1,
-                'item_id' => 9176,
                 'recipe_id' => 217,
+                'item_id' => 9176,
+                'amount' => 1,
             ),
             420 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 218,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             421 => 
             array (
-                'amount' => 1,
-                'item_id' => 9185,
                 'recipe_id' => 218,
+                'item_id' => 9185,
+                'amount' => 1,
             ),
             422 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 219,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             423 => 
             array (
-                'amount' => 1,
-                'item_id' => 9182,
                 'recipe_id' => 219,
+                'item_id' => 9182,
+                'amount' => 1,
             ),
             424 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 220,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             425 => 
             array (
-                'amount' => 1,
-                'item_id' => 209,
                 'recipe_id' => 220,
+                'item_id' => 209,
+                'amount' => 1,
             ),
             426 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 221,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             427 => 
             array (
-                'amount' => 1,
-                'item_id' => 5305,
                 'recipe_id' => 221,
+                'item_id' => 5305,
+                'amount' => 1,
             ),
             428 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 222,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             429 => 
             array (
-                'amount' => 1,
-                'item_id' => 5317,
                 'recipe_id' => 222,
+                'item_id' => 5317,
+                'amount' => 1,
             ),
             430 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 223,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             431 => 
             array (
-                'amount' => 1,
-                'item_id' => 207,
                 'recipe_id' => 223,
+                'item_id' => 207,
+                'amount' => 1,
             ),
             432 => 
             array (
-                'amount' => 1,
-                'item_id' => 9152,
                 'recipe_id' => 224,
+                'item_id' => 9152,
+                'amount' => 1,
             ),
             433 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 224,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             434 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 224,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             435 => 
             array (
-                'amount' => 1,
-                'item_id' => 9186,
                 'recipe_id' => 225,
+                'item_id' => 9186,
+                'amount' => 1,
             ),
             436 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 225,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             437 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 225,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             438 => 
             array (
-                'amount' => 1,
-                'item_id' => 9179,
                 'recipe_id' => 226,
+                'item_id' => 9179,
+                'amount' => 1,
             ),
             439 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 226,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             440 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 226,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             441 => 
             array (
-                'amount' => 1,
-                'item_id' => 9187,
                 'recipe_id' => 227,
+                'item_id' => 9187,
+                'amount' => 1,
             ),
             442 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 227,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             443 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 227,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             444 => 
             array (
-                'amount' => 1,
-                'item_id' => 9162,
                 'recipe_id' => 228,
+                'item_id' => 9162,
+                'amount' => 1,
             ),
             445 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 228,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             446 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 228,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             447 => 
             array (
-                'amount' => 1,
-                'item_id' => 6218,
                 'recipe_id' => 229,
+                'item_id' => 6218,
+                'amount' => 1,
             ),
             448 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 229,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             449 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 229,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             450 => 
             array (
-                'amount' => 1,
-                'item_id' => 9173,
                 'recipe_id' => 230,
+                'item_id' => 9173,
+                'amount' => 1,
             ),
             451 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 230,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             452 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 230,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             453 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 230,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             454 => 
             array (
-                'amount' => 1,
-                'item_id' => 9156,
                 'recipe_id' => 231,
+                'item_id' => 9156,
+                'amount' => 1,
             ),
             455 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 231,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             456 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 231,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             457 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 231,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             458 => 
             array (
-                'amount' => 1,
-                'item_id' => 9178,
                 'recipe_id' => 232,
+                'item_id' => 9178,
+                'amount' => 1,
             ),
             459 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 232,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             460 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 232,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             461 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 232,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             462 => 
             array (
-                'amount' => 1,
-                'item_id' => 9170,
                 'recipe_id' => 233,
+                'item_id' => 9170,
+                'amount' => 1,
             ),
             463 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 233,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             464 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 233,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             465 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 233,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             466 => 
             array (
-                'amount' => 1,
-                'item_id' => 9177,
                 'recipe_id' => 234,
+                'item_id' => 9177,
+                'amount' => 1,
             ),
             467 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 234,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             468 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 234,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             469 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 234,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             470 => 
             array (
-                'amount' => 1,
-                'item_id' => 9153,
                 'recipe_id' => 235,
+                'item_id' => 9153,
+                'amount' => 1,
             ),
             471 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 235,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             472 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 235,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             473 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 235,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             474 => 
             array (
-                'amount' => 1,
-                'item_id' => 6215,
                 'recipe_id' => 236,
+                'item_id' => 6215,
+                'amount' => 1,
             ),
             475 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 236,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             476 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 236,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             477 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 236,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             478 => 
             array (
-                'amount' => 1,
-                'item_id' => 6183,
                 'recipe_id' => 237,
+                'item_id' => 6183,
+                'amount' => 1,
             ),
             479 => 
             array (
-                'amount' => 1,
-                'item_id' => 9158,
                 'recipe_id' => 237,
+                'item_id' => 9158,
+                'amount' => 1,
             ),
             480 => 
             array (
-                'amount' => 1,
-                'item_id' => 9188,
                 'recipe_id' => 237,
+                'item_id' => 9188,
+                'amount' => 1,
             ),
             481 => 
             array (
-                'amount' => 1,
-                'item_id' => 9191,
                 'recipe_id' => 237,
+                'item_id' => 9191,
+                'amount' => 1,
             ),
             482 => 
             array (
-                'amount' => 1,
-                'item_id' => 3541,
                 'recipe_id' => 193,
+                'item_id' => 3541,
+                'amount' => 1,
             ),
             483 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 193,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             484 => 
             array (
-                'amount' => 1,
-                'item_id' => 3605,
                 'recipe_id' => 194,
+                'item_id' => 3605,
+                'amount' => 1,
             ),
             485 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 194,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             486 => 
             array (
-                'amount' => 1,
-                'item_id' => 3189,
                 'recipe_id' => 195,
+                'item_id' => 3189,
+                'amount' => 1,
             ),
             487 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 195,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             488 => 
             array (
-                'amount' => 1,
-                'item_id' => 3426,
                 'recipe_id' => 196,
+                'item_id' => 3426,
+                'amount' => 1,
             ),
             489 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 196,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             490 => 
             array (
-                'amount' => 1,
-                'item_id' => 4604,
                 'recipe_id' => 197,
+                'item_id' => 4604,
+                'amount' => 1,
             ),
             491 => 
             array (
-                'amount' => 1,
-                'item_id' => 4580,
                 'recipe_id' => 197,
+                'item_id' => 4580,
+                'amount' => 1,
             ),
             492 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 197,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             493 => 
             array (
-                'amount' => 1,
-                'item_id' => 2757,
                 'recipe_id' => 198,
+                'item_id' => 2757,
+                'amount' => 1,
             ),
             494 => 
             array (
-                'amount' => 1,
-                'item_id' => 3165,
                 'recipe_id' => 198,
+                'item_id' => 3165,
+                'amount' => 1,
             ),
             495 => 
             array (
-                'amount' => 1,
-                'item_id' => 3984,
                 'recipe_id' => 198,
+                'item_id' => 3984,
+                'amount' => 1,
             ),
             496 => 
             array (
-                'amount' => 3,
-                'item_id' => 3530,
                 'recipe_id' => 199,
+                'item_id' => 3530,
+                'amount' => 3,
             ),
             497 => 
             array (
-                'amount' => 1,
-                'item_id' => 3123,
                 'recipe_id' => 199,
+                'item_id' => 3123,
+                'amount' => 1,
             ),
             498 => 
             array (
-                'amount' => 1,
-                'item_id' => 8936,
                 'recipe_id' => 199,
+                'item_id' => 8936,
+                'amount' => 1,
             ),
             499 => 
             array (
-                'amount' => 1,
-                'item_id' => 4103,
                 'recipe_id' => 200,
+                'item_id' => 4103,
+                'amount' => 1,
             ),
         ));
         \DB::table('crafting_recipes_ingredients')->insert(array (
             0 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 200,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             1 => 
             array (
-                'amount' => 1,
-                'item_id' => 8245,
                 'recipe_id' => 201,
+                'item_id' => 8245,
+                'amount' => 1,
             ),
             2 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 201,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             3 => 
             array (
-                'amount' => 1,
-                'item_id' => 3530,
                 'recipe_id' => 202,
+                'item_id' => 3530,
+                'amount' => 1,
             ),
             4 => 
             array (
-                'amount' => 1,
-                'item_id' => 8119,
                 'recipe_id' => 202,
+                'item_id' => 8119,
+                'amount' => 1,
             ),
             5 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 202,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             6 => 
             array (
-                'amount' => 1,
-                'item_id' => 3162,
                 'recipe_id' => 203,
+                'item_id' => 3162,
+                'amount' => 1,
             ),
             7 => 
             array (
-                'amount' => 1,
-                'item_id' => 3407,
                 'recipe_id' => 203,
+                'item_id' => 3407,
+                'amount' => 1,
             ),
             8 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 203,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             9 => 
             array (
-                'amount' => 1,
-                'item_id' => 3145,
                 'recipe_id' => 204,
+                'item_id' => 3145,
+                'amount' => 1,
             ),
             10 => 
             array (
-                'amount' => 1,
-                'item_id' => 3153,
                 'recipe_id' => 204,
+                'item_id' => 3153,
+                'amount' => 1,
             ),
             11 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 204,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             12 => 
             array (
-                'amount' => 1,
-                'item_id' => 3541,
                 'recipe_id' => 205,
+                'item_id' => 3541,
+                'amount' => 1,
             ),
             13 => 
             array (
-                'amount' => 2,
-                'item_id' => 4102,
                 'recipe_id' => 205,
+                'item_id' => 4102,
+                'amount' => 2,
             ),
             14 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 205,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             15 => 
             array (
-                'amount' => 1,
-                'item_id' => 3541,
                 'recipe_id' => 206,
+                'item_id' => 3541,
+                'amount' => 1,
             ),
             16 => 
             array (
-                'amount' => 3,
-                'item_id' => 8101,
                 'recipe_id' => 206,
+                'item_id' => 8101,
+                'amount' => 3,
             ),
             17 => 
             array (
-                'amount' => 1,
-                'item_id' => 8120,
                 'recipe_id' => 206,
+                'item_id' => 8120,
+                'amount' => 1,
             ),
             18 => 
             array (
-                'amount' => 1,
-                'item_id' => 8921,
                 'recipe_id' => 206,
+                'item_id' => 8921,
+                'amount' => 1,
             ),
             19 => 
             array (
-                'amount' => 1,
-                'item_id' => 11212,
                 'recipe_id' => 238,
+                'item_id' => 11212,
+                'amount' => 1,
             ),
             20 => 
             array (
-                'amount' => 2,
-                'item_id' => 11182,
                 'recipe_id' => 238,
+                'item_id' => 11182,
+                'amount' => 2,
             ),
             21 => 
             array (
-                'amount' => 1,
-                'item_id' => 11195,
                 'recipe_id' => 239,
+                'item_id' => 11195,
+                'amount' => 1,
             ),
             22 => 
             array (
-                'amount' => 3,
-                'item_id' => 11199,
                 'recipe_id' => 239,
+                'item_id' => 11199,
+                'amount' => 3,
             ),
             23 => 
             array (
-                'amount' => 1,
-                'item_id' => 11172,
                 'recipe_id' => 240,
+                'item_id' => 11172,
+                'amount' => 1,
             ),
             24 => 
             array (
-                'amount' => 4,
-                'item_id' => 11199,
                 'recipe_id' => 240,
+                'item_id' => 11199,
+                'amount' => 4,
             ),
             25 => 
             array (
-                'amount' => 1,
-                'item_id' => 11190,
                 'recipe_id' => 241,
+                'item_id' => 11190,
+                'amount' => 1,
             ),
             26 => 
             array (
-                'amount' => 5,
-                'item_id' => 11199,
                 'recipe_id' => 241,
+                'item_id' => 11199,
+                'amount' => 5,
             ),
             27 => 
             array (
-                'amount' => 1,
-                'item_id' => 11179,
                 'recipe_id' => 242,
+                'item_id' => 11179,
+                'amount' => 1,
             ),
             28 => 
             array (
-                'amount' => 6,
-                'item_id' => 11199,
                 'recipe_id' => 242,
+                'item_id' => 11199,
+                'amount' => 6,
             ),
             29 => 
             array (
-                'amount' => 5,
-                'item_id' => 11209,
                 'recipe_id' => 243,
+                'item_id' => 11209,
+                'amount' => 5,
             ),
             30 => 
             array (
-                'amount' => 5,
-                'item_id' => 11178,
                 'recipe_id' => 244,
+                'item_id' => 11178,
+                'amount' => 5,
             ),
             31 => 
             array (
-                'amount' => 5,
-                'item_id' => 11183,
                 'recipe_id' => 245,
+                'item_id' => 11183,
+                'amount' => 5,
             ),
             32 => 
             array (
-                'amount' => 5,
-                'item_id' => 11215,
                 'recipe_id' => 246,
+                'item_id' => 11215,
+                'amount' => 5,
             ),
             33 => 
             array (
-                'amount' => 5,
-                'item_id' => 11189,
                 'recipe_id' => 247,
+                'item_id' => 11189,
+                'amount' => 5,
             ),
             34 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 293,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             35 => 
             array (
-                'amount' => 1,
-                'item_id' => 11585,
                 'recipe_id' => 294,
+                'item_id' => 11585,
+                'amount' => 1,
             ),
             36 => 
             array (
-                'amount' => 1,
-                'item_id' => 11592,
                 'recipe_id' => 296,
+                'item_id' => 11592,
+                'amount' => 1,
             ),
             37 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 296,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             38 => 
             array (
-                'amount' => 1,
-                'item_id' => 11592,
                 'recipe_id' => 298,
+                'item_id' => 11592,
+                'amount' => 1,
             ),
             39 => 
             array (
-                'amount' => 1,
-                'item_id' => 11592,
                 'recipe_id' => 297,
+                'item_id' => 11592,
+                'amount' => 1,
             ),
             40 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 297,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             41 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 298,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             42 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 295,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             43 => 
             array (
-                'amount' => 1,
-                'item_id' => 11585,
                 'recipe_id' => 295,
+                'item_id' => 11585,
+                'amount' => 1,
             ),
             44 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 294,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             45 => 
             array (
-                'amount' => 1,
-                'item_id' => 11585,
                 'recipe_id' => 293,
+                'item_id' => 11585,
+                'amount' => 1,
             ),
             46 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 291,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             47 => 
             array (
-                'amount' => 1,
-                'item_id' => 11553,
                 'recipe_id' => 292,
+                'item_id' => 11553,
+                'amount' => 1,
             ),
             48 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 292,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             49 => 
             array (
-                'amount' => 1,
-                'item_id' => 11553,
                 'recipe_id' => 291,
+                'item_id' => 11553,
+                'amount' => 1,
             ),
             50 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 290,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             51 => 
             array (
-                'amount' => 1,
-                'item_id' => 11553,
                 'recipe_id' => 290,
+                'item_id' => 11553,
+                'amount' => 1,
             ),
             52 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 289,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             53 => 
             array (
-                'amount' => 1,
-                'item_id' => 11600,
                 'recipe_id' => 289,
+                'item_id' => 11600,
+                'amount' => 1,
             ),
             54 => 
             array (
-                'amount' => 1,
-                'item_id' => 11600,
                 'recipe_id' => 288,
+                'item_id' => 11600,
+                'amount' => 1,
             ),
             55 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 288,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             56 => 
             array (
-                'amount' => 2,
-                'item_id' => 11563,
                 'recipe_id' => 284,
+                'item_id' => 11563,
+                'amount' => 2,
             ),
             57 => 
             array (
-                'amount' => 1,
-                'item_id' => 11571,
                 'recipe_id' => 284,
+                'item_id' => 11571,
+                'amount' => 1,
             ),
             58 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 287,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             59 => 
             array (
-                'amount' => 1,
-                'item_id' => 11600,
                 'recipe_id' => 287,
+                'item_id' => 11600,
+                'amount' => 1,
             ),
             60 => 
             array (
-                'amount' => 2,
-                'item_id' => 11563,
                 'recipe_id' => 286,
+                'item_id' => 11563,
+                'amount' => 2,
             ),
             61 => 
             array (
-                'amount' => 1,
-                'item_id' => 11556,
                 'recipe_id' => 286,
+                'item_id' => 11556,
+                'amount' => 1,
             ),
             62 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 286,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             63 => 
             array (
-                'amount' => 1,
-                'item_id' => 11577,
                 'recipe_id' => 285,
+                'item_id' => 11577,
+                'amount' => 1,
             ),
             64 => 
             array (
-                'amount' => 2,
-                'item_id' => 11563,
                 'recipe_id' => 285,
+                'item_id' => 11563,
+                'amount' => 2,
             ),
             65 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 285,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             66 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 284,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             67 => 
             array (
-                'amount' => 1,
-                'item_id' => 11599,
                 'recipe_id' => 283,
+                'item_id' => 11599,
+                'amount' => 1,
             ),
             68 => 
             array (
-                'amount' => 2,
-                'item_id' => 11563,
                 'recipe_id' => 283,
+                'item_id' => 11563,
+                'amount' => 2,
             ),
             69 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 283,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             70 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 282,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             71 => 
             array (
-                'amount' => 1,
-                'item_id' => 11580,
                 'recipe_id' => 282,
+                'item_id' => 11580,
+                'amount' => 1,
             ),
             72 => 
             array (
-                'amount' => 1,
-                'item_id' => 11580,
                 'recipe_id' => 281,
+                'item_id' => 11580,
+                'amount' => 1,
             ),
             73 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 281,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             74 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 280,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             75 => 
             array (
-                'amount' => 1,
-                'item_id' => 11580,
                 'recipe_id' => 280,
+                'item_id' => 11580,
+                'amount' => 1,
             ),
             76 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 279,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             77 => 
             array (
-                'amount' => 1,
-                'item_id' => 11608,
                 'recipe_id' => 279,
+                'item_id' => 11608,
+                'amount' => 1,
             ),
             78 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 278,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             79 => 
             array (
-                'amount' => 1,
-                'item_id' => 11608,
                 'recipe_id' => 277,
+                'item_id' => 11608,
+                'amount' => 1,
             ),
             80 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 277,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             81 => 
             array (
-                'amount' => 1,
-                'item_id' => 11608,
                 'recipe_id' => 278,
+                'item_id' => 11608,
+                'amount' => 1,
             ),
             82 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 276,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             83 => 
             array (
-                'amount' => 1,
-                'item_id' => 11566,
                 'recipe_id' => 276,
+                'item_id' => 11566,
+                'amount' => 1,
             ),
             84 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 275,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             85 => 
             array (
-                'amount' => 1,
-                'item_id' => 11566,
                 'recipe_id' => 275,
+                'item_id' => 11566,
+                'amount' => 1,
             ),
             86 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 274,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             87 => 
             array (
-                'amount' => 1,
-                'item_id' => 11566,
                 'recipe_id' => 274,
+                'item_id' => 11566,
+                'amount' => 1,
             ),
             88 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 272,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             89 => 
             array (
-                'amount' => 1,
-                'item_id' => 11589,
                 'recipe_id' => 273,
+                'item_id' => 11589,
+                'amount' => 1,
             ),
             90 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 273,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             91 => 
             array (
-                'amount' => 1,
-                'item_id' => 11589,
                 'recipe_id' => 272,
+                'item_id' => 11589,
+                'amount' => 1,
             ),
             92 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 271,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             93 => 
             array (
-                'amount' => 1,
-                'item_id' => 11589,
                 'recipe_id' => 271,
+                'item_id' => 11589,
+                'amount' => 1,
             ),
             94 => 
             array (
-                'amount' => 1,
-                'item_id' => 11556,
                 'recipe_id' => 270,
+                'item_id' => 11556,
+                'amount' => 1,
             ),
             95 => 
             array (
-                'amount' => 2,
-                'item_id' => 11610,
                 'recipe_id' => 270,
+                'item_id' => 11610,
+                'amount' => 2,
             ),
             96 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 270,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             97 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 269,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             98 => 
             array (
-                'amount' => 2,
-                'item_id' => 11610,
                 'recipe_id' => 269,
+                'item_id' => 11610,
+                'amount' => 2,
             ),
             99 => 
             array (
-                'amount' => 1,
-                'item_id' => 11577,
                 'recipe_id' => 269,
+                'item_id' => 11577,
+                'amount' => 1,
             ),
             100 => 
             array (
-                'amount' => 1,
-                'item_id' => 11583,
                 'recipe_id' => 258,
+                'item_id' => 11583,
+                'amount' => 1,
             ),
             101 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 258,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             102 => 
             array (
-                'amount' => 2,
-                'item_id' => 11610,
                 'recipe_id' => 267,
+                'item_id' => 11610,
+                'amount' => 2,
             ),
             103 => 
             array (
-                'amount' => 2,
-                'item_id' => 11610,
                 'recipe_id' => 268,
+                'item_id' => 11610,
+                'amount' => 2,
             ),
             104 => 
             array (
-                'amount' => 1,
-                'item_id' => 11571,
                 'recipe_id' => 268,
+                'item_id' => 11571,
+                'amount' => 1,
             ),
             105 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 267,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             106 => 
             array (
-                'amount' => 1,
-                'item_id' => 11599,
                 'recipe_id' => 267,
+                'item_id' => 11599,
+                'amount' => 1,
             ),
             107 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 268,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             108 => 
             array (
-                'amount' => 1,
-                'item_id' => 11573,
                 'recipe_id' => 266,
+                'item_id' => 11573,
+                'amount' => 1,
             ),
             109 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 266,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             110 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 265,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             111 => 
             array (
-                'amount' => 1,
-                'item_id' => 11573,
                 'recipe_id' => 265,
+                'item_id' => 11573,
+                'amount' => 1,
             ),
             112 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 264,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             113 => 
             array (
-                'amount' => 1,
-                'item_id' => 11573,
                 'recipe_id' => 264,
+                'item_id' => 11573,
+                'amount' => 1,
             ),
             114 => 
             array (
-                'amount' => 1,
-                'item_id' => 11578,
                 'recipe_id' => 263,
+                'item_id' => 11578,
+                'amount' => 1,
             ),
             115 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 263,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             116 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 262,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             117 => 
             array (
-                'amount' => 1,
-                'item_id' => 11578,
                 'recipe_id' => 262,
+                'item_id' => 11578,
+                'amount' => 1,
             ),
             118 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 261,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             119 => 
             array (
-                'amount' => 1,
-                'item_id' => 11578,
                 'recipe_id' => 261,
+                'item_id' => 11578,
+                'amount' => 1,
             ),
             120 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 260,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             121 => 
             array (
-                'amount' => 1,
-                'item_id' => 11583,
                 'recipe_id' => 260,
+                'item_id' => 11583,
+                'amount' => 1,
             ),
             122 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 259,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             123 => 
             array (
-                'amount' => 1,
-                'item_id' => 11583,
                 'recipe_id' => 259,
+                'item_id' => 11583,
+                'amount' => 1,
             ),
             124 => 
             array (
-                'amount' => 1,
-                'item_id' => 11596,
                 'recipe_id' => 257,
+                'item_id' => 11596,
+                'amount' => 1,
             ),
             125 => 
             array (
-                'amount' => 1,
-                'item_id' => 11570,
                 'recipe_id' => 257,
+                'item_id' => 11570,
+                'amount' => 1,
             ),
             126 => 
             array (
-                'amount' => 1,
-                'item_id' => 11591,
                 'recipe_id' => 256,
+                'item_id' => 11591,
+                'amount' => 1,
             ),
             127 => 
             array (
-                'amount' => 1,
-                'item_id' => 11570,
                 'recipe_id' => 256,
+                'item_id' => 11570,
+                'amount' => 1,
             ),
             128 => 
             array (
-                'amount' => 1,
-                'item_id' => 11571,
                 'recipe_id' => 248,
+                'item_id' => 11571,
+                'amount' => 1,
             ),
             129 => 
             array (
-                'amount' => 1,
-                'item_id' => 11610,
                 'recipe_id' => 248,
+                'item_id' => 11610,
+                'amount' => 1,
             ),
             130 => 
             array (
-                'amount' => 1,
-                'item_id' => 11570,
                 'recipe_id' => 255,
+                'item_id' => 11570,
+                'amount' => 1,
             ),
             131 => 
             array (
-                'amount' => 1,
-                'item_id' => 11586,
                 'recipe_id' => 255,
+                'item_id' => 11586,
+                'amount' => 1,
             ),
             132 => 
             array (
-                'amount' => 1,
-                'item_id' => 11556,
                 'recipe_id' => 254,
+                'item_id' => 11556,
+                'amount' => 1,
             ),
             133 => 
             array (
-                'amount' => 2,
-                'item_id' => 11588,
                 'recipe_id' => 254,
+                'item_id' => 11588,
+                'amount' => 2,
             ),
             134 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 254,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             135 => 
             array (
-                'amount' => 1,
-                'item_id' => 11577,
                 'recipe_id' => 253,
+                'item_id' => 11577,
+                'amount' => 1,
             ),
             136 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 253,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             137 => 
             array (
-                'amount' => 2,
-                'item_id' => 11588,
                 'recipe_id' => 253,
+                'item_id' => 11588,
+                'amount' => 2,
             ),
             138 => 
             array (
-                'amount' => 1,
-                'item_id' => 11571,
                 'recipe_id' => 252,
+                'item_id' => 11571,
+                'amount' => 1,
             ),
             139 => 
             array (
-                'amount' => 2,
-                'item_id' => 11588,
                 'recipe_id' => 252,
+                'item_id' => 11588,
+                'amount' => 2,
             ),
             140 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 252,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             141 => 
             array (
-                'amount' => 1,
-                'item_id' => 11599,
                 'recipe_id' => 251,
+                'item_id' => 11599,
+                'amount' => 1,
             ),
             142 => 
             array (
-                'amount' => 2,
-                'item_id' => 11588,
                 'recipe_id' => 251,
+                'item_id' => 11588,
+                'amount' => 2,
             ),
             143 => 
             array (
-                'amount' => 1,
-                'item_id' => 11557,
                 'recipe_id' => 251,
+                'item_id' => 11557,
+                'amount' => 1,
             ),
             144 => 
             array (
-                'amount' => 1,
-                'item_id' => 11563,
                 'recipe_id' => 250,
+                'item_id' => 11563,
+                'amount' => 1,
             ),
             145 => 
             array (
-                'amount' => 1,
-                'item_id' => 11577,
                 'recipe_id' => 250,
+                'item_id' => 11577,
+                'amount' => 1,
             ),
             146 => 
             array (
-                'amount' => 1,
-                'item_id' => 11599,
                 'recipe_id' => 249,
+                'item_id' => 11599,
+                'amount' => 1,
             ),
             147 => 
             array (
-                'amount' => 1,
-                'item_id' => 11588,
                 'recipe_id' => 249,
+                'item_id' => 11588,
+                'amount' => 1,
             ),
             148 => 
             array (
-                'amount' => 2,
-                'item_id' => 11659,
                 'recipe_id' => 299,
+                'item_id' => 11659,
+                'amount' => 2,
             ),
             149 => 
             array (
-                'amount' => 2,
-                'item_id' => 11658,
                 'recipe_id' => 299,
+                'item_id' => 11658,
+                'amount' => 2,
             ),
             150 => 
             array (
-                'amount' => 2,
-                'item_id' => 11619,
                 'recipe_id' => 300,
+                'item_id' => 11619,
+                'amount' => 2,
             ),
             151 => 
             array (
-                'amount' => 2,
-                'item_id' => 11642,
                 'recipe_id' => 300,
+                'item_id' => 11642,
+                'amount' => 2,
             ),
             152 => 
             array (
-                'amount' => 2,
-                'item_id' => 11664,
                 'recipe_id' => 301,
+                'item_id' => 11664,
+                'amount' => 2,
             ),
             153 => 
             array (
-                'amount' => 2,
-                'item_id' => 11619,
                 'recipe_id' => 301,
+                'item_id' => 11619,
+                'amount' => 2,
             ),
             154 => 
             array (
-                'amount' => 3,
-                'item_id' => 11659,
                 'recipe_id' => 302,
+                'item_id' => 11659,
+                'amount' => 3,
             ),
             155 => 
             array (
-                'amount' => 3,
-                'item_id' => 11619,
                 'recipe_id' => 302,
+                'item_id' => 11619,
+                'amount' => 3,
             ),
             156 => 
             array (
-                'amount' => 1,
-                'item_id' => 11622,
                 'recipe_id' => 302,
+                'item_id' => 11622,
+                'amount' => 1,
             ),
             157 => 
             array (
-                'amount' => 2,
-                'item_id' => 11664,
                 'recipe_id' => 303,
+                'item_id' => 11664,
+                'amount' => 2,
             ),
             158 => 
             array (
-                'amount' => 2,
-                'item_id' => 11658,
                 'recipe_id' => 303,
+                'item_id' => 11658,
+                'amount' => 2,
             ),
             159 => 
             array (
-                'amount' => 1,
-                'item_id' => 11622,
                 'recipe_id' => 303,
+                'item_id' => 11622,
+                'amount' => 1,
             ),
             160 => 
             array (
-                'amount' => 2,
-                'item_id' => 11659,
                 'recipe_id' => 304,
+                'item_id' => 11659,
+                'amount' => 2,
             ),
             161 => 
             array (
-                'amount' => 2,
-                'item_id' => 11658,
                 'recipe_id' => 304,
+                'item_id' => 11658,
+                'amount' => 2,
             ),
             162 => 
             array (
-                'amount' => 2,
-                'item_id' => 11619,
                 'recipe_id' => 304,
+                'item_id' => 11619,
+                'amount' => 2,
             ),
             163 => 
             array (
-                'amount' => 2,
-                'item_id' => 11642,
                 'recipe_id' => 304,
+                'item_id' => 11642,
+                'amount' => 2,
             ),
             164 => 
             array (
-                'amount' => 1,
-                'item_id' => 11622,
                 'recipe_id' => 304,
+                'item_id' => 11622,
+                'amount' => 1,
             ),
             165 => 
             array (
-                'amount' => 3,
-                'item_id' => 11659,
                 'recipe_id' => 305,
+                'item_id' => 11659,
+                'amount' => 3,
             ),
             166 => 
             array (
-                'amount' => 3,
-                'item_id' => 11642,
                 'recipe_id' => 305,
+                'item_id' => 11642,
+                'amount' => 3,
             ),
             167 => 
             array (
-                'amount' => 1,
-                'item_id' => 11642,
                 'recipe_id' => 305,
+                'item_id' => 11642,
+                'amount' => 1,
             ),
             168 => 
             array (
-                'amount' => 1,
-                'item_id' => 11664,
                 'recipe_id' => 304,
+                'item_id' => 11664,
+                'amount' => 1,
             ),
         ));
         

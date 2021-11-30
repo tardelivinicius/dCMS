@@ -21,33 +21,33 @@ class PetVocalsTableSeeder extends Seeder
         \DB::table('pet_vocals')->insert(array (
             0 => 
             array (
-                'message' => 'Yay, lets play!',
                 'pet_id' => 0,
                 'type' => 'GENERIC_HAPPY',
+                'message' => 'Yay, lets play!',
             ),
             1 => 
             array (
-                'message' => '*Whistles*',
                 'pet_id' => 0,
                 'type' => 'GENERIC_HAPPY',
+                'message' => '*Whistles*',
             ),
             2 => 
             array (
-                'message' => 'Nope, ain\'t gonna do that for you.',
                 'pet_id' => 0,
                 'type' => 'DISOBEY',
+                'message' => 'Nope, ain\'t gonna do that for you.',
             ),
             3 => 
             array (
-                'message' => 'Who do you think I am?',
                 'pet_id' => 0,
                 'type' => 'DISOBEY',
+                'message' => 'Who do you think I am?',
             ),
             4 => 
             array (
-                'message' => 'That ain\'t gonna happen mate.',
                 'pet_id' => 0,
                 'type' => 'DISOBEY',
+                'message' => 'That ain\'t gonna happen mate.',
             ),
         ));
         

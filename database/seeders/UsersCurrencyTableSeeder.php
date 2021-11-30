@@ -21,33 +21,33 @@ class UsersCurrencyTableSeeder extends Seeder
         \DB::table('users_currency')->insert(array (
             0 => 
             array (
-                'amount' => 5,
-                'type' => 0,
                 'user_id' => 1,
+                'type' => 0,
+                'amount' => 5,
             ),
             1 => 
             array (
-                'amount' => 90,
-                'type' => 0,
                 'user_id' => 2,
+                'type' => 0,
+                'amount' => 90,
             ),
             2 => 
             array (
-                'amount' => 145,
-                'type' => 0,
                 'user_id' => 3,
+                'type' => 0,
+                'amount' => 145,
             ),
             3 => 
             array (
-                'amount' => 10,
-                'type' => 0,
                 'user_id' => 4,
+                'type' => 0,
+                'amount' => 10,
             ),
             4 => 
             array (
-                'amount' => 25,
-                'type' => 0,
                 'user_id' => 7,
+                'type' => 0,
+                'amount' => 5,
             ),
         ));
         

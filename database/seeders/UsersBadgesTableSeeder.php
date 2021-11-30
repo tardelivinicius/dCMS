@@ -21,213 +21,185 @@ class UsersBadgesTableSeeder extends Seeder
         \DB::table('users_badges')->insert(array (
             0 => 
             array (
-                'badge_code' => 'ACH_TraderPass1',
                 'id' => 1,
-                'slot_id' => 0,
                 'user_id' => 1,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_TraderPass1',
             ),
             1 => 
             array (
-                'badge_code' => 'ACH_TraderPass1',
                 'id' => 2,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_TraderPass1',
             ),
             2 => 
             array (
-                'badge_code' => 'ACH_AllTimeHotelPresence3',
                 'id' => 3,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_AllTimeHotelPresence3',
             ),
             3 => 
             array (
-                'badge_code' => 'ACH_TraderPass1',
                 'id' => 4,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_TraderPass1',
             ),
             4 => 
             array (
-                'badge_code' => 'ACH_RespectEarned1',
                 'id' => 5,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RespectEarned1',
             ),
             5 => 
             array (
-                'badge_code' => 'ACH_RespectGiven1',
                 'id' => 6,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RespectGiven1',
             ),
             6 => 
             array (
-                'badge_code' => 'ACH_RegistrationDuration3',
                 'id' => 7,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RegistrationDuration3',
             ),
             7 => 
             array (
-                'badge_code' => 'ACH_AllTimeHotelPresence2',
                 'id' => 8,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_AllTimeHotelPresence2',
             ),
             8 => 
             array (
-                'badge_code' => 'ACH_AllTimeHotelPresence3',
                 'id' => 9,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_AllTimeHotelPresence3',
             ),
             9 => 
             array (
-                'badge_code' => 'ACH_Spr1',
                 'id' => 10,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_Spr1',
             ),
             10 => 
             array (
-                'badge_code' => 'ACH_SelfModChatFloodFilterSeen1',
                 'id' => 11,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatFloodFilterSeen1',
             ),
             11 => 
             array (
-                'badge_code' => 'ACH_SelfModChatHearRangeSeen1',
                 'id' => 12,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatHearRangeSeen1',
             ),
             12 => 
             array (
-                'badge_code' => 'ACH_SelfModChatScrollSpeedSeen1',
                 'id' => 13,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatScrollSpeedSeen1',
             ),
             13 => 
             array (
-                'badge_code' => 'ACH_SelfModDoorModeSeen1',
                 'id' => 14,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModDoorModeSeen1',
             ),
             14 => 
             array (
-                'badge_code' => 'ACH_TraderPass1',
                 'id' => 15,
-                'slot_id' => 0,
                 'user_id' => 4,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_TraderPass1',
             ),
             15 => 
             array (
-                'badge_code' => 'ACH_AllTimeHotelPresence1',
                 'id' => 16,
-                'slot_id' => 0,
                 'user_id' => 4,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_AllTimeHotelPresence1',
             ),
             16 => 
             array (
-                'badge_code' => 'ACH_PetLover1',
                 'id' => 17,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_PetLover1',
             ),
             17 => 
             array (
-                'badge_code' => 'ACH_RoomDecoFloor2',
                 'id' => 18,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RoomDecoFloor2',
             ),
             18 => 
             array (
-                'badge_code' => 'ACH_RoomDecoWallpaper2',
                 'id' => 19,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RoomDecoWallpaper2',
             ),
             19 => 
             array (
-                'badge_code' => 'ACH_RegistrationDuration3',
                 'id' => 20,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_RegistrationDuration3',
             ),
             20 => 
             array (
-                'badge_code' => 'ACH_AllTimeHotelPresence3',
                 'id' => 21,
-                'slot_id' => 0,
                 'user_id' => 3,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_AllTimeHotelPresence3',
             ),
             21 => 
             array (
-                'badge_code' => 'ACH_SelfModChatFloodFilterSeen1',
                 'id' => 22,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatFloodFilterSeen1',
             ),
             22 => 
             array (
-                'badge_code' => 'ACH_SelfModChatHearRangeSeen1',
                 'id' => 23,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatHearRangeSeen1',
             ),
             23 => 
             array (
-                'badge_code' => 'ACH_SelfModChatScrollSpeedSeen1',
                 'id' => 24,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModChatScrollSpeedSeen1',
             ),
             24 => 
             array (
-                'badge_code' => 'ACH_SelfModDoorModeSeen1',
                 'id' => 25,
-                'slot_id' => 0,
                 'user_id' => 2,
+                'slot_id' => 0,
+                'badge_code' => 'ACH_SelfModDoorModeSeen1',
             ),
             25 => 
             array (
-                'badge_code' => 'ACH_TraderPass1',
                 'id' => 26,
-                'slot_id' => 0,
                 'user_id' => 7,
-            ),
-            26 => 
-            array (
-                'badge_code' => 'ACH_SelfModChatFloodFilterSeen1',
-                'id' => 27,
                 'slot_id' => 0,
-                'user_id' => 7,
-            ),
-            27 => 
-            array (
-                'badge_code' => 'ACH_SelfModChatHearRangeSeen1',
-                'id' => 28,
-                'slot_id' => 0,
-                'user_id' => 7,
-            ),
-            28 => 
-            array (
-                'badge_code' => 'ACH_SelfModChatScrollSpeedSeen1',
-                'id' => 29,
-                'slot_id' => 0,
-                'user_id' => 7,
-            ),
-            29 => 
-            array (
-                'badge_code' => 'ACH_SelfModDoorModeSeen1',
-                'id' => 30,
-                'slot_id' => 0,
-                'user_id' => 7,
+                'badge_code' => 'ACH_TraderPass1',
             ),
         ));
         

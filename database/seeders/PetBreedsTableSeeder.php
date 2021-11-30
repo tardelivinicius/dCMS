@@ -21,3267 +21,3267 @@ class PetBreedsTableSeeder extends Seeder
         \DB::table('pet_breeds')->insert(array (
             0 => 
             array (
+                'race' => 0,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             1 => 
             array (
+                'race' => 0,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             2 => 
             array (
+                'race' => 0,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             3 => 
             array (
+                'race' => 0,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             4 => 
             array (
+                'race' => 0,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             5 => 
             array (
+                'race' => 0,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             6 => 
             array (
+                'race' => 0,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             7 => 
             array (
+                'race' => 0,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             8 => 
             array (
+                'race' => 0,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             9 => 
             array (
+                'race' => 0,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             10 => 
             array (
+                'race' => 0,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             11 => 
             array (
+                'race' => 0,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             12 => 
             array (
+                'race' => 0,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             13 => 
             array (
+                'race' => 0,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             14 => 
             array (
+                'race' => 0,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             15 => 
             array (
+                'race' => 0,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             16 => 
             array (
+                'race' => 0,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             17 => 
             array (
+                'race' => 0,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             18 => 
             array (
+                'race' => 0,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             19 => 
             array (
+                'race' => 0,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             20 => 
             array (
+                'race' => 0,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             21 => 
             array (
+                'race' => 0,
                 'color_one' => 21,
                 'color_two' => 21,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             22 => 
             array (
+                'race' => 0,
                 'color_one' => 22,
                 'color_two' => 22,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             23 => 
             array (
+                'race' => 0,
                 'color_one' => 23,
                 'color_two' => 23,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             24 => 
             array (
+                'race' => 0,
                 'color_one' => 24,
                 'color_two' => 24,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 0,
             ),
             25 => 
             array (
+                'race' => 1,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             26 => 
             array (
+                'race' => 1,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             27 => 
             array (
+                'race' => 1,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             28 => 
             array (
+                'race' => 1,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             29 => 
             array (
+                'race' => 1,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             30 => 
             array (
+                'race' => 1,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             31 => 
             array (
+                'race' => 1,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             32 => 
             array (
+                'race' => 1,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             33 => 
             array (
+                'race' => 1,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             34 => 
             array (
+                'race' => 1,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             35 => 
             array (
+                'race' => 1,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             36 => 
             array (
+                'race' => 1,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             37 => 
             array (
+                'race' => 1,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             38 => 
             array (
+                'race' => 1,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             39 => 
             array (
+                'race' => 1,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             40 => 
             array (
+                'race' => 1,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             41 => 
             array (
+                'race' => 1,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             42 => 
             array (
+                'race' => 1,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             43 => 
             array (
+                'race' => 1,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             44 => 
             array (
+                'race' => 1,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             45 => 
             array (
+                'race' => 1,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             46 => 
             array (
+                'race' => 1,
                 'color_one' => 21,
                 'color_two' => 21,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             47 => 
             array (
+                'race' => 1,
                 'color_one' => 22,
                 'color_two' => 22,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             48 => 
             array (
+                'race' => 1,
                 'color_one' => 23,
                 'color_two' => 23,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             49 => 
             array (
+                'race' => 1,
                 'color_one' => 24,
                 'color_two' => 24,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 1,
             ),
             50 => 
             array (
+                'race' => 2,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             51 => 
             array (
+                'race' => 2,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             52 => 
             array (
+                'race' => 2,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             53 => 
             array (
+                'race' => 2,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             54 => 
             array (
+                'race' => 2,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             55 => 
             array (
+                'race' => 2,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             56 => 
             array (
+                'race' => 2,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             57 => 
             array (
+                'race' => 2,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             58 => 
             array (
+                'race' => 2,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             59 => 
             array (
+                'race' => 2,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             60 => 
             array (
+                'race' => 2,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             61 => 
             array (
+                'race' => 2,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 2,
             ),
             62 => 
             array (
+                'race' => 3,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             63 => 
             array (
+                'race' => 3,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             64 => 
             array (
+                'race' => 3,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             65 => 
             array (
+                'race' => 3,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             66 => 
             array (
+                'race' => 3,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             67 => 
             array (
+                'race' => 3,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             68 => 
             array (
+                'race' => 3,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 3,
             ),
             69 => 
             array (
+                'race' => 4,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 4,
             ),
             70 => 
             array (
+                'race' => 4,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 4,
             ),
             71 => 
             array (
+                'race' => 4,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 4,
             ),
             72 => 
             array (
+                'race' => 4,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 4,
             ),
             73 => 
             array (
+                'race' => 5,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             74 => 
             array (
+                'race' => 5,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             75 => 
             array (
+                'race' => 5,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             76 => 
             array (
+                'race' => 5,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             77 => 
             array (
+                'race' => 5,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             78 => 
             array (
+                'race' => 5,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             79 => 
             array (
+                'race' => 5,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 5,
             ),
             80 => 
             array (
+                'race' => 6,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             81 => 
             array (
+                'race' => 6,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             82 => 
             array (
+                'race' => 6,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             83 => 
             array (
+                'race' => 6,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             84 => 
             array (
+                'race' => 6,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             85 => 
             array (
+                'race' => 6,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             86 => 
             array (
+                'race' => 6,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             87 => 
             array (
+                'race' => 6,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             88 => 
             array (
+                'race' => 6,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             89 => 
             array (
+                'race' => 6,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             90 => 
             array (
+                'race' => 6,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             91 => 
             array (
+                'race' => 6,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 6,
             ),
             92 => 
             array (
+                'race' => 6,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 6,
             ),
             93 => 
             array (
+                'race' => 7,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             94 => 
             array (
+                'race' => 7,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             95 => 
             array (
+                'race' => 7,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             96 => 
             array (
+                'race' => 7,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '0',
                 'has_color_two' => '1',
-                'race' => 7,
             ),
             97 => 
             array (
+                'race' => 7,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             98 => 
             array (
+                'race' => 7,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             99 => 
             array (
+                'race' => 7,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             100 => 
             array (
+                'race' => 7,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 7,
             ),
             101 => 
             array (
+                'race' => 8,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             102 => 
             array (
+                'race' => 8,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             103 => 
             array (
+                'race' => 8,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             104 => 
             array (
+                'race' => 8,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             105 => 
             array (
+                'race' => 8,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             106 => 
             array (
+                'race' => 8,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             107 => 
             array (
+                'race' => 8,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             108 => 
             array (
+                'race' => 8,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             109 => 
             array (
+                'race' => 8,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             110 => 
             array (
+                'race' => 8,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             111 => 
             array (
+                'race' => 8,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             112 => 
             array (
+                'race' => 8,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             113 => 
             array (
+                'race' => 8,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 8,
             ),
             114 => 
             array (
+                'race' => 9,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             115 => 
             array (
+                'race' => 9,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             116 => 
             array (
+                'race' => 9,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             117 => 
             array (
+                'race' => 9,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             118 => 
             array (
+                'race' => 9,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             119 => 
             array (
+                'race' => 9,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             120 => 
             array (
+                'race' => 9,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             121 => 
             array (
+                'race' => 9,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             122 => 
             array (
+                'race' => 9,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 9,
             ),
             123 => 
             array (
+                'race' => 10,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 10,
             ),
             124 => 
             array (
+                'race' => 10,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 10,
             ),
             125 => 
             array (
+                'race' => 10,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 10,
             ),
             126 => 
             array (
+                'race' => 10,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 10,
             ),
             127 => 
             array (
+                'race' => 10,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 10,
             ),
             128 => 
             array (
+                'race' => 11,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             129 => 
             array (
+                'race' => 11,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             130 => 
             array (
+                'race' => 11,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             131 => 
             array (
+                'race' => 11,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             132 => 
             array (
+                'race' => 11,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             133 => 
             array (
+                'race' => 11,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             134 => 
             array (
+                'race' => 11,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '0',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             135 => 
             array (
+                'race' => 11,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             136 => 
             array (
+                'race' => 11,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             137 => 
             array (
+                'race' => 11,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             138 => 
             array (
+                'race' => 11,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             139 => 
             array (
+                'race' => 11,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             140 => 
             array (
+                'race' => 11,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             141 => 
             array (
+                'race' => 11,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 11,
             ),
             142 => 
             array (
+                'race' => 12,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             143 => 
             array (
+                'race' => 12,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             144 => 
             array (
+                'race' => 12,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             145 => 
             array (
+                'race' => 12,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             146 => 
             array (
+                'race' => 12,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             147 => 
             array (
+                'race' => 12,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             148 => 
             array (
+                'race' => 12,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             149 => 
             array (
+                'race' => 12,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             150 => 
             array (
+                'race' => 12,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             151 => 
             array (
+                'race' => 12,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             152 => 
             array (
+                'race' => 12,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 12,
             ),
             153 => 
             array (
+                'race' => 14,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             154 => 
             array (
+                'race' => 14,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             155 => 
             array (
+                'race' => 14,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             156 => 
             array (
+                'race' => 14,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             157 => 
             array (
+                'race' => 14,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             158 => 
             array (
+                'race' => 14,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             159 => 
             array (
+                'race' => 14,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             160 => 
             array (
+                'race' => 14,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             161 => 
             array (
+                'race' => 14,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             162 => 
             array (
+                'race' => 14,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             163 => 
             array (
+                'race' => 14,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             164 => 
             array (
+                'race' => 14,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             165 => 
             array (
+                'race' => 14,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             166 => 
             array (
+                'race' => 14,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 14,
             ),
             167 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             168 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             169 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             170 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             171 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             172 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 21,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             173 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 25,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             174 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 29,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             175 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 33,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             176 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 37,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             177 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 41,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             178 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 45,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             179 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 49,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             180 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 53,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             181 => 
             array (
+                'race' => 15,
                 'color_one' => 1,
                 'color_two' => 57,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             182 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             183 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             184 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             185 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             186 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             187 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 22,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             188 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 26,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             189 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 30,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             190 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 34,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             191 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 38,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             192 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 42,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             193 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 46,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             194 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 50,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             195 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 54,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             196 => 
             array (
+                'race' => 15,
                 'color_one' => 2,
                 'color_two' => 58,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             197 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             198 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             199 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             200 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             201 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             202 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 23,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             203 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 27,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             204 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 31,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             205 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 35,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             206 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 39,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             207 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 43,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             208 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 47,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             209 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 51,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             210 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 55,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             211 => 
             array (
+                'race' => 15,
                 'color_one' => 3,
                 'color_two' => 59,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             212 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             213 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             214 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             215 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             216 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 21,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             217 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 24,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             218 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 28,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             219 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 32,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             220 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 36,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             221 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 40,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             222 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 44,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             223 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 48,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             224 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 52,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             225 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 56,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             226 => 
             array (
+                'race' => 15,
                 'color_one' => 4,
                 'color_two' => 60,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 15,
             ),
             227 => 
             array (
+                'race' => 17,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 17,
             ),
             228 => 
             array (
+                'race' => 17,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 17,
             ),
             229 => 
             array (
+                'race' => 17,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 17,
             ),
             230 => 
             array (
+                'race' => 17,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 17,
             ),
             231 => 
             array (
+                'race' => 17,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 17,
             ),
             232 => 
             array (
+                'race' => 18,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 18,
             ),
             233 => 
             array (
+                'race' => 19,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 19,
             ),
             234 => 
             array (
+                'race' => 20,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 20,
             ),
             235 => 
             array (
+                'race' => 21,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 21,
             ),
             236 => 
             array (
+                'race' => 22,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 22,
             ),
             237 => 
             array (
+                'race' => 23,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 23,
             ),
             238 => 
             array (
+                'race' => 24,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             239 => 
             array (
+                'race' => 24,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             240 => 
             array (
+                'race' => 24,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             241 => 
             array (
+                'race' => 24,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             242 => 
             array (
+                'race' => 24,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             243 => 
             array (
+                'race' => 24,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             244 => 
             array (
+                'race' => 24,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             245 => 
             array (
+                'race' => 24,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             246 => 
             array (
+                'race' => 24,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             247 => 
             array (
+                'race' => 24,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             248 => 
             array (
+                'race' => 24,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             249 => 
             array (
+                'race' => 24,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             250 => 
             array (
+                'race' => 24,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             251 => 
             array (
+                'race' => 24,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             252 => 
             array (
+                'race' => 24,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             253 => 
             array (
+                'race' => 24,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             254 => 
             array (
+                'race' => 24,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             255 => 
             array (
+                'race' => 24,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             256 => 
             array (
+                'race' => 24,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             257 => 
             array (
+                'race' => 24,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 24,
             ),
             258 => 
             array (
+                'race' => 25,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             259 => 
             array (
+                'race' => 25,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             260 => 
             array (
+                'race' => 25,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             261 => 
             array (
+                'race' => 25,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             262 => 
             array (
+                'race' => 25,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             263 => 
             array (
+                'race' => 25,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             264 => 
             array (
+                'race' => 25,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             265 => 
             array (
+                'race' => 25,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             266 => 
             array (
+                'race' => 25,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             267 => 
             array (
+                'race' => 25,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             268 => 
             array (
+                'race' => 25,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             269 => 
             array (
+                'race' => 25,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             270 => 
             array (
+                'race' => 25,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             271 => 
             array (
+                'race' => 25,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             272 => 
             array (
+                'race' => 25,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             273 => 
             array (
+                'race' => 25,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             274 => 
             array (
+                'race' => 25,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             275 => 
             array (
+                'race' => 25,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             276 => 
             array (
+                'race' => 25,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             277 => 
             array (
+                'race' => 25,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 25,
             ),
             278 => 
             array (
+                'race' => 26,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '0',
                 'has_color_two' => '0',
-                'race' => 26,
             ),
             279 => 
             array (
+                'race' => 27,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '0',
                 'has_color_two' => '0',
-                'race' => 27,
             ),
             280 => 
             array (
+                'race' => 28,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             281 => 
             array (
+                'race' => 28,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             282 => 
             array (
+                'race' => 28,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             283 => 
             array (
+                'race' => 28,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             284 => 
             array (
+                'race' => 28,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             285 => 
             array (
+                'race' => 28,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             286 => 
             array (
+                'race' => 28,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             287 => 
             array (
+                'race' => 28,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             288 => 
             array (
+                'race' => 28,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             289 => 
             array (
+                'race' => 28,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             290 => 
             array (
+                'race' => 28,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             291 => 
             array (
+                'race' => 28,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             292 => 
             array (
+                'race' => 28,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             293 => 
             array (
+                'race' => 28,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             294 => 
             array (
+                'race' => 28,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             295 => 
             array (
+                'race' => 28,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             296 => 
             array (
+                'race' => 28,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             297 => 
             array (
+                'race' => 28,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             298 => 
             array (
+                'race' => 28,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             299 => 
             array (
+                'race' => 28,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 28,
             ),
             300 => 
             array (
+                'race' => 29,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             301 => 
             array (
+                'race' => 29,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             302 => 
             array (
+                'race' => 29,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             303 => 
             array (
+                'race' => 29,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             304 => 
             array (
+                'race' => 29,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             305 => 
             array (
+                'race' => 29,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             306 => 
             array (
+                'race' => 29,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             307 => 
             array (
+                'race' => 29,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             308 => 
             array (
+                'race' => 29,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             309 => 
             array (
+                'race' => 29,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             310 => 
             array (
+                'race' => 29,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             311 => 
             array (
+                'race' => 29,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             312 => 
             array (
+                'race' => 29,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             313 => 
             array (
+                'race' => 29,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             314 => 
             array (
+                'race' => 29,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             315 => 
             array (
+                'race' => 29,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             316 => 
             array (
+                'race' => 29,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             317 => 
             array (
+                'race' => 29,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             318 => 
             array (
+                'race' => 29,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             319 => 
             array (
+                'race' => 29,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 29,
             ),
             320 => 
             array (
+                'race' => 30,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             321 => 
             array (
+                'race' => 30,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             322 => 
             array (
+                'race' => 30,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             323 => 
             array (
+                'race' => 30,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             324 => 
             array (
+                'race' => 30,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             325 => 
             array (
+                'race' => 30,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             326 => 
             array (
+                'race' => 30,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             327 => 
             array (
+                'race' => 30,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             328 => 
             array (
+                'race' => 30,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             329 => 
             array (
+                'race' => 30,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             330 => 
             array (
+                'race' => 30,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             331 => 
             array (
+                'race' => 30,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             332 => 
             array (
+                'race' => 30,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             333 => 
             array (
+                'race' => 30,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             334 => 
             array (
+                'race' => 30,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             335 => 
             array (
+                'race' => 30,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             336 => 
             array (
+                'race' => 30,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             337 => 
             array (
+                'race' => 30,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             338 => 
             array (
+                'race' => 30,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             339 => 
             array (
+                'race' => 30,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 30,
             ),
             340 => 
             array (
+                'race' => 31,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             341 => 
             array (
+                'race' => 31,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             342 => 
             array (
+                'race' => 31,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             343 => 
             array (
+                'race' => 31,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             344 => 
             array (
+                'race' => 31,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             345 => 
             array (
+                'race' => 31,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             346 => 
             array (
+                'race' => 31,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             347 => 
             array (
+                'race' => 31,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             348 => 
             array (
+                'race' => 31,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             349 => 
             array (
+                'race' => 31,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 31,
             ),
             350 => 
             array (
+                'race' => 32,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 32,
             ),
             351 => 
             array (
+                'race' => 33,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             352 => 
             array (
+                'race' => 33,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             353 => 
             array (
+                'race' => 33,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             354 => 
             array (
+                'race' => 33,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             355 => 
             array (
+                'race' => 33,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             356 => 
             array (
+                'race' => 33,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             357 => 
             array (
+                'race' => 33,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             358 => 
             array (
+                'race' => 33,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             359 => 
             array (
+                'race' => 33,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             360 => 
             array (
+                'race' => 33,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             361 => 
             array (
+                'race' => 33,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             362 => 
             array (
+                'race' => 33,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             363 => 
             array (
+                'race' => 33,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             364 => 
             array (
+                'race' => 33,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             365 => 
             array (
+                'race' => 33,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             366 => 
             array (
+                'race' => 33,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             367 => 
             array (
+                'race' => 33,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             368 => 
             array (
+                'race' => 33,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             369 => 
             array (
+                'race' => 33,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             370 => 
             array (
+                'race' => 33,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             371 => 
             array (
+                'race' => 33,
                 'color_one' => 20,
                 'color_two' => 20,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 33,
             ),
             372 => 
             array (
+                'race' => 34,
                 'color_one' => 0,
                 'color_two' => 0,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             373 => 
             array (
+                'race' => 34,
                 'color_one' => 1,
                 'color_two' => 1,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             374 => 
             array (
+                'race' => 34,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             375 => 
             array (
+                'race' => 34,
                 'color_one' => 3,
                 'color_two' => 3,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             376 => 
             array (
+                'race' => 34,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             377 => 
             array (
+                'race' => 34,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             378 => 
             array (
+                'race' => 34,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             379 => 
             array (
+                'race' => 34,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             380 => 
             array (
+                'race' => 34,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             381 => 
             array (
+                'race' => 34,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             382 => 
             array (
+                'race' => 34,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             383 => 
             array (
+                'race' => 34,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             384 => 
             array (
+                'race' => 34,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             385 => 
             array (
+                'race' => 34,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             386 => 
             array (
+                'race' => 34,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             387 => 
             array (
+                'race' => 34,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             388 => 
             array (
+                'race' => 34,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             389 => 
             array (
+                'race' => 34,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             390 => 
             array (
+                'race' => 34,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             391 => 
             array (
+                'race' => 34,
                 'color_one' => 19,
                 'color_two' => 19,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 34,
             ),
             392 => 
             array (
+                'race' => 35,
                 'color_one' => 2,
                 'color_two' => 2,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             393 => 
             array (
+                'race' => 35,
                 'color_one' => 4,
                 'color_two' => 4,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             394 => 
             array (
+                'race' => 35,
                 'color_one' => 5,
                 'color_two' => 5,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             395 => 
             array (
+                'race' => 35,
                 'color_one' => 6,
                 'color_two' => 6,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             396 => 
             array (
+                'race' => 35,
                 'color_one' => 7,
                 'color_two' => 7,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             397 => 
             array (
+                'race' => 35,
                 'color_one' => 8,
                 'color_two' => 8,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             398 => 
             array (
+                'race' => 35,
                 'color_one' => 9,
                 'color_two' => 9,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             399 => 
             array (
+                'race' => 35,
                 'color_one' => 10,
                 'color_two' => 10,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             400 => 
             array (
+                'race' => 35,
                 'color_one' => 11,
                 'color_two' => 11,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             401 => 
             array (
+                'race' => 35,
                 'color_one' => 12,
                 'color_two' => 12,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             402 => 
             array (
+                'race' => 35,
                 'color_one' => 13,
                 'color_two' => 13,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             403 => 
             array (
+                'race' => 35,
                 'color_one' => 14,
                 'color_two' => 14,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             404 => 
             array (
+                'race' => 35,
                 'color_one' => 15,
                 'color_two' => 15,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             405 => 
             array (
+                'race' => 35,
                 'color_one' => 16,
                 'color_two' => 16,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             406 => 
             array (
+                'race' => 35,
                 'color_one' => 17,
                 'color_two' => 17,
                 'has_color_one' => '1',
                 'has_color_two' => '0',
-                'race' => 35,
             ),
             407 => 
             array (
+                'race' => 35,
                 'color_one' => 18,
                 'color_two' => 18,
                 'has_color_one' => '1',
                 'has_color_two' => '1',
-                'race' => 35,
             ),
         ));
         

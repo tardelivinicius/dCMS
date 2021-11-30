@@ -21,123 +21,123 @@ class PetBreedingRacesTableSeeder extends Seeder
         \DB::table('pet_breeding_races')->insert(array (
             0 => 
             array (
-                'breed' => 1,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 1,
             ),
             1 => 
             array (
-                'breed' => 2,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 2,
             ),
             2 => 
             array (
-                'breed' => 3,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 3,
             ),
             3 => 
             array (
-                'breed' => 4,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 4,
             ),
             4 => 
             array (
-                'breed' => 5,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 5,
             ),
             5 => 
             array (
-                'breed' => 6,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 6,
             ),
             6 => 
             array (
-                'breed' => 7,
                 'pet_type' => 28,
                 'rarity_level' => 1,
+                'breed' => 7,
             ),
             7 => 
             array (
-                'breed' => 8,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 8,
             ),
             8 => 
             array (
-                'breed' => 9,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 9,
             ),
             9 => 
             array (
-                'breed' => 10,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 10,
             ),
             10 => 
             array (
-                'breed' => 11,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 11,
             ),
             11 => 
             array (
-                'breed' => 12,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 12,
             ),
             12 => 
             array (
-                'breed' => 13,
                 'pet_type' => 28,
                 'rarity_level' => 2,
+                'breed' => 13,
             ),
             13 => 
             array (
-                'breed' => 14,
                 'pet_type' => 28,
                 'rarity_level' => 3,
+                'breed' => 14,
             ),
             14 => 
             array (
-                'breed' => 15,
                 'pet_type' => 28,
                 'rarity_level' => 3,
+                'breed' => 15,
             ),
             15 => 
             array (
-                'breed' => 16,
                 'pet_type' => 28,
                 'rarity_level' => 3,
+                'breed' => 16,
             ),
             16 => 
             array (
-                'breed' => 17,
                 'pet_type' => 28,
                 'rarity_level' => 3,
+                'breed' => 17,
             ),
             17 => 
             array (
-                'breed' => 18,
                 'pet_type' => 28,
                 'rarity_level' => 4,
+                'breed' => 18,
             ),
             18 => 
             array (
-                'breed' => 19,
                 'pet_type' => 28,
                 'rarity_level' => 4,
+                'breed' => 19,
             ),
             19 => 
             array (
-                'breed' => 20,
                 'pet_type' => 28,
                 'rarity_level' => 4,
+                'breed' => 20,
             ),
         ));
         

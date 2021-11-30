@@ -21,52 +21,52 @@ class NavigatorFilterTableSeeder extends Seeder
         \DB::table('navigator_filter')->insert(array (
             0 => 
             array (
+                'key' => 'owner',
+                'field' => 'getOwnerName',
                 'compare' => 'equals_ignore_case',
                 'database_query' => 'SELECT * FROM rooms WHERE owner_name LIKE ?',
-                'field' => 'getOwnerName',
-                'key' => 'owner',
             ),
             1 => 
             array (
+                'key' => 'anything',
+                'field' => 'filterAnything',
                 'compare' => 'contains',
             'database_query' => 'SELECT rooms.*, CONCAT_WS(rooms.owner_name, rooms.name, rooms.description, rooms.tags, guilds.name, guilds.description) as whole FROM rooms LEFT JOIN guilds ON rooms.guild_id = guilds.id HAVING whole LIKE ? ',
-                'field' => 'filterAnything',
-                'key' => 'anything',
             ),
             2 => 
             array (
+                'key' => 'roomname',
+                'field' => 'getName',
                 'compare' => 'contains',
                 'database_query' => 'SELECT * FROM rooms WHERE name COLLATE UTF8_GENERAL_CI LIKE ? ',
-                'field' => 'getName',
-                'key' => 'roomname',
             ),
             3 => 
             array (
+                'key' => 'tag',
+                'field' => 'getTags',
                 'compare' => 'equals',
             'database_query' => 'SELECT * FROM rooms WHERE tags LIKE CONCAT(?, ";%") ',
-                'field' => 'getTags',
-                'key' => 'tag',
             ),
             4 => 
             array (
+                'key' => 'group',
+                'field' => 'getGuildName',
                 'compare' => 'contains',
             'database_query' => 'SELECT rooms.* FROM guilds INNER JOIN rooms ON guilds.room_id = rooms.id WHERE CONCAT(guilds.name, guilds.description) LIKE ?',
-                'field' => 'getGuildName',
-                'key' => 'group',
             ),
             5 => 
             array (
+                'key' => 'desc',
+                'field' => 'getDescription',
                 'compare' => 'contains',
                 'database_query' => 'SELECT * FROM rooms WHERE description LIKE ?',
-                'field' => 'getDescription',
-                'key' => 'desc',
             ),
             6 => 
             array (
+                'key' => 'promo',
+                'field' => 'getPromotionDesc',
                 'compare' => 'contains',
             'database_query' => 'SELECT rooms.* FROM rooms INNER JOIN room_promotions ON rooms.id = room_promotions.id WHERE room_promotions.end_timestamp >= UNIX_TIMESTAMP() AND CONCAT (room_promotions.title, room_promotions.description) LIKE ?',
-                'field' => 'getPromotionDesc',
-                'key' => 'promo',
             ),
         ));
         

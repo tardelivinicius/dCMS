@@ -21,11 +21,11 @@ class UsersTargetOfferPurchasesTableSeeder extends Seeder
         \DB::table('users_target_offer_purchases')->insert(array (
             0 => 
             array (
-                'amount' => 0,
-                'last_purchase' => 0,
+                'user_id' => 1,
                 'offer_id' => 1,
                 'state' => 0,
-                'user_id' => 1,
+                'amount' => 0,
+                'last_purchase' => 0,
             ),
         ));
         

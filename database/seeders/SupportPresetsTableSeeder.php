@@ -22,26 +22,26 @@ class SupportPresetsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'preset' => 'You\'re banned.',
                 'type' => 'user',
+                'preset' => 'You\'re banned.',
             ),
             1 => 
             array (
                 'id' => 2,
-                'preset' => 'Other message.',
                 'type' => 'user',
+                'preset' => 'Other message.',
             ),
             2 => 
             array (
                 'id' => 3,
-                'preset' => 'Some message',
                 'type' => 'room',
+                'preset' => 'Some message',
             ),
             3 => 
             array (
                 'id' => 4,
-                'preset' => 'Configurable in support_presets table.',
                 'type' => 'room',
+                'preset' => 'Configurable in support_presets table.',
             ),
         ));
         

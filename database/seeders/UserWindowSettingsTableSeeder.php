@@ -21,48 +21,48 @@ class UserWindowSettingsTableSeeder extends Seeder
         \DB::table('user_window_settings')->insert(array (
             0 => 
             array (
-                'height' => 535,
-                'open_searches' => '0',
                 'user_id' => 1,
-                'width' => 425,
                 'x' => 100,
                 'y' => 100,
+                'width' => 425,
+                'height' => 535,
+                'open_searches' => '0',
             ),
             1 => 
             array (
-                'height' => 535,
-                'open_searches' => '0',
                 'user_id' => 2,
-                'width' => 425,
                 'x' => 100,
                 'y' => 100,
+                'width' => 425,
+                'height' => 535,
+                'open_searches' => '0',
             ),
             2 => 
             array (
-                'height' => 535,
-                'open_searches' => '0',
                 'user_id' => 3,
-                'width' => 425,
                 'x' => 100,
                 'y' => 0,
+                'width' => 425,
+                'height' => 535,
+                'open_searches' => '0',
             ),
             3 => 
             array (
-                'height' => 535,
-                'open_searches' => '0',
                 'user_id' => 4,
-                'width' => 425,
                 'x' => 100,
                 'y' => 100,
+                'width' => 425,
+                'height' => 535,
+                'open_searches' => '0',
             ),
             4 => 
             array (
-                'height' => 535,
-                'open_searches' => '0',
                 'user_id' => 7,
-                'width' => 425,
                 'x' => 100,
                 'y' => 100,
+                'width' => 425,
+                'height' => 535,
+                'open_searches' => '0',
             ),
         ));
         

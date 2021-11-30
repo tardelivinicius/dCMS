@@ -142,5 +142,11 @@ class DatabaseSeeder extends Seeder
         $this->call(WordfilterTableSeeder::class);
         $this->call(WordfilterCharactersTableSeeder::class);
         $this->call(YoutubePlaylistsTableSeeder::class); 
+        $this->call(BotServesTableSeeder::class);
+        $this->call(CatalogItemsLimitedTableSeeder::class);
+        $this->call(CatalogPagesTableSeeder::class);
+        $this->call(CatalogPagesBcTableSeeder::class);
+        $this->call(CmsSettingsTableSeeder::class);
+        $this->call(SupportIssueCategoriesTableSeeder::class);
     }
 }

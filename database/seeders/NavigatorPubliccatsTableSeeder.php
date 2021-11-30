@@ -22,50 +22,50 @@ class NavigatorPubliccatsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'image' => '0',
                 'name' => 'Staff Picks',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
             1 => 
             array (
                 'id' => 2,
-                'image' => '0',
                 'name' => 'Official Games',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
             2 => 
             array (
                 'id' => 3,
-                'image' => '0',
                 'name' => 'Official Fansites',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
             3 => 
             array (
                 'id' => 4,
-                'image' => '0',
                 'name' => 'BAW: Builders at Work',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
             4 => 
             array (
                 'id' => 5,
-                'image' => '0',
                 'name' => 'Room Bundles',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
             5 => 
             array (
                 'id' => 6,
-                'image' => '0',
                 'name' => 'Safety',
-                'order_num' => 0,
+                'image' => '0',
                 'visible' => '1',
+                'order_num' => 0,
             ),
         ));
         

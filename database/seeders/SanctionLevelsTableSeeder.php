@@ -21,52 +21,52 @@ class SanctionLevelsTableSeeder extends Seeder
         \DB::table('sanction_levels')->insert(array (
             0 => 
             array (
-                'hour_length' => 0,
                 'level' => 1,
-                'probation_days' => 30,
                 'type' => 'ALERT',
+                'hour_length' => 0,
+                'probation_days' => 30,
             ),
             1 => 
             array (
-                'hour_length' => 1,
                 'level' => 2,
-                'probation_days' => 30,
                 'type' => 'MUTE',
+                'hour_length' => 1,
+                'probation_days' => 30,
             ),
             2 => 
             array (
-                'hour_length' => 18,
                 'level' => 3,
-                'probation_days' => 30,
                 'type' => 'BAN',
+                'hour_length' => 18,
+                'probation_days' => 30,
             ),
             3 => 
             array (
-                'hour_length' => 168,
                 'level' => 4,
-                'probation_days' => 30,
                 'type' => 'BAN',
+                'hour_length' => 168,
+                'probation_days' => 30,
             ),
             4 => 
             array (
-                'hour_length' => 720,
                 'level' => 5,
-                'probation_days' => 60,
                 'type' => 'BAN',
+                'hour_length' => 720,
+                'probation_days' => 60,
             ),
             5 => 
             array (
-                'hour_length' => 720,
                 'level' => 6,
-                'probation_days' => 60,
                 'type' => 'BAN',
+                'hour_length' => 720,
+                'probation_days' => 60,
             ),
             6 => 
             array (
-                'hour_length' => 876581,
                 'level' => 7,
-                'probation_days' => 876581,
                 'type' => 'BAN',
+                'hour_length' => 876581,
+                'probation_days' => 876581,
             ),
         ));
         

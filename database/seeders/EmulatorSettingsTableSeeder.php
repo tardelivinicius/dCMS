@@ -1487,7 +1487,7 @@ class EmulatorSettingsTableSeeder extends Seeder
             293 => 
             array (
                 'key' => 'subscriptions.hc.payday.next_date',
-                'value' => '2021-09-15 00:00:00',
+                'value' => '2021-12-15 00:00:00',
             ),
             294 => 
             array (

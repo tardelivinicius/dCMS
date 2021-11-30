@@ -22,23 +22,23 @@ class NuxGiftsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'image' => 'notifications/rare_daffodil_rug.png',
                 'type' => 'item',
                 'value' => 'rare_daffodil_rug',
+                'image' => 'notifications/rare_daffodil_rug.png',
             ),
             1 => 
             array (
                 'id' => 2,
-                'image' => 'notifications/rare_moonrug.png',
                 'type' => 'item',
                 'value' => 'rare_moonrug',
+                'image' => 'notifications/rare_moonrug.png',
             ),
             2 => 
             array (
                 'id' => 3,
-                'image' => 'notifications/sandrug.png',
                 'type' => 'item',
                 'value' => 'sandrug',
+                'image' => 'notifications/sandrug.png',
             ),
         ));
         

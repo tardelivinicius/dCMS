@@ -21,8 +21,8 @@ class UotwTableSeeder extends Seeder
         \DB::table('uotw')->insert(array (
             0 => 
             array (
-                'text' => 'I love Brain',
                 'userid' => '1',
+                'text' => 'I love Brain',
             ),
         ));
         

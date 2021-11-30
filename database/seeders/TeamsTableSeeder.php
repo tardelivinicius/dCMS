@@ -21,33 +21,33 @@ class TeamsTableSeeder extends Seeder
         \DB::table('teams')->insert(array (
             0 => 
             array (
-                'badgeid' => 'SPAM',
                 'id' => 1,
                 'name' => 'Spam Team',
+                'badgeid' => 'SPAM',
             ),
             1 => 
             array (
-                'badgeid' => 'BOUW',
                 'id' => 3,
                 'name' => 'Bouw Team',
+                'badgeid' => 'BOUW',
             ),
             2 => 
             array (
-                'badgeid' => 'EVENT',
                 'id' => 4,
                 'name' => 'Event Team',
+                'badgeid' => 'EVENT',
             ),
             3 => 
             array (
-                'badgeid' => 'PIXEL',
                 'id' => 5,
                 'name' => 'Pixelaar',
+                'badgeid' => 'PIXEL',
             ),
             4 => 
             array (
-                'badgeid' => 'GOK',
                 'id' => 6,
                 'name' => 'Gok Team',
+                'badgeid' => 'GOK',
             ),
         ));
         
