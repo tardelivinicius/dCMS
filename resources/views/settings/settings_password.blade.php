@@ -36,18 +36,19 @@
         </div>
 
         <div class="png20">
-            <form method="post">
+            <form method="post" action='/change-password'>
+                @csrf
                 <label for="old_password">Senha Atual</label>
                 <input type="password" id="old_password" name="old_password" required>
                 <div class="desc" style="margin: 0 0 20px 0">Precisamos disso para garantir que você é o proprietário da conta</div>
                 <div class="line"></div>
 
                 <label for="new_password">Nova Senha</label>
-                <input type="password" id="new_password" name="new_password" required>
+                <input type="password" id="password" name="password" required>
                 <div class="desc">Sua nova senha deve conter mais de 8 caractéres</div>
 
                 <label for="email_confirm">E-mail Atual</label>
-                <input type="email" id="email_confirm" name="email_confirm" required>
+                <input type="email" id="email" name="email" required>
                 <div class="desc">Digite o seu e-mail para confirmar a operação</div>
 
                 <button type="submit" class="btn green save">Salvar</button>
@@ -55,29 +56,4 @@
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('form').on('submit', function(event) {
-        $(':disabled').each(function(e) {
-            $(this).removeAttr('disabled');
-        })
-        event.preventDefault();
-        $.ajax({
-            url: 'save_settings_password',
-            method: "POST",
-            data: $(this).serialize(),
-            async: false,
-            success: function(result) {
-                $('#alert_sucess').show();
-                setTimeout(function() { window.location.href = 'settings?step=password'}, 1000)
-            },
-            error: function(result) {
-                var $messageDiv = $('#alert_failed')
-                $messageDiv.show().html(result.responseText)
-            }
-        });
-    })
-})
-</script>
-
 @include('base/footer')

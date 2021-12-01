@@ -27,7 +27,7 @@
 					<input type="motto" class="rounded" name="motto" id="motto" onblur="changeMotto()" value="{{ session()->get('motto') }}"/>
 					<ul class="user-menu">
 						<li>
-							<a href="/account/me">
+							<a href="/me">
 								<div class="user-avatar-menu" style="background-image:url(http://habbo.com/habbo-imaging/avatarimage?figure={{ session()->get('look') }}8&head_direction=3&gesture=sml)"></div>{{ session()->get('username') }}<span><i class="far fa-angle-down"></i></span>
 							</a>
 

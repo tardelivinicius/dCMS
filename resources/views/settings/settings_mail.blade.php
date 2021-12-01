@@ -36,7 +36,7 @@
         </div>
 
         <div class="png20">
-            <form method="post" action='/save-email-settings'>
+            <form method="post" action='/change-email'>
                 @csrf
                 <label for="old_email">E-mail Atual</label>
                 <input type="email" id="old_email" value="{{ session()->get('email') }}" name="old_email" disabled>

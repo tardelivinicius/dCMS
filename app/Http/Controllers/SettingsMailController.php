@@ -34,7 +34,8 @@ class SettingsMailController extends SystemConfigController
                     return response('Senha inválida', 404);
                 }
                 DB::table('users')
-                    ->where('id', $this->userId, 'mail', $request->old_email)
+                    ->where('id', $this->userId)
+                    ->where('mail', $request->old_email)
                     ->update(['mail' => $request->email]);
                 # Update session
                 $userData = new UserDataController(session()->get('id'));
