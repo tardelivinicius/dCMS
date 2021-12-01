@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\DB;
 class ProfileController extends SystemConfigController
 {
     public function show(Request $request){
-        
         if($request->route('username') == '') {
             $userId = session()->get('id');
         } else {

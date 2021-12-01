@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\CommunityNewsController;
+use App\Http\Controllers\CommunityStaffController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
@@ -47,3 +49,7 @@ Route::post('/change-email', [SettingsMailController::class, 'change_email_addre
 Route::get('/password-settings', [SettingsPasswordController::class, 'show']);
 Route::post('/change-password', [SettingsPasswordController::class, 'change_password']);
 
+# Community - News
+Route::get('/staffs', [CommunityStaffController::class, 'show']);
+# Community - Staffs
+Route::get('/news', [CommunityNewsController::class, 'show']);

@@ -49,8 +49,8 @@
 						<li>
 							<a href="#">Comunidade<span><i class="far fa-angle-down"></i></span></a>
 							<ul class="subnavi">
-								<li><a href="/community/news">Notícias</a></li>
-								<li><a href="/community/staffs">Equipe</a></li>
+								<li><a href="/news">Notícias</a></li>
+								<li><a href="/staffs">Equipe</a></li>
 							</ul>
 						</li>
 					</ul>
