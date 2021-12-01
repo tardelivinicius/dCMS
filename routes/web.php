@@ -42,7 +42,7 @@ Route::get('/general-settings', [SettingsGeneralController::class, 'show']);
 Route::post('/save-general-settings', [SettingsGeneralController::class, 'save_general_settings']);
 # Mail settings
 Route::get('/email-settings', [SettingsMailController::class, 'show']);
-Route::post('/save-email-settings', [SettingsMailController::class, 'save_email_settings']);
+Route::post('/save-email-settings', [SettingsMailController::class, 'change_email_address']);
 # Password settings
 Route::get('/password-settings', [SettingsPasswordController::class, 'show']);
 Route::post('/save-password-settings', [SettingsPasswordController::class, 'save_password_settings']);

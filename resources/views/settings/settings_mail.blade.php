@@ -36,19 +36,20 @@
         </div>
 
         <div class="png20">
-            <form method="post">
+            <form method="post" action='/save-email-settings'>
+                @csrf
                 <label for="old_email">E-mail Atual</label>
                 <input type="email" id="old_email" value="{{ session()->get('email') }}" name="old_email" disabled>
                 <div class="desc" style="margin: 0 0 20px 0">Seu e-mail atual</div>
 
                 <label for="new-email">Novo endereço de E-mail</label>
-                <input type="email" id="new_email" name="new_email" required>
+                <input type="email" id="email" name="email" onblur="validateEmail()" required>
                 <div class="desc">Digite seu novo endereço de e-mail</div>
-
+                <span id='message_email'></span><br>
                 <div class="line"></div>
 
                 <label for="password_confirm">Sua senha</label>
-                <input type="password" id="password_confirm" name="password_confirm" required>
+                <input type="password" id="password" name="password" required>
                 <div class="desc">Digite sua senha para confirmar a operação</div>
 
                 <button type="submit" class="btn green save">Salvar</button>
@@ -57,28 +58,21 @@
     </div>
 </div>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('form').on('submit', function(event) {
-        $(':disabled').each(function(e) {
-            $(this).removeAttr('disabled');
-        })
-        event.preventDefault();
-        $.ajax({
-            url: 'save_settings_mail',
-            method: "POST",
-            data: $(this).serialize(),
-            async: false,
-            success: function(result) {
-                $('#alert_sucess').show();
-                setTimeout(function() { window.location.href = 'settings?step=email'}, 1000)
-            },
-            error: function(result) {
-                var $messageDiv = $('#alert_failed')
-                $messageDiv.show().html(result.responseText)
+    function validateEmail() {
+        if ($('#email').val().length > 0) {
+            const fd = new FormData()
+            fd.append('email', $('#email').val())
+            axios.post('/check-email-exists', fd)
+                .then(response => {
+                    document.getElementById('message_email').style.color = 'green';
+                    document.getElementById('message_email').innerHTML = 'E-mail disponível para cadastro';    
+                })
+                .catch(e => {
+                    document.getElementById('message_email').style.color = 'red';
+                    document.getElementById('message_email').innerHTML = 'E-mail já cadastrado para outro usuário';
+                })
             }
-        });
-    })
-})
+        }
 </script>
 
 @include('base/footer')
