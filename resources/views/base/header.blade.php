@@ -33,7 +33,7 @@
 
 							<ul class="user-subnavi">
 								<li><a href="/profile">Meu Perfil</a></li>
-								<li><a href="/account/settings">Configurações</a></li>
+								<li><a href="/general-settings">Configurações</a></li>
 								<li><a href="/logout" class="logout">Sair</a></li>
 							</ul>
 						</li>

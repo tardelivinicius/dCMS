@@ -19,14 +19,14 @@ class LoginController extends Controller
             return response('Preencher o campo senha', 404);
         }
         # Check auth with email or username
-        $user = DB::table('users')->select('username', 'password')
+        $user = DB::table('users')->select('id', 'username', 'password')
             ->where('mail', $request->username)
             ->orWhere('username', $request->username)
             ->first();
         
         # Check password HASH
         if (Hash::check($request->password, $user->password)) {
-            $userData = new UserDataController($user->username);
+            $userData = new UserDataController($user->id);
             $userData->setUserDataSession();
             return redirect('/me');
         } else {

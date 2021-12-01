@@ -8,6 +8,9 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\SettingsGeneralController;
+use App\Http\Controllers\SettingsMailController;
+use App\Http\Controllers\SettingsPasswordController;
 use App\Http\Controllers\ValidationController;
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +36,14 @@ Route::get('/client', [ClientController::class, 'loading']);
 Route::get('/logout', [LogoutController::class, 'logout']);
 Route::post('/change-motto', [HomeController::class, 'changeMotto']);
 Route::get('/profile/{username?}', [ProfileController::class, 'show']);
+
+# General settings
+Route::get('/general-settings', [SettingsGeneralController::class, 'show']);
+Route::post('/save-general-settings', [SettingsGeneralController::class, 'save_general_settings']);
+# Mail settings
+Route::get('/email-settings', [SettingsMailController::class, 'show']);
+Route::post('/save-email-settings', [SettingsMailController::class, 'save_email_settings']);
+# Password settings
+Route::get('/password-settings', [SettingsPasswordController::class, 'show']);
+Route::post('/save-password-settings', [SettingsPasswordController::class, 'save_password_settings']);
 

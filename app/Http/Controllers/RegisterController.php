@@ -11,7 +11,8 @@ use App\Http\Controllers\SystemConfigController;
 class RegisterController extends SystemConfigController
 {   
     # Loading the register page and need the first informations
-    public function register(){
+    public function register()
+    {
         return view('register', ['hotel_name' => $this->getHotelName()]);
     }
 
