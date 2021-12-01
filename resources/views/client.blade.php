@@ -11,7 +11,7 @@
     <app-root></app-root>
     <script>
         var NitroConfig = {
-            configurationUrl: "{{ asset('nitro/configuration.json') }}",
+            configurationUrl: "{{ asset('json/configuration.json') }}",
             sso: "{{ $authTicket }}"
         };
     </script>

@@ -34,6 +34,8 @@ Route::post('/check-email-exists', [ValidationController::class, 'check_email_ex
 Route::post('/check-username-exists', [ValidationController::class, 'check_username_exists']);
 Route::post('/login', [LoginController::class, 'login']);
 Route::get('/me', [HomeController::class, 'me']);
+
+# Client
 Route::get('/client', [ClientController::class, 'loading']);
 Route::get('/logout', [LogoutController::class, 'logout']);
 Route::post('/change-motto', [HomeController::class, 'changeMotto']);
