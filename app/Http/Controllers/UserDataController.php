@@ -113,7 +113,7 @@ class UserDataController extends Controller
     # Rank
     protected function setRank()
     {
-        $this->rank = $this->user->gender;
+        $this->rank = $this->user->rank;
     }
     protected function getRank(): string
     {
