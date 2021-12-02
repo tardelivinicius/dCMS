@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class SettingsGeneralController extends SystemConfigController
+class SettingsGeneralController extends HotelController
 {   
     public function show()
     {   

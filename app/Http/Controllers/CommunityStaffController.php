@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class CommunityStaffController extends SystemConfigController
+class CommunityStaffController extends HotelController
 {
     public function show()
     {

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\SystemConfigController;
+use App\Http\Controllers\HotelController;
 
-class IndexController extends SystemConfigController
+class IndexController extends HotelController
 {
     public function main(){
         # TODO - VERIFICAR COMO TRABALHAR COM CONTROLE DE SESSAO E REDIRECIONAMENTO

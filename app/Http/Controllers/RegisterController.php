@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 use \Datetime;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use App\Http\Controllers\SystemConfigController;
+use App\Http\Controllers\HotelController;
 
-class RegisterController extends SystemConfigController
+class RegisterController extends HotelController
 {   
     # Loading the register page and need the first informations
     public function register()

@@ -5,12 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
-class SystemConfigController extends Controller
+class HotelController extends Controller
 {
     protected int $userId;
-    protected object $hotel_name;
+    protected string $hotel_name;
     protected int $users_online;
-
+    protected int $qtdUserRegister;
     public function __construct()
     {      
         $this->setHotelName();
@@ -19,12 +19,12 @@ class SystemConfigController extends Controller
 
     public function setHotelName()
     {   
-        $this->hotel_name = DB::table('cms_settings')->select('hotel_name')->first();
+        $this->hotel_name = DB::table('cms_settings')->select('hotel_name')->first()->hotel_name;
     }
 
     public function getHotelName(): string
     {   
-        return $this->hotel_name->hotel_name;
+        return $this->hotel_name;
     }
 
     public function setUsersOnline()
@@ -36,4 +36,15 @@ class SystemConfigController extends Controller
     {
         return $this->users_online;
     }
+
+    public function setQtdUserRegister()
+    {
+        $this->qtdUserRegister = DB::table('users')->count();
+    }
+
+    public function getQtdUserRegister()
+    {
+       return $this->qtdUserRegister;
+    }
+
 }

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class SettingsPasswordController extends SystemConfigController
+class SettingsPasswordController extends HotelController
 {   
     public function show()
     {   

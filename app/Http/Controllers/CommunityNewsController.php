@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CommunityNewsController extends SystemConfigController
+class CommunityNewsController extends HotelController
 {
     public function show()
     {

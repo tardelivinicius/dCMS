@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class ProfileController extends SystemConfigController
+class ProfileController extends HotelController
 {
     public function show(Request $request){
         if($request->route('username') == '') {
