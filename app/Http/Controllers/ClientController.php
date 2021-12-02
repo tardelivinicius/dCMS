@@ -8,7 +8,7 @@ class ClientController extends Controller
 {   
     public function loading()
     {   
-        $authTicket = 'dCMS-1.0.0-'.uniqid().'';
+        $authTicket = 'dCMS-1.0.0-'.uniqid().'-SSO';
         DB::table('users')
         ->where('username', session()->get('username'))
         ->update(['auth_ticket' => $authTicket]);

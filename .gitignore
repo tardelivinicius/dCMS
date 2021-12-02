@@ -15,4 +15,5 @@ yarn-error.log
 /.vscode
 .docker
 public/nitro
-public/swf
+public/nitro_original
+public/nitro_flash
