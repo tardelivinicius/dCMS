@@ -37,7 +37,7 @@ Route::get('/me', [HomeController::class, 'me']);
 
 # Client
 Route::get('/client', [ClientController::class, 'loading']);
-Route::get('/client-read-news', [ClientController::class, 'readNews']);
+Route::get('/client-update-news', [ClientController::class, 'updateHotelViewNews']);
 
 Route::get('/logout', [LogoutController::class, 'logout']);
 Route::post('/change-motto', [HomeController::class, 'changeMotto']);
