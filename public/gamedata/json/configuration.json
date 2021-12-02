@@ -1,0 +1,459 @@
+{
+    "socket.url": "ws://127.0.0.1:2096",
+    "chat.history.max.items": 10,
+    "asset.url": "http://127.0.0.1:8000/nitro",
+    "image.library.url": "http://127.0.0.1:8000/img/c_images/",
+    "external.samples.url": "http://127.0.0.1:8000/mp3/sound_machine_sample_%sample%.mp3",
+    "image.library.notifications.url": "${image.library.url}notifications/%image%.png",
+    "achievements.images.url": "${image.library.url}Quests/%image%.png",
+    "thumbnails.url": "${image.library.url}camera/thumbnails/%thumbnail%.png",
+    "images.url": "${asset.url}/images",
+    "gamedata.url": "http://127.0.0.1:8000/gamedata",
+    "external.texts.url": "${gamedata.url}/json/ExternalTexts.json",
+    "furnidata.url": "${gamedata.url}/json/FurnitureData.json",
+    "productdata.url": "${gamedata.url}/json/ProductData.json",
+    "avatar.actions.url": "${gamedata.url}/json/HabboAvatarActions.json",
+    "avatar.figuredata.url": "${gamedata.url}/json/figuredata.json",
+    "avatar.figuremap.url": "${gamedata.url}/json/FigureMap.json",
+    "avatar.effectmap.url": "${gamedata.url}/json/EffectMap.json",
+    "avatar.asset.url": "${asset.url}/figure/%libname%.nitro",
+    "avatar.asset.effect.url": "${asset.url}/effect/%libname%.nitro",
+    "navigator.slider.enabled": true,
+    "furni.extras.url": "${asset.url}/images/furniextras/%image%.png",
+    "url.prefix": "",
+    "chat.viewer.height.percentage": 0.40,
+    "navigator.slider.content": [
+        {
+            "title": "Games Hub",
+            "image": "http://i.imgur.com/TFoivxi.png",
+            "roomId": 2240
+        },
+        {
+            "title": "Help Desk",
+            "image": "http://i.imgur.com/GO981GC.png",
+            "roomId": 2351
+        },
+        {
+            "title": "The Lido",
+            "image": "http://i.imgur.com/NVH38bV.png",
+            "roomId": 2346
+        }
+    ],
+    "hotelview.images": {
+        "background": "${asset.url}/images/reception/stretch_blue.png",
+        "background.colour": "#6eadc8",
+        "sun": "${asset.url}/images/reception/blimp_nuts_campaign.png",
+        "drape": "${asset.url}/images/reception/drape.png",
+        "left": "${asset.url}/images/reception/iblue_2017_background_left.png",
+        "right": "${asset.url}/images/reception/br_right.png",
+        "right.repeat": "${asset.url}/images/reception/us_top_right.png",
+        "promo1": "${asset.url}/images/reception/campaigns/spromo_rainbow19_summergifts.png",
+        "promo2": "${asset.url}/images/reception/campaigns/spromo_may19_bath.png",
+        "promo3": "${asset.url}/images/reception/campaigns/spromo_musicdabeachbundle.png",
+        "promo4": "${asset.url}/images/reception/campaigns/spromo_pride19_peacockfloat.png"
+    },
+    "achievements.unseen.ignored": ["ACH_AllTimeHotelPresence"],
+    "avatareditor.show.clubitems.dimmed": true,
+    "avatareditor.show.clubitems.first": true,
+    "animation.fps": 24,
+    "limits.fps": true,
+    "system.dispatcher.log": false,
+    "displayed.currency.types": [
+        -1,
+        104,
+        5,
+        0,
+		103
+    ],
+    "system.currency.types": [
+        -1,
+        0,
+        5,
+        101
+    ],
+    "system.packet.log": false,
+	"system.packet.log" :false,
+    "system.animation.fps": 24,
+    "system.pong.manually": true,
+    "system.pong.interval.ms": 20000,
+    "system.limits.fps": true,
+    "communication.packet.log": false,
+    "communication.pong.manually": true,
+    "communication.pong.interval.ms": 20000,
+    "avatar.mandatory.libraries": [
+        "bd:1",
+        "li:0"
+    ],
+    "avatar.mandatory.effect.libraries": [
+        "dance.1",
+        "dance.2",
+        "dance.3",
+        "dance.4"
+    ],
+    "pet.asset.url": "${asset.url}/pet/%libname%.nitro",
+    "pet.types": [
+        "dog",
+        "cat",
+        "croco",
+        "terrier",
+        "bear",
+        "pig",
+        "lion",
+        "rhino",
+        "spider",
+        "turtle",
+        "chicken",
+        "frog",
+        "dragon",
+        "monster",
+        "monkey",
+        "horse",
+        "monsterplant",
+        "bunnyeaster",
+        "bunnyevil",
+        "bunnydepressed",
+        "bunnylove",
+        "pigeongood",
+        "pigeonevil",
+        "demonmonkey",
+        "bearbaby",
+        "terrierbaby",
+        "gnome",
+        "gnome",
+        "kittenbaby",
+        "puppybaby",
+        "pigletbaby",
+        "haloompa",
+        "fools",
+        "pterosaur",
+        "velociraptor",
+        "cow",
+        "LeetPen",
+        "bbwibb",
+        "elephants"
+    ],
+    "furni.asset.url": "${asset.url}/furniture/%libname%.nitro",
+    "furni.asset.icon.url": "http://127.0.0.1:8000/nitro/assets/images/icons/%libname%%param%_icon.png",
+    "room.asset.url": "${asset.url}/room/%libname%/%libname%.json",
+    "badge.asset.url": "${image.library.url}album1584/%badgename%.gif",
+    "badge.asset.group.url": "${asset.url}/group-badge/%badgedata%",
+    "currency.asset.icon.url": "${images.url}/wallet/%type%.png",
+    "catalog.asset.url": "${image.library.url}catalogue",
+    "catalog.asset.image.url": "${catalog.asset.url}/%name%.gif",
+    "catalog.asset.icon.url": "${catalog.asset.url}/icon_%name%.png",
+    "chat.input.maxlength": 100,
+    "chat.styles.disabled": [],
+    "chat.styles": [
+        {
+            "styleId": 0,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 1,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 2,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 3,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 4,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 5,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 6,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 7,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 8,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 9,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 10,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 11,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 12,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 13,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 14,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 15,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 16,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 17,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 18,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 19,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 20,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 21,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 22,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 23,
+            "minRank": 5,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 24,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 25,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 26,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 27,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 28,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 29,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 30,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 31,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 32,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 33,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 34,
+            "minRank": 5,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 35,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 36,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 37,
+            "minRank": 5,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": true
+        },
+        {
+            "styleId": 38,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": true,
+            "isAmbassadorOnly": false
+        }
+    ],
+    "avatar.default.figuredata": {"palettes":[{"id":1,"colors":[{"id":99999,"index":1001,"club":0,"selectable":false,"hexCode":"DDDDDD"},{"id":99998,"index":1001,"club":0,"selectable":false,"hexCode":"FAFAFA"}]},{"id":3,"colors":[{"id":10001,"index":1001,"club":0,"selectable":false,"hexCode":"EEEEEE"},{"id":10002,"index":1002,"club":0,"selectable":false,"hexCode":"FA3831"},{"id":10003,"index":1003,"club":0,"selectable":false,"hexCode":"FD92A0"},{"id":10004,"index":1004,"club":0,"selectable":false,"hexCode":"2AC7D2"},{"id":10005,"index":1005,"club":0,"selectable":false,"hexCode":"35332C"},{"id":10006,"index":1006,"club":0,"selectable":false,"hexCode":"EFFF92"},{"id":10007,"index":1007,"club":0,"selectable":false,"hexCode":"C6FF98"},{"id":10008,"index":1008,"club":0,"selectable":false,"hexCode":"FF925A"},{"id":10009,"index":1009,"club":0,"selectable":false,"hexCode":"9D597E"},{"id":10010,"index":1010,"club":0,"selectable":false,"hexCode":"B6F3FF"},{"id":10011,"index":1011,"club":0,"selectable":false,"hexCode":"6DFF33"},{"id":10012,"index":1012,"club":0,"selectable":false,"hexCode":"3378C9"},{"id":10013,"index":1013,"club":0,"selectable":false,"hexCode":"FFB631"},{"id":10014,"index":1014,"club":0,"selectable":false,"hexCode":"DFA1E9"},{"id":10015,"index":1015,"club":0,"selectable":false,"hexCode":"F9FB32"},{"id":10016,"index":1016,"club":0,"selectable":false,"hexCode":"CAAF8F"},{"id":10017,"index":1017,"club":0,"selectable":false,"hexCode":"C5C6C5"},{"id":10018,"index":1018,"club":0,"selectable":false,"hexCode":"47623D"},{"id":10019,"index":1019,"club":0,"selectable":false,"hexCode":"8A8361"},{"id":10020,"index":1020,"club":0,"selectable":false,"hexCode":"FF8C33"},{"id":10021,"index":1021,"club":0,"selectable":false,"hexCode":"54C627"},{"id":10022,"index":1022,"club":0,"selectable":false,"hexCode":"1E6C99"},{"id":10023,"index":1023,"club":0,"selectable":false,"hexCode":"984F88"},{"id":10024,"index":1024,"club":0,"selectable":false,"hexCode":"77C8FF"},{"id":10025,"index":1025,"club":0,"selectable":false,"hexCode":"FFC08E"},{"id":10026,"index":1026,"club":0,"selectable":false,"hexCode":"3C4B87"},{"id":10027,"index":1027,"club":0,"selectable":false,"hexCode":"7C2C47"},{"id":10028,"index":1028,"club":0,"selectable":false,"hexCode":"D7FFE3"},{"id":10029,"index":1029,"club":0,"selectable":false,"hexCode":"8F3F1C"},{"id":10030,"index":1030,"club":0,"selectable":false,"hexCode":"FF6393"},{"id":10031,"index":1031,"club":0,"selectable":false,"hexCode":"1F9B79"},{"id":10032,"index":1032,"club":0,"selectable":false,"hexCode":"FDFF33"}]}],"setTypes":[{"type":"hd","paletteId":1,"mandatory_f_0":true,"mandatory_f_1":true,"mandatory_m_0":true,"mandatory_m_1":true,"sets":[{"id":99999,"gender":"U","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":1,"type":"bd","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"hd","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"lh","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"rh","colorable":true,"index":0,"colorindex":1}]}]},{"type":"bds","paletteId":1,"mandatory_f_0":false,"mandatory_f_1":false,"mandatory_m_0":false,"mandatory_m_1":false,"sets":[{"id":10001,"gender":"U","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10001,"type":"bds","colorable":true,"index":0,"colorindex":1},{"id":10001,"type":"lhs","colorable":true,"index":0,"colorindex":1},{"id":10001,"type":"rhs","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"bd"},{"partType":"rh"},{"partType":"lh"}]}]},{"type":"ss","paletteId":3,"mandatory_f_0":false,"mandatory_f_1":false,"mandatory_m_0":false,"mandatory_m_1":false,"sets":[{"id":10010,"gender":"F","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10001,"type":"ss","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"ch"},{"partType":"lg"},{"partType":"ca"},{"partType":"wa"},{"partType":"sh"},{"partType":"ls"},{"partType":"rs"},{"partType":"lc"},{"partType":"rc"},{"partType":"cc"},{"partType":"cp"}]},{"id":10011,"gender":"M","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10002,"type":"ss","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"ch"},{"partType":"lg"},{"partType":"ca"},{"partType":"wa"},{"partType":"sh"},{"partType":"ls"},{"partType":"rs"},{"partType":"lc"},{"partType":"rc"},{"partType":"cc"},{"partType":"cp"}]}]}]},
+    "avatar.default.actions": {
+        "actions": [
+            {
+                "id": "Default",
+                "state": "std",
+                "precedence": 1000,
+                "main": true,
+                "isDefault": true,
+                "geometryType": "vertical",
+                "activePartSet": "figure",
+                "assetPartDefinition": "std"
+            }
+        ]
+    },
+    "preload.assets.urls": [
+        "${images.url}/additions/user_blowkiss.png",
+        "${images.url}/additions/user_idle_left_1.png",
+        "${images.url}/additions/user_idle_left_2.png",
+        "${images.url}/additions/user_idle_right_1.png",
+        "${images.url}/additions/user_idle_right_2.png",
+        "${images.url}/additions/user_typing.png",
+        "${images.url}/additions/number_1.png",
+        "${images.url}/additions/number_2.png",
+        "${images.url}/additions/number_3.png",
+        "${images.url}/additions/number_4.png",
+        "${images.url}/additions/number_5.png",
+        "${images.url}/loading_icon.png",
+        "${images.url}/clear_icon.png",
+        "${images.url}/big_arrow.png"
+    ],
+
+    "modernuipower": {
+        "domainIsWrong": ""
+    },
+    "nitrohotel": {
+        "navigator": ""
+    }
+}
