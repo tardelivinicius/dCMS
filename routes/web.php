@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\CMSController;
 use App\Http\Controllers\CommunityNewsController;
 use App\Http\Controllers\CommunityStaffController;
 use App\Http\Controllers\HomeController;
@@ -14,6 +15,8 @@ use App\Http\Controllers\SettingsGeneralController;
 use App\Http\Controllers\SettingsMailController;
 use App\Http\Controllers\SettingsPasswordController;
 use App\Http\Controllers\ValidationController;
+use App\Http\Middleware\SessionToken;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,7 +35,7 @@ Route::post('/finish-register', [RegisterController::class, 'finish_register']);
 route::get('/register-success', [RegisterController::class, 'register_success']);
 Route::post('/check-email-exists', [ValidationController::class, 'check_email_exists']);
 Route::post('/check-username-exists', [ValidationController::class, 'check_username_exists']);
-Route::post('/login', [LoginController::class, 'login']);
+Route::post('/login', [LoginController::class, 'login'])->withoutMiddleware([SessionToken::class]);
 Route::get('/me', [HomeController::class, 'me']);
 
 # Client
@@ -57,3 +60,7 @@ Route::post('/change-password', [SettingsPasswordController::class, 'change_pass
 Route::get('/staffs', [CommunityStaffController::class, 'show']);
 # Community - Staffs
 Route::get('/news', [CommunityNewsController::class, 'show']);
+
+# Staff
+Route::get('/admin/cms', [CMSController::class, 'index']);
+Route::get('/admin/cms/users', [CMSController::class, 'users']);

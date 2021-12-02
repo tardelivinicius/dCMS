@@ -45,6 +45,18 @@
 					<a href="\" class="logo"></a>
 				</div>
 				<div class="col-5">
+					@if (session()->get('rank') == 7)
+						<ul class="navigation">
+							<li>
+								<a href="#">Administração<span><i class="far fa-angle-down"></i></span></a>
+								<ul class="subnavi">
+									<li><a href="/admin/cms">CMS</a></li>
+									<li><a href="/admin/emulator">Emulador</a></li>
+									<li><a href="/admin/client">Cliente</a></li>
+								</ul>
+							</li>
+						</ul>
+					@endif
 					<ul class="navigation">
 						<li>
 							<a href="#">Comunidade<span><i class="far fa-angle-down"></i></span></a>
