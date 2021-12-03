@@ -10,13 +10,19 @@ class SessionToken
     public function handle($request, Closure $next)
     {   
         $route = Route::getRoutes()->match($request);
+        # Session doesnt exists
         if(!session()->exists('id')) {  
+            # Redirect to index
             if ($route->uri != '/') {
                 return redirect('/');
             }
             return $next($request);
+        # Session exists, verify if the route is index
+        } else if ($route->uri == '/'){
+            # Redirect to me
+            return redirect('/me');
         } else {
-            $this->userId = $request->session()->get('id');
+            # If is not index, configure rules...
             if ($request->session()->get('rank') <= '5' && $route->uri == '/admin/cms') {
                     return redirect('/');
                 }
