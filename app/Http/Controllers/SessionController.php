@@ -4,27 +4,21 @@ namespace App\Http\Controllers;
 
 class SessionController extends Controller
 {   
-
-    protected object $userData;
-
-    public function __construct(int $id)
-    {
-        $this->userData = new UserDataController($id);
-    }
     # Create session
-    public function setUserDataSession(){
+    public function setUserDataSession($id){
+        $userData = new UserDataController($id);
         # Destroy session
         session()->flush();
         # Generate new session
         session([
-            'id' => $this->userData->getUserId(),
-            'username' => $this->userData->getUserName(), 
-            'email' => $this->userData->getEmail(),
-            'motto' => $this->userData->getMotto(),
-            'rank' => $this->userData->getRank(),
-            'look' => $this->userData->getLook(),
-            'credits' => $$this->userData->getCredits(),
-            'pixels' => $$this->userData->getPixels()
+            'id' => $userData->getUserId(),
+            'username' => $userData->getUserName(), 
+            'email' => $userData->getEmail(),
+            'motto' => $userData->getMotto(),
+            'rank' => $userData->getRank(),
+            'look' => $userData->getLook(),
+            'credits' => $userData->getCredits(),
+            'pixels' => $userData->getPixels()
         ]);
     }
 }

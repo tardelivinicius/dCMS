@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\UserDataController;
+use App\Http\Controllers\SessionController;
 
 class LoginController extends Controller
 {
@@ -26,8 +26,8 @@ class LoginController extends Controller
         
         # Check password HASH
         if (Hash::check($request->password, $user->password)) {
-            $userData = new SessionController($user->id);
-            $userData->setUserDataSession();
+            $userData = new SessionController();
+            $userData->setUserDataSession($user->id);
             return redirect('/me');
         } else {
             return response('Usuário ou senha inválidos', 404);
