@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\HotelController;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class HomeController extends HotelController
+class HomeController extends Controller
 {
     public function me(){
-        return view('me', ['hotel_name' => $this->hotel_name, 'users_online' => $this->users_online]);
+        return view('me');
     }
 
     public function changeMotto(Request $request)

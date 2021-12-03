@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class SettingsMailController extends HotelController
+class SettingsMailController extends Controller
 {   
     public function show()
     {   
-        return view('settings/settings_mail', ['hotel_name' => $this->getHotelName(), 'users_online' => $this->getUsersOnline()]);
+        return view('settings/settings_mail');
     }
 
     public function change_email_address(Request $request)
@@ -19,7 +19,7 @@ class SettingsMailController extends HotelController
         # Check user
         $checkUser = DB::table('users')
                         ->select('mail', 'password')
-                        ->where('id', $this->userId, 'mail', $request->old_email)
+                        ->where('id', session()->get('id'), 'mail', $request->old_email)
                         ->first();
         if ($checkUser) {
             # Check if new email is available
@@ -34,7 +34,7 @@ class SettingsMailController extends HotelController
                     return response('Senha inválida', 404);
                 }
                 DB::table('users')
-                    ->where('id', $this->userId)
+                    ->where('id', session()->get('id'))
                     ->where('mail', $request->old_email)
                     ->update(['mail' => $request->email]);
                 # Update session

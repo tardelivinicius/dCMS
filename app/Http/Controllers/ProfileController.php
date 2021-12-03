@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class ProfileController extends HotelController
+class ProfileController extends Controller
 {
     public function show(Request $request){
         if($request->route('username') == '') {
@@ -44,7 +44,7 @@ class ProfileController extends HotelController
                             ->select('U2.username as username', 'U2.look AS look')
                             ->where('U.id', $userId)
                             ->get();
-            return view('profile', ['hotel_name' => $this->getHotelName(), 'users_online' => $this->users_online, 'userData' => $userData, 'userRooms' => $userRooms, 'userGroups' => $userGroups, 'userFriends' => $userFriends]);
+            return view('profile', ['userData' => $userData, 'userRooms' => $userRooms, 'userGroups' => $userGroups, 'userFriends' => $userFriends]);
         } else {
             return redirect('/me');
         }

@@ -20,9 +20,14 @@ class UserDataController extends Controller
     protected int $points;
     protected string $online;
 
-    public function __construct(int $id)
-    {
-        $this->user = DB::table('users')->where('id', $id)->first();
+    public function __construct(int $idUser)
+    {   
+        if ($idUser == null) {
+            // todo - erro na validacao
+        } else {
+            $this->user = DB::table('users')->where('id', $idUser)->first();
+        }
+        print_r($this->user);
         $this->setUserId();
         $this->setUserName();
         $this->setEmail();

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class CommunityStaffController extends HotelController
+class CommunityStaffController extends Controller
 {
     public function show()
     {
@@ -29,6 +29,6 @@ class CommunityStaffController extends HotelController
                     ->select('users.username', 'users.motto', 'users.look', 'users.online')
                     ->where('rank', 7)
                     ->get();
-        return view('community/staffs', ['hotel_name' => $this->getHotelName(), 'users_online' => $this->getUsersOnline(), 'ceos' => $ceos, 'admins' => $admins, 'mods' => $mods]);
+        return view('community/staffs', ['ceos' => $ceos, 'admins' => $admins, 'mods' => $mods]);
     }
 }

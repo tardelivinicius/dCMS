@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class SettingsPasswordController extends HotelController
+class SettingsPasswordController extends Controller
 {   
     public function show()
     {   
-        return view('settings/settings_password', ['hotel_name' => $this->getHotelName(), 'users_online' => $this->getUsersOnline()]);
+        return view('settings/settings_password');
     }
 
     public function change_password(Request $request)
@@ -19,7 +19,7 @@ class SettingsPasswordController extends HotelController
         # Check user
         $checkUser = DB::table('users')
                         ->select('mail', 'password')
-                        ->where('id', $this->userId)
+                        ->where('id', session()->get('id'))
                         ->where('mail', $request->email)
                         ->first();
         if ($checkUser) {
@@ -30,7 +30,7 @@ class SettingsPasswordController extends HotelController
             }
             $new_password = Hash::make($request->password);
             DB::table('users')
-                ->where('id', $this->userId)
+                ->where('id', session()->get('id'))
                 ->where('mail', $request->email)
                 ->update(['password' => $new_password]);
                 return redirect('/password-settings');

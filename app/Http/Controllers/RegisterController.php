@@ -6,21 +6,21 @@ use Illuminate\Http\Request;
 use \Datetime;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use App\Http\Controllers\HotelController;
+use App\Http\Controllers\Controller;
 
-class RegisterController extends HotelController
+class RegisterController extends Controller
 {   
     # Loading the register page and need the first informations
     public function register()
     {
-        return view('register', ['hotel_name' => $this->getHotelName()]);
+        return view('register');
     }
 
     # Loading the second step from register with data of the first step
     public function register_step2(Request $request){
         # Insert in session the step1 
         session()->put('data', ['username' => $request->username, 'password' => $request->password, 'email' => $request->email, 'gender' => $request->gender]);
-        return view('register2', ['hotel_name' => $this->getHotelName()]);
+        return view('register2');
     }
 
     # Save the habbo user
@@ -66,6 +66,6 @@ class RegisterController extends HotelController
 
     # Loading the last page from register
     public function register_success(){
-        return view('register3', ['hotel_name' => $this->getHotelName()]);
+        return view('register3');
     }
 }

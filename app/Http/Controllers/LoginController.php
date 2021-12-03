@@ -26,7 +26,7 @@ class LoginController extends Controller
         
         # Check password HASH
         if (Hash::check($request->password, $user->password)) {
-            $userData = new UserDataController($user->id);
+            $userData = new SessionController($user->id);
             $userData->setUserDataSession();
             return redirect('/me');
         } else {
