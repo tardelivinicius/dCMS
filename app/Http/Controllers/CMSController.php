@@ -11,9 +11,4 @@ class CMSController extends Controller
     {
         return view('admin/cms');
     }
-
-    public function users()
-    {
-        return view('admin/users');
-    }
 }

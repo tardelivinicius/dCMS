@@ -14,6 +14,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SettingsGeneralController;
 use App\Http\Controllers\SettingsMailController;
 use App\Http\Controllers\SettingsPasswordController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\ValidationController;
 use App\Http\Middleware\SessionToken;
 
@@ -61,6 +62,12 @@ Route::get('/staffs', [CommunityStaffController::class, 'show']);
 # Community - Staffs
 Route::get('/news', [CommunityNewsController::class, 'show']);
 
-# Staff
+# Staff - Inicial
 Route::get('/admin/cms', [CMSController::class, 'index']);
-Route::get('/admin/cms/users', [CMSController::class, 'users']);
+
+# Staff - Usuários
+Route::get('/admin/cms/users', function() {
+    return (new UserController)->listUsers();
+  });
+
+Route::get('/admin/cms/user/{id}', [UserController::class, 'retrieveUser']);

@@ -40,56 +40,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="data-table">
-                        <table id="example" class="table table-striped table-bordered" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th width="10px">#</th>
-                                    <th>Usuário</th>
-                                    <th>Email</th>
-                                    <th>Rank</th>
-                                    <th>Ações</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($users as $user)
-                                    <tr>
-                                        <td><div class="user-avatar-menu" style="background-image:url(https://www.habbo.com/habbo-imaging/avatarimage?figure={{ $user->look }}&amp;action=std&amp;gesture=std&amp;direction=2&amp;head_direction=2&amp;size=s&amp;headonly=1&amp;img_format=png)"></div></td>
-                                        <td>{{ $user->username }}</td>
-                                        <td>{{ $user->mail }}</td>
-                                        <td>{{ $user->rank_name }}</td>
-                                        <td><center><a href="/admin/cms/user/{{ $user->id }}"><span><i class="far fa-pencil icon"></i></span></a></center></td>
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                    <div class="png20">
+                    
                     </div>
                 </div>
             </div>
         </div>
     </div>
 <script type="text/javascript">
-    $(document).ready(function() {
-            $('#example').DataTable(
-                
-                {     
-
-            "aLengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
-                "iDisplayLength": 5
-            } 
-                );
-        } );
-
-
-        function checkAll(bx) {
-        var cbs = document.getElementsByTagName('input');
-        for(var i=0; i < cbs.length; i++) {
-            if(cbs[i].type == 'checkbox') {
-            cbs[i].checked = bx.checked;
+    function validateEmail() {
+        if ($('#email').val().length > 0) {
+            const fd = new FormData()
+            fd.append('email', $('#email').val())
+            axios.post('/check-email-exists', fd)
+                .then(response => {
+                    document.getElementById('message_email').style.color = 'green';
+                    document.getElementById('message_email').innerHTML = 'E-mail disponível para cadastro';    
+                })
+                .catch(e => {
+                    document.getElementById('message_email').style.color = 'red';
+                    document.getElementById('message_email').innerHTML = 'E-mail já cadastrado para outro usuário';
+                })
             }
         }
-    }
-
 </script>
 
 @include('base/footer')

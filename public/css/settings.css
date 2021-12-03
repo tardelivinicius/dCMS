@@ -180,3 +180,35 @@ input[type=text]::placeholder, input[type=email]::placeholder, input[type=passwo
   width: 100%;
   margin: 0 0 20px 0;
 }
+
+table{
+  width:100%;
+}
+#example_filter{
+  float:right;
+}
+#example_paginate{
+  float:right;
+}
+label {
+  display: inline-flex;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+ 
+}
+
+#content-box .data-table {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.user-avatar-menu {
+  background: 0 no-repeat;
+  width: 27px;
+  height: 30px;
+  float: left;
+  /* padding: 0; */
+  /* position: relative; */
+  /* top: 5px;
+  left: 5px; */
+}
