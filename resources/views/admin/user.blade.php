@@ -41,7 +41,26 @@
                         </div>
                     </div>
                     <div class="png20">
-                    
+                        <form method="post" action='/change-email'>
+                            @csrf
+                            <label for="new-email">Usuário</label>
+                            <input type="text" id="username" name="username" value={{ $user->username }} required>
+
+                            <label for="new-email">Endereço de E-mail</label>
+                            <input type="email" id="email" name="email" value={{ $user->mail }} required>
+                            
+                            <label for="new-email">Endereço de E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="desc">Digite seu novo endereço de e-mail</div>
+                            <span id='message_email'></span><br>
+                            <div class="line"></div>
+            
+                            <label for="password_confirm">Sua senha</label>
+                            <input type="password" id="password" name="password" required>
+                            <div class="desc">Digite sua senha para confirmar a operação</div>
+            
+                            <button type="submit" class="btn green save">Salvar</button>
+                        </form>
                     </div>
                 </div>
             </div>
