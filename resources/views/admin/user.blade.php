@@ -32,35 +32,33 @@
                 <div style="display:none" class="alert success" id="alert_sucess">Suas configurações foram salvas com sucesso!</div>
                 <div id="content-box" style="height:auto">
                     <div id="news-content">
-                        <div class="news-article show" style="background-image:url(/img/c_images/web_promo/stories_juninas_postit_promo.png)">
+                        <div class="news-article show" style="background-image:url(/img/c_images/web_promo/webpromo_mansionRB.png)">
                             <div class="shadow"></div>
                             <div class="news-content">
-                                <div class="news-title">Usuários</div>
-                                <div class="news-short-text">32554 {{ $hotel_name }}'s registrados! <br> Painel - Versão 1.0.0 <br> {{ $hotel_name }} Versão 1.0.0</div>
+                                <div class="user-box-menu" style="background-image:url(https://www.habbo.com/habbo-imaging/avatarimage?figure={{ $user->look }}&action=wav&direction=2&head_direction=3&gesture=sml&size=large&img_format=png)"></div>
+                                <div class="news-title">{{ $user->username }} </div> <!-- TODO Adicionar imagem de email verificado ou nao -->
+                                <div class="news-short-text">Créditos: {{ $user->credits }} <img src='/assets/images/wallet/bigcc.png' /></div>
+                                <div class="news-short-text">Diamantes: {{ $user->diamonds }} <img src='/assets/images/wallet/bigdia.png'/></div>
+                                <div class="news-short-text">Duckets: {{ $user->duckets }} <img src='/assets/images/wallet/bigduck.png' /></div>
+                                <div class="news-short-text">HC: {{ $user->duration / 86400 }} dias restantes <img src='/assets/images/wallet/hc.png' /></div>
+                            </div>
+                            <div class="details-box">
+                                <div class="authors-details">
+                                    <div class="details">
+                                        Missão: {{ $user->motto }}
+                                        <b>Cargo: {{ $user->rank_name}}
+                                    </div>
+                                </div>
+                                <a href="#" onclick="sendSocketCommand('')" class="btn settings-ban-slider-btn">Banir</a>
                             </div>
                         </div>
+                        <div class="user-avatar-menu" style="background-image:url(https://www.habbo.com/habbo-imaging/avatarimage?figure={{ $user->look }}&action=wav&direction=2&head_direction=3&gesture=sml&size=large&img_format=png)"></div>
                     </div>
                     <div class="png20">
-                        <form method="post" action='/change-email'>
+                        {{-- <form method="post" action='/change-email'>
                             @csrf
-                            <label for="new-email">Usuário</label>
-                            <input type="text" id="username" name="username" value={{ $user->username }} required>
-
-                            <label for="new-email">Endereço de E-mail</label>
-                            <input type="email" id="email" name="email" value={{ $user->mail }} required>
-                            
-                            <label for="new-email">Endereço de E-mail</label>
-                            <input type="email" id="email" name="email" required>
-                            <div class="desc">Digite seu novo endereço de e-mail</div>
-                            <span id='message_email'></span><br>
-                            <div class="line"></div>
-            
-                            <label for="password_confirm">Sua senha</label>
-                            <input type="password" id="password" name="password" required>
-                            <div class="desc">Digite sua senha para confirmar a operação</div>
-            
                             <button type="submit" class="btn green save">Salvar</button>
-                        </form>
+                        </form> --}}
                     </div>
                 </div>
             </div>
@@ -82,6 +80,22 @@
                 })
             }
         }
+    
+    function sendSocketCommand(command){
+        let socket = new WebSocket("ws://127.0.0.1:2096");
+        socket.onopen = function(event) {
+            console.log("Enviando creditos");
+            // socket.send("c 7 500"); // Sends data to server.
+            // socket.send(":c 7 500"); // Sends data to server.
+            // socket.send("credits 7 500"); // Sends data to server.
+            // socket.send("c 7 5");
+            // socket.send(":c 7 5");
+            // socket.send(':credits', '7;500'); // Sends data to server.
+            // socket.send(':credits 7 500');
+            socket.send(':c75');
+
+        };
+    }
 </script>
 
 @include('base/footer')

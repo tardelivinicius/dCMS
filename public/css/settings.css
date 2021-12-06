@@ -212,3 +212,36 @@ label {
   /* top: 5px;
   left: 5px; */
 }
+
+.user-box-menu {
+  background: 0 no-repeat;
+  width: 64px;
+  height: 110px;
+  float: left;
+  padding: 0;
+  position: relative;
+  top: 5px;
+  right: 20px;
+  -webkit-filter: drop-shadow(1111px 5px 5px #222);
+  filter: drop-shadow(5px 5px 10px #222);
+}
+
+.btn.settings-ban-slider-btn {
+  background-color: red;
+  right:20px;
+  position: absolute;
+  top: 14px;
+}
+
+#news-content .news-article .details-box .authors-details .details {
+  float: left;
+  position: relative;
+  top: 14px;
+  font: 600 13px "Poppins", "Roboto", sans-serif;
+}
+
+#news-content .news-article .details-box .authors-details .details b {
+  font-weight: 600;
+  display: block;
+  margin: 0 0 -3px 0;
+}

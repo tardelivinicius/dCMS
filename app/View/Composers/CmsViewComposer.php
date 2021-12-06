@@ -27,5 +27,7 @@ class CMSViewComposer
     {   
         $view->with('hotel_name', $this->hotel_name);
         $view->with('users_online', $this->users_online);
+        $view->with('system_version', '1.0.2');
+        $view->with('panel_version', '1.0.2');
     }
 }

@@ -36,7 +36,11 @@
                             <div class="shadow"></div>
                             <div class="news-content">
                                 <div class="news-title">Usuários</div>
-                                <div class="news-short-text">32554 {{ $hotel_name }}'s registrados! <br> Painel - Versão 1.0.0 <br> {{ $hotel_name }} Versão 1.0.0</div>
+                                <div class="news-short-text">
+                                    @php
+                                        echo count($users);
+                                    @endphp
+                                     {{ $hotel_name }}'s registrados! <br> Painel - Versão {{ $system_version }} <br> {{ $hotel_name }} Versão {{ $panel_version }}</div>
                             </div>
                         </div>
                     </div>
