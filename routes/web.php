@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SettingsGeneralController;
@@ -66,8 +67,9 @@ Route::get('/news', [CommunityNewsController::class, 'show']);
 Route::get('/admin/cms', [CMSController::class, 'index']);
 
 # Staff - Usuários
-Route::get('/admin/cms/users', function() {
-    return (new UserController)->listUsers();
-  });
-
+Route::get('/admin/cms/users', [UserController::class, 'listUsers']);
 Route::get('/admin/cms/user/{id}', [UserController::class, 'retrieveUser']);
+
+# Staff - Notícias
+Route::get('/admin/cms/news', [NewsController::class, 'index']);
+Route::get('/admin/cms/new/{id}', [NewsController::class, 'retrieveNew']);

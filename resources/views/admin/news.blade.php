@@ -32,15 +32,15 @@
                 <div style="display:none" class="alert success" id="alert_sucess">Suas configurações foram salvas com sucesso!</div>
                 <div id="content-box" style="height:auto">
                     <div id="news-content">
-                        <div class="news-article show" style="background-image:url(/img/c_images/web_promo/stories_juninas_postit_promo.png)">
+                        <div class="news-article show" style="background-image:url(/img/c_images/web_promo/cleanhabbo_newspromo2.png)">
                             <div class="shadow"></div>
                             <div class="news-content">
-                                <div class="news-title">Usuários</div>
+                                <div class="news-title">Notícias</div>
                                 <div class="news-short-text">
                                     @php
-                                        echo count($users);
+                                        echo count($news);
                                     @endphp
-                                     {{ $hotel_name }}'s registrados!</div>
+                                    notícias publicadas!</div>
                             </div>
                             <div class="details-box">
                                 <div class="authors-details">
@@ -57,20 +57,22 @@
                             <thead>
                                 <tr>
                                     <th width="10px">#</th>
-                                    <th>Usuário</th>
-                                    <th>Email</th>
-                                    <th>Rank</th>
+                                    <th>Título</th>
+                                    <th>Descrição</th>
+                                    <th>Autor</th>
+                                    <th>Modificada</th>
                                     <th>Ações</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($users as $user)
+                                @foreach($news as $new)
                                     <tr>
-                                        <td><div class="user-avatar-menu" style="background-image:url(https://www.habbo.com/habbo-imaging/avatarimage?figure={{ $user->look }}&amp;action=std&amp;gesture=std&amp;direction=2&amp;head_direction=2&amp;size=s&amp;headonly=1&amp;img_format=png)"></div></td>
-                                        <td>{{ $user->username }}</td>
-                                        <td>{{ $user->mail }}</td>
-                                        <td>{{ $user->rank_name }}</td>
-                                        <td><center><a href="/admin/cms/user/{{ $user->id }}"><span><i class="far fa-pencil icon"></i></span></a></center></td>
+                                        <td>{{ $new->id }}</td>
+                                        <td>{{ $new->title }}</td>
+                                        <td>{{ $new->shortstory }}</td>
+                                        <td>{{ $new->author }}</td>
+                                        <td>{{ $new->updated ? 'Sim' : 'Não' }}</td>
+                                        <td><center><a href="/admin/cms/new/{{ $new->id }}"><span><i class="far fa-pencil icon"></i></span></a></center></td>
                                     </tr>
                                 @endforeach
                             </tbody>

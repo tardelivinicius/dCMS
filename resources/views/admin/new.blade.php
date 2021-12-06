@@ -32,49 +32,35 @@
                 <div style="display:none" class="alert success" id="alert_sucess">Suas configurações foram salvas com sucesso!</div>
                 <div id="content-box" style="height:auto">
                     <div id="news-content">
-                        <div class="news-article show" style="background-image:url(/img/c_images/web_promo/stories_juninas_postit_promo.png)">
+                        <div class="news-article show" style="background-image:url({{ $new->image }})">
                             <div class="shadow"></div>
                             <div class="news-content">
-                                <div class="news-title">Usuários</div>
-                                <div class="news-short-text">
-                                    @php
-                                        echo count($users);
-                                    @endphp
-                                     {{ $hotel_name }}'s registrados!</div>
+                                <div class="news-title">{{ $new->title }}</div>
+                                <div class="news-short-text">{{ $new->shortstory }}</div>
                             </div>
                             <div class="details-box">
                                 <div class="authors-details">
-                                    <div class="details">
-                                        <b>Painel - Versão {{ $panel_version }}</b>
-                                        Hotel - Versão {{ $system_version }}
+                                    <div class="written-by">
+                                        <b>Escrito por:</b>
+                                        <span>{{ $new->author }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="data-table">
-                        <table id="example" class="table table-striped table-bordered" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th width="10px">#</th>
-                                    <th>Usuário</th>
-                                    <th>Email</th>
-                                    <th>Rank</th>
-                                    <th>Ações</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($users as $user)
-                                    <tr>
-                                        <td><div class="user-avatar-menu" style="background-image:url(https://www.habbo.com/habbo-imaging/avatarimage?figure={{ $user->look }}&amp;action=std&amp;gesture=std&amp;direction=2&amp;head_direction=2&amp;size=s&amp;headonly=1&amp;img_format=png)"></div></td>
-                                        <td>{{ $user->username }}</td>
-                                        <td>{{ $user->mail }}</td>
-                                        <td>{{ $user->rank_name }}</td>
-                                        <td><center><a href="/admin/cms/user/{{ $user->id }}"><span><i class="far fa-pencil icon"></i></span></a></center></td>
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                    <div class="png20">
+                        <form method="post" action='/change-email'>
+                            @csrf
+                            <div class="desc" style="margin: 0 0 20px 0">Seu e-mail atual</div>
+            
+                            <label for="new-email">Novo endereço de E-mail</label>
+                            <input type="email" id="email" name="email" onblur="validateEmail()" required>
+                            <div class="desc">Digite seu novo endereço de e-mail</div>
+                            <span id='message_email'></span><br>
+                            <div class="line"></div>
+            
+                            <button type="submit" class="btn green save">Salvar</button>
+                        </form>
                     </div>
                 </div>
             </div>
