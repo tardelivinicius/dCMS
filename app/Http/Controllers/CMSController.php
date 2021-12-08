@@ -9,6 +9,6 @@ class CMSController extends Controller
 {       
     public function index()
     {
-        return view('admin/cms');
+        return view('housekeeping/index');
     }
 }

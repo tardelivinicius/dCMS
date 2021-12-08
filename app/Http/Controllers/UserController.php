@@ -12,9 +12,9 @@ class UserController extends Controller
     {   
         $users = DB::table('users')
                     ->join('ranks', 'ranks.id', '=', 'users.rank')
-                    ->select('users.id', 'look', 'username', 'mail', 'ranks.name as rank_name')
+                    ->select('users.id', 'look', 'username', 'mail', 'motto', 'credits', 'ranks.name as rank_name')
                     ->get();
-        return view('admin/users', ['users' => $users]);
+        return view('housekeeping/users', ['users' => $users]);
     }
 
     public function retrieveUser(Request $request)
@@ -36,9 +36,9 @@ class UserController extends Controller
                         ->select('U.*', 'R.name as rank_name', 'US.duration', 'UC.amount as diamonds', 'UC2.amount as duckets')
                         ->where('U.id', $request->route('id'))
                         ->first();
-            return view('admin/user', ['user' => $user]);
+            return view('housekeeping/user', ['user' => $user]);
         } else {
-            return redirect('admin/users');
+            return redirect('housekeeping/users');
         }
     }
 }
