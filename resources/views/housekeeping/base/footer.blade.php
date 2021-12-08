@@ -1,4 +1,3 @@
- <!-- partial:partials/_footer.html -->
  <footer class="footer">
     <div class="card">
         <div class="card-body">
@@ -9,20 +8,17 @@
         </div>    
     </div>        
 </footer>
-<!-- partial -->
 </div>
-<!-- main-panel ends -->
 </div>
-<!-- page-body-wrapper ends -->
 </div>
-<!-- container-scroller -->
-
-<!-- base:js -->
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 <script type="text/javascript" src="{{ asset('housekeeping/vendors/js/vendor.bundle.base.js') }}"></script>
-<!-- endinject -->
-<!-- Plugin js for this page-->
-<!-- End plugin js for this page-->
-<!-- inject:js -->
 <script type="text/javascript" src="{{ asset('housekeeping/js/off-canvas.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/hoverable-collapse.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/template.js') }}"></script>

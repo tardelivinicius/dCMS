@@ -4,27 +4,7 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-12 grid-margin stretch-card">
-                <div class="card newsletter-card bg-gradient-warning">
-                  <div class="card-body">
-                    <div class="d-flex flex-column align-items-center justify-content-center h-100">
-                      <h5 class="mb-3 text-white">AQUI VAI A IMAGEM</h5>
-                      <form class="form d-flex flex-column align-items-center justify-content-between w-100">
-                        <div class="form-group mb-2 w-100">
-                          <input type="text" class="form-control" placeholder="email address">
-                        </div>
-                        <!-- <button class="btn btn-danger btn-rounded mt-1" type="submit">Subscribe</button> -->
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+         
           <div class="row">
             <div class="col-md-4 grid-margin stretch-card">
               <div class="card">

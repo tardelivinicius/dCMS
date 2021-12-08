@@ -11,7 +11,7 @@ class NewsController extends Controller
     {   
         $news = DB::table('cms_news')
                     ->get();
-        return view('admin/news', ['news' => $news]);
+        return view('housekeeping/news', ['news' => $news]);
     }
 
     public function retrieveNew(Request $request)
@@ -20,9 +20,9 @@ class NewsController extends Controller
             $new = DB::table('cms_news as CN')
                         ->where('CN.id', $request->route('id'))
                         ->first();
-            return view('admin/new', ['new' => $new]);
+            return view('housekeeping/new', ['new' => $new]);
         } else {
-            return redirect('admin/news');
+            return redirect('housekeeping/news');
         }
     }
 }

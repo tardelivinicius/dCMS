@@ -16,7 +16,7 @@
         <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="/housekeeping/users">Usuários</a></li>
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Notícias</a></li>
+            <li class="nav-item"> <a class="nav-link" href="/housekeeping/news">Notícias</a></li>
             <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Campanhas e eventos</a></li>
           </ul>
         </div>
