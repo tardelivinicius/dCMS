@@ -13,34 +13,34 @@
                     @csrf
                     <div class="form-group">
                       <label for="exampleInputName1">Título</label>
-                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Título" value="{{ $new->title }}">
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Título" value="{{ $new->title ?? '' }}">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail3">Descrição</label>
-                      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email" value="{{ $new->shortstory }}">
+                      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Descrição" value="{{ $new->shortstory ?? '' }}">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword4">Password</label>
                       <textarea rows="4" name="content" id="editor">
-                        {{ $new->longstory }}
+                        {{ $new->longstory ?? '' }}
                       </textarea>
                     </div>
                     <div class="form-group">
                       <label>Imagem de capa:</label>
                       <input type="file" name="img[]" class="file-upload-default">
                       <div class="input-group col-xs-12">
-                        <input type="file" class="form-control file-upload-info" placeholder="Upload Image">
-                        {{-- <span class="input-group-append">
+                        <input type="text" class="form-control file-upload-info" value="{{ $new->image ?? ''}}" placeholder="Upload imagem" disabled>
+                        <span class="input-group-append">
                           <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
-                        </span> --}}
+                        </span>
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputCity1">Data de publicação</label>
-                      <input class="form-control" placeholder="dd/mm/yyyy"/>
+                      <input class="form-control" placeholder="dd/mm/yyyy" value="{{ $new->date ?? '' }}"/>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Gravar</button>
-                    <button class="btn btn-light">Cancelar</button>
+                    <a href="/housekeeping/news/" class="btn btn-light">Voltar</button>
                   </form>
                 </div>
               </div>

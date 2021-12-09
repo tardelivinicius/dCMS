@@ -50,7 +50,7 @@
 							<li>
 								<a href="#">Administração<span><i class="far fa-angle-down"></i></span></a>
 								<ul class="subnavi">
-									<li><a href="/admin/cms">CMS</a></li>
+									<li><a href="/housekeeping/">CMS</a></li>
 									<li><a href="/admin/emulator">Emulador</a></li>
 									<li><a href="/admin/client">Cliente</a></li>
 								</ul>

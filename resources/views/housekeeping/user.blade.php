@@ -47,7 +47,7 @@
                   <button type="button" class="btn btn-primary">Mensagem</button>
                   <button type="button" class="btn btn-secondary">Créditos</button>
                   <button type="button" class="btn btn-success">Diamantes</button>
-                  <button type="button" class="btn btn-danger">Alertar</button>
+                  <button type="button" onclick="sendAlert()"class="btn btn-danger">Alertar</button>
                   <!-- <button type="button" class="btn btn-warning">Warning</button> -->
                   <button type="button" class="btn btn-info">Banir</button>
                 </div>
@@ -57,23 +57,32 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Informações Básicas</h4>
-                  <form class="forms-sample">
+                  <form class="forms-sample" method="POST" action="/housekeeping/user/{{ $user->id }}/save/">
+                    @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Usuário</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Username" value="{{ $user->username }}">
+                        <input type="text" class="form-control" name="username" placeholder="Username" value="{{ $user->username }}">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email" value="{{ $user->mail }}">
+                        <input type="email" class="form-control" name="email"  placeholder="Email" value="{{ $user->mail }}">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputMobile" class="col-sm-3 col-form-label">Cargo</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                        <select name="rank_id" id="cat" class="form-control input-lg">
+                          @foreach ($ranks as $rank)
+                              @if ($user->rank_id == $rank->id)
+                                  <option value={{$rank->id}} selected>{{ $rank->name }}</option>
+                              @else
+                                  <option value={{$rank->id}} >{{ $rank->name }}</option>
+                              @endif
+                          @endforeach
+                        </select>
                       </div>
                     </div>
                     <button type="submit" class="btn btn-success mr-2">Salvar</button>

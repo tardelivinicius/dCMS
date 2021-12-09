@@ -11,7 +11,9 @@
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "orangehill/iseed": "^3.0"
+        "lukasz-adamski/laravel-rcon": "^1.0",
+        "orangehill/iseed": "^3.0",
+        "originphp/socket": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

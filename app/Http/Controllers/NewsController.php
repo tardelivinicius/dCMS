@@ -22,7 +22,7 @@ class NewsController extends Controller
                         ->first();
             return view('housekeeping/new', ['new' => $new]);
         } else {
-            return redirect('housekeeping/news');
+            return view('housekeeping/new', ['new' => []]);
         }
     }
 }

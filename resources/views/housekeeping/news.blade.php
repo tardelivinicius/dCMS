@@ -9,6 +9,9 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="table-responsive pt-3">
+                  <div class="float: right;">
+                    <a href="/housekeeping/new" class="btn btn-info btn-rounded btn-fw" style="float: right; margin-right: 20px;">Nova</a>
+                  </div>
                   <table class="table table-striped project-orders-table">
                     <thead>
                       <tr>

@@ -64,12 +64,13 @@ Route::get('/staffs', [CommunityStaffController::class, 'show']);
 Route::get('/news', [CommunityNewsController::class, 'show']);
 
 # Staff - Inicial
-Route::get('/housekeeping', [CMSController::class, 'index']);
+Route::get('/housekeeping/', [CMSController::class, 'index']);
 
 # Staff - Usuários
 Route::get('/housekeeping/users', [UserController::class, 'listUsers']);
 Route::get('/housekeeping/user/{id}', [UserController::class, 'retrieveUser']);
+Route::post('/housekeeping/user/{id}/save/', [UserController::class, 'saveUser']);
 
 # Staff - Notícias
 Route::get('/housekeeping/news', [NewsController::class, 'index']);
-Route::get('/housekeeping/new/{id}', [NewsController::class, 'retrieveNew']);
+Route::get('/housekeeping/new/{id?}', [NewsController::class, 'retrieveNew']);

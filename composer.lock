@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f372d51870eb4187609ec615915ef17a",
+    "content-hash": "d9fbd2f8b564f14737d32e4ce43ef302",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1666,6 +1666,57 @@
             "time": "2021-11-21T11:48:40+00:00"
         },
         {
+            "name": "lukasz-adamski/laravel-rcon",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukasz-adamski/laravel-rcon.git",
+                "reference": "f6251ee048e325ddc62d80f9f7d8658c8d996761"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukasz-adamski/laravel-rcon/zipball/f6251ee048e325ddc62d80f9f7d8658c8d996761",
+                "reference": "f6251ee048e325ddc62d80f9f7d8658c8d996761",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=5.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.7",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Adams\\Rcon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukasz Adamski"
+                }
+            ],
+            "description": "Source RCON Protocol Service Provider for Laravel",
+            "keywords": [
+                "api",
+                "framework",
+                "laravel",
+                "protocol",
+                "rcon",
+                "source"
+            ],
+            "support": {
+                "issues": "https://github.com/lukasz-adamski/laravel-rcon/issues",
+                "source": "https://github.com/lukasz-adamski/laravel-rcon/tree/master"
+            },
+            "time": "2019-09-08T13:15:52+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.3.5",
             "source": {
@@ -2189,6 +2240,58 @@
                 "source": "https://github.com/orangehill/iseed/tree/v3.0.1"
             },
             "time": "2021-01-14T15:34:12+00:00"
+        },
+        {
+            "name": "originphp/socket",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/originphp/socket.git",
+                "reference": "f1a320d498d4f0d2ad7f6aacab2bf358d1cf6c6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/originphp/socket/zipball/f1a320d498d4f0d2ad7f6aacab2bf358d1cf6c6a",
+                "reference": "f1a320d498d4f0d2ad7f6aacab2bf358d1cf6c6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.64",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Origin\\Socket\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jamiel Sharief",
+                    "email": "js@originphp.com"
+                }
+            ],
+            "description": "OriginPHP Socket",
+            "homepage": "https://www.originphp.com",
+            "keywords": [
+                "Socket",
+                "originPHP",
+                "ssl",
+                "stream",
+                "tls"
+            ],
+            "support": {
+                "issues": "https://github.com/originphp/socket/issues",
+                "source": "https://github.com/originphp/socket/tree/2.0.0"
+            },
+            "time": "2021-01-04T10:07:52+00:00"
         },
         {
             "name": "phpoption/phpoption",
