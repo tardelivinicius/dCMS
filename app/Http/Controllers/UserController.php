@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Adams\Rcon\Rcon;
+
 
 class UserController extends Controller
 {
@@ -77,5 +77,13 @@ class UserController extends Controller
             return redirect('housekeeping/users');   
         }
 
+    }
+
+    public function sendCredits(Request $request)
+    {   
+        if($request->route('id') > 0 && $request->route('id') == $request->id) {
+            $rconCommand = new RCONCommandsController();
+            $rconCommand->handle('givecredits', $request->id, $request->amount);
+        }
     }
 }

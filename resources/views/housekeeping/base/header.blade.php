@@ -6,21 +6,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ $hotel_name }} - Housekeeping</title>
-  <script src="https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js"></script>
-  <!-- base:css -->
   <link rel="stylesheet" href="{{ asset('housekeeping/vendors/typicons/typicons.css') }}">
   <link rel="stylesheet" href="{{ asset('housekeeping/vendors/css/vendor.bundle.base.css') }}">
-  <!-- endinject -->
-  <!-- plugin css for this page -->
-  <!-- End plugin css for this page -->
-  <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('housekeeping/css/vertical-layout-light/style.css') }}">
-  <!-- endinject -->
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">

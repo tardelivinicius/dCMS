@@ -70,6 +70,7 @@ Route::get('/housekeeping/', [CMSController::class, 'index']);
 Route::get('/housekeeping/users', [UserController::class, 'listUsers']);
 Route::get('/housekeeping/user/{id}', [UserController::class, 'retrieveUser']);
 Route::post('/housekeeping/user/{id}/save/', [UserController::class, 'saveUser']);
+Route::post('/housekeeping/user/{id}/send_command/', [UserController::class, 'sendCredits']);
 
 # Staff - Notícias
 Route::get('/housekeeping/news', [NewsController::class, 'index']);

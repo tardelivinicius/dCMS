@@ -11,19 +11,15 @@
 </div>
 </div>
 </div>
-<script>
+<script type="text/javascript" src="https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js">
     ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+        .create(document.querySelector('#editor'));
 </script>
 <script type="text/javascript" src="{{ asset('housekeeping/vendors/js/vendor.bundle.base.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/off-canvas.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/hoverable-collapse.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/template.js') }}"></script>
 <script type="text/javascript" src="{{ asset('housekeeping/js/settings.js') }}"></script>
-<script type="text/javascript" src="{{ asset('housekeeping/js/dashboard.js') }}"></script>
 </body>
 
 </html>

@@ -44,12 +44,43 @@
                 <h4 class="card-title">Ações</h4>
                 <p class="card-description">Comandos serão enviados para o emulador</p>
                 <div class="template-demo">
-                  <button type="button" class="btn btn-primary">Mensagem</button>
-                  <button type="button" class="btn btn-secondary">Créditos</button>
-                  <button type="button" class="btn btn-success">Diamantes</button>
-                  <button type="button" onclick="sendAlert()"class="btn btn-danger">Alertar</button>
-                  <!-- <button type="button" class="btn btn-warning">Warning</button> -->
-                  <button type="button" class="btn btn-info">Banir</button>
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="alertuser">Alertar</button>
+                  <button type="button" class="btn btn-info"    data-toggle="modal" data-target="#exampleModal" data-whatever="credits">Créditos</button>
+                  <button type="button" class="btn btn-secondary" disabled>Diamantes</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="muteuser">Mutar</button>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="banuser">Banir</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group" id="duration">
+                        <label for="duration" class="col-form-label">Duração (Em segundos):</label>
+                        <input type="text" class="form-control" id="duration">
+                      </div>
+                      <div class="form-group" id="credits">
+                        <label for="duration" class="col-form-label">Quantidade de créditos:</label>
+                        <input type="text" class="form-control" id="credits">
+                      </div>
+                      <div class="form-group" id="message">
+                        <label for="message" class="col-form-label">Mensagem:</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -94,3 +125,36 @@
           </div>
         </div>
 @include('housekeeping/base/footer')
+<script>
+  $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var command_type = button.data('whatever') // Extract info from data-* attributes
+  var modal = $(this)
+  const fd = new FormData()
+  if (command_type == 'credits') {
+    modal.find('.modal-title').text('Enviar créditos para ' + '{{ $user->username }}')
+      $("#duration").hide();
+      $("#message").hide();
+      $("#credits").show();
+      fd.append('credits', $('#credits').val())
+      console.log($('#credits').val());
+  } else if (command_type == 'alertuser') {
+    modal.find('.modal-title').text('Alertar ' + '{{ $user->username }}')
+      $("#message").show();
+      $("#duration").hide();
+      $("#credits").hide();
+      fd.append('message', $('#message').val())
+  } else if (command_type == 'muteuser') {
+    modal.find('.modal-title').text('Mutar ' + '{{ $user->username }}')
+      $("#duration").show();
+      $("#credits").hide();
+      $("#message").hide();
+      fd.append('duration', $('#duration').val())
+  } else if (command_type == 'banuser') {
+    modal.find('.modal-title').text('Banir ' + '{{ $user->username }}')
+      $("#duration").show();
+      $("#credits").hide();
+      $("#message").hide();
+      fd.append('duration', $('#duration').val())
+  }})
+</script>
