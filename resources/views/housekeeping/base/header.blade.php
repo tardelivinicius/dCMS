@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ asset('housekeeping/vendors/typicons/typicons.css') }}">
   <link rel="stylesheet" href="{{ asset('housekeeping/vendors/css/vendor.bundle.base.css') }}">
   <link rel="stylesheet" href="{{ asset('housekeeping/css/vertical-layout-light/style.css') }}">
+  <script type="text/javascript" src="https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js"></script>
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
