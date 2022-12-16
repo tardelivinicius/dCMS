@@ -31,8 +31,8 @@ use App\Http\Middleware\SessionToken;
 */
 
 Route::get('/', [IndexController::class, 'main']);
-Route::get('/register', [RegisterController::class, 'register']);
-Route::post('/register-step2', [RegisterController::class, 'register_step2']);
+Route::get('/register', [RegisterController::class, 'register'])->withoutMiddleware([SessionToken::class]);
+Route::post('/register-step2', [RegisterController::class, 'register_step2'])->withoutMiddleware([SessionToken::class]);
 Route::post('/finish-register', [RegisterController::class, 'finish_register']);
 route::get('/register-success', [RegisterController::class, 'register_success']);
 Route::post('/check-email-exists', [ValidationController::class, 'check_email_exists']);

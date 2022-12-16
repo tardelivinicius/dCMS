@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use App\View\Composers\CMSViewComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use App\View\Composers\CmsViewComposer;
 
 class ComposerProvider extends ServiceProvider
 {
