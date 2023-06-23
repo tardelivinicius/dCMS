@@ -8,7 +8,7 @@ class ClientController extends Controller
 {   
     public function loading()
     {   
-        $authTicket = 'Habbo-b62fdf54-f349-4499-baee-d46ee864827a';
+        $authTicket = 'Habbo-'.uniqid().'';
         DB::table('users')
         ->where('username', session()->get('username'))
         ->update(['auth_ticket' => $authTicket]);

@@ -17,10 +17,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <base href="./">
     <title>Nitro</title>
-    <script type="module" crossorigin src="/build/assets/index-18a826e0.js"></script>
-    <link rel="modulepreload" crossorigin href="/build/assets/vendor-367c1fc6.js">
-    <link rel="modulepreload" crossorigin href="/build/assets/nitro-renderer-ebfce9c1.js">
-    <link rel="stylesheet" href="/build/src/assets/index.css">
+    <script type="module" crossorigin src="build/assets/index-18a826e0.js"></script>
+    <link rel="modulepreload" crossorigin href="build/assets/vendor-367c1fc6.js">
+    <link rel="modulepreload" crossorigin href="build/assets/nitro-renderer-ebfce9c1.js">
+    <link rel="stylesheet" href="build/src/assets/index.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
